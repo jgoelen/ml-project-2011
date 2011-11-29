@@ -1,0 +1,558 @@
+@relation text
+@attribute docs string
+@attribute class {urgent,no_urgent}
+
+@data
+'Schedule meeting for project followup',no_urgent
+'Buy tickets for Mogwai concert in the AB',no_urgent
+'Buy new halogen spotlight',no_urgent
+'Read chapter on SVM',no_urgent
+'Finish assignment 1 for the advanced databases course due tomorrow',urgent
+'Replace batteries of wireless mouse',no_urgent
+'Buy present for my sisters birthday',no_urgent
+'Bring car to the garage for winter tires',no_urgent
+'Appointment with the doctor for a ?u vaccin',no_urgent
+'Team building activity in Antwerp',no_urgent
+'Play basketball match in Brussels',no_urgent
+'Study the sproutcore documentation',no_urgent
+'Buy new batteries for my camera',no_urgent
+'Dinner with my wifes parents',no_urgent
+'Fix kitchen shelf',no_urgent
+'Create movie ontology with Protege tool',no_urgent
+'Upgrade back-end servers to latest version',no_urgent
+'Prepare presentation on test driven development due tomorrow',urgent
+'Find holiday destination for next summer vacation',no_urgent
+'Pick up Tom to play tennis',no_urgent
+'Book family holiday',no_urgent
+'Washing the dishes',no_urgent
+'Finish paper on clustering',urgent
+'Collect new credit card',no_urgent
+'Organize company pick-nick',no_urgent
+'Go to Erasmus info lecture',no_urgent
+'Search quality papers for thesis',no_urgent
+'Check Toledo for changed lecture room',no_urgent
+'Ask for product refund',no_urgent
+'Help dad clean his car',no_urgent
+'Return travel guides to the library',no_urgent
+'Check e-bay for bargains on comics',no_urgent
+'Fill out ISP and examination dates by the end of this week',urgent
+'Read articles about text classi?ers',no_urgent
+'Fix bug in to-do application',no_urgent
+'Buy new running shoes',no_urgent
+'Write requirement specification for new project',no_urgent
+'Buy Christmas presents for the kids',no_urgent
+'Pay tuition fee',no_urgent
+'Buy christmas gifts for family reunion',urgent
+'Repair brother s bike',no_urgent
+'Buy cinema tickets for next week',no_urgent
+'Study chapter 7 of the Machine Learning course text',no_urgent
+'Get birthday present for girlfriend s sister',urgent
+'Give food to pet dinosaur',no_urgent
+'Collect airplane tickets at travel agent',no_urgent
+'Look for a summer job',no_urgent
+'Go to bank to open savings account',no_urgent
+'Go to the library to get new books',no_urgent
+'Buy new running shoes',no_urgent
+'E-mail Bart and Jos about the running race',no_urgent
+'Create new appointment with thesis promotor',no_urgent
+'Block credit card and request a new one at the bank',urgent
+'Clean up mother s laptop',no_urgent
+'Book a suprise city-trip for valentine',no_urgent
+'Take the dog out for a walk',no_urgent
+'Read new book on WordPress blogging',no_urgent
+'Buy new webhosting for personal and school related blogs',no_urgent
+'Sell shares of Dexia',urgent
+'Visit grandma in the hospital',no_urgent
+'Take out the garbage',no_urgent
+'Invite Berlusconi and Merkel to dinner',no_urgent
+'Buy winter tires for the trip to Germany',no_urgent
+'Plan biking trip with Gert',no_urgent
+'Buy pizza and beer at Delhaize',no_urgent
+'Send a mail to Stefan and Philippe to organise a meeting',urgent
+'Send feedback about the report for Machine Learning',urgent
+'Go running with a friend',no_urgent
+'Read the next chapter in the textbook of Machine Learning',no_urgent
+'Mow the lawn',no_urgent
+'Watch a movie with family',no_urgent
+'Do some thesis research',no_urgent
+'Implement an alogrithm for my thesis',no_urgent
+'Clean my room',no_urgent
+'Play a board game with friends',no_urgent
+'wash the dishes',no_urgent
+'throw a housewarming party',no_urgent
+'send the MLII project planning',urgent
+'buy vodka',no_urgent
+'finish the financial report for this quartal',urgent
+'visit your family abroad',no_urgent
+'finish reading Goethe?s Faust',no_urgent
+'build AI and destroy the world',no_urgent
+'make a tenth todo for this todo list',no_urgent
+'arrange delivery of the vodka to the Russian mafia',no_urgent
+'go hunt some bear with the Russian mafia',no_urgent
+'buy sigarettes',urgent
+'buy a good computer',no_urgent
+'make a dinner and eat it',no_urgent
+'go to the hairdresser and cut your hair',no_urgent
+'finish this report on time',urgent
+'jump from the eiffel tower',no_urgent
+'finish the website update for the company',urgent
+'learn more about artificial neural networks',no_urgent
+'pay the rent',no_urgent
+'make an appointment at the dentist',urgent
+'call my dad about this year?s christmas holiday plans',no_urgent
+'read survey on word sense disambiguation for thesis',no_urgent
+'plan meeting for machine learning project',urgent
+'walk the dog',no_urgent
+'do the ironing',no_urgent
+'make a reservation at the restaurant for next saturday',no_urgent
+'go jogging on sunday morning',no_urgent
+'clean up my room',no_urgent
+'go to the movies to see the new Tintin movie',no_urgent
+'plan my birthday party',no_urgent
+'visit Martine in Gent',no_urgent
+'buy a new pair of jogging shoes and trousers in Maastricht',no_urgent
+'arrange a meeting with my thesis supervisor',urgent
+'check my bank account for the payment from my summer job',no_urgent
+'start planning next year?s holiday',no_urgent
+'call the hairdresser for an appointment for cutting and dying my hair',urgent
+'buy the course text on machine learning',no_urgent
+'wash and vacuum clean the car',no_urgent
+'Read literature for ml-project',no_urgent
+'Make appointment with the bank for a loan',urgent
+'Book snowboardvacation for after the exams',no_urgent
+'Plan a footballnight with Samson and Gert',no_urgent
+'Go out for a drink',no_urgent
+'Go jogging',no_urgent
+'Buy new pair of shoes for work',no_urgent
+'Read the eos',no_urgent
+'Give invoice of university to mum',urgent
+'Mow lawn at grandma s',urgent
+'Work on the project for  Comparative Programming Languages ',no_urgent
+'Meet up with the team for the  Comparative Programming Languages -project',no_urgent
+'Write to do list',no_urgent
+'Make presentation for lecture in Germany',no_urgent
+'Buy books for classes',no_urgent
+'Pay rent for  kot ',urgent
+'Go to CW 2012 game night',no_urgent
+'Give children their allowance',urgent
+'Prepare schooltrip to the Netherlands',no_urgent
+'Study for my test',no_urgent
+'Play tennis',no_urgent
+'Go to the lecture',no_urgent
+'Apply for a new job',no_urgent
+'Buy beer for the party this evening',no_urgent
+'Read the new book of Stephen Hawking',no_urgent
+'Arrange the ski trip',no_urgent
+'Enjoy the weekend',no_urgent
+'Pay my bills',urgent
+'Discuss my paper at 16h',no_urgent
+'Look for Christmas gifts',no_urgent
+'Take the train home',no_urgent
+'Visit my grandfather',no_urgent
+'Watch a movie at the movie theater',no_urgent
+'Go to the bakery',no_urgent
+'Mow the grass',no_urgent
+'Go to the bank tomorrow at 10h',no_urgent
+'Wash my clothes',no_urgent
+'Read some chapters of my textbook of machine learning',no_urgent
+'Play guitar',no_urgent
+'Buy and ship birthday present to Vidath.',no_urgent
+'Look up information about connecting sproutcore to different kind of backends.',no_urgent
+'Update centos running on vps to latest version.',no_urgent
+'Inform about vps experation date.',no_urgent
+'Pay final bill luminus for studio year 2010-2011.',urgent
+'Cancel telenet subscription studio.',urgent
+'inform about which version of aquabeat V2.0 decathlon is actually selling.',no_urgent
+'Check review aquabeat V2.0.',no_urgent
+'Pick up book at vtk.',no_urgent
+'Read up on formal systems.',no_urgent
+'Finish intermediate report for machine learning.',no_urgent
+'Read up on computer graphics.',no_urgent
+'Finish sequence diagrams distributed computing and add to report.',urgent
+'Send in source code and report JEE2 assignment.',urgent
+'Make appointment dentist',no_urgent
+'Upgrade firmware NAS.',no_urgent
+'Inform about repayment rent guarantee.',no_urgent
+'Update forum software.',no_urgent
+'Post letter from bank.',no_urgent
+'Go shopping at Delhaize.',no_urgent
+'Upload task Machine Learning to Toledo.',urgent
+'Draw UML Class Diagram for Distributed Systems.',urgent
+'Write roadbook for international youth camp.',no_urgent
+'Have a drink at the pub Trawantel.',no_urgent
+'Prepare inteview for World Diabetes Day with VTM News.',no_urgent
+'Reply to the SMS I just received from my girlfriend.',urgent
+'Draw my idea for a data visualisation for the advanced database systems course.',no_urgent
+'Go cycling twice a week to keep fit.',no_urgent
+'Rake the leaves from the grass.',no_urgent
+'Go get my passport at the town hall before traveling to Dubai.',urgent
+'Inform my teachers that I leave for ten days to Dubai.',no_urgent
+'Get in touch with the international young leaders in diabetes.',urgent
+'Go walking the 14th of November for World Diabetes Day.',no_urgent
+'Read the last chapter of the Machine Learning course.',no_urgent
+'Give my neighbor tutoring in math this evening at 7 pm.',no_urgent
+'Clean up my room at Leuven.',no_urgent
+'Pay the doctors cost.',no_urgent
+'Read the local newspaper.',urgent
+'Prepare the old years eve party.',no_urgent
+'Do my daily excercises',no_urgent
+'Thursday party',no_urgent
+'Finish OSS project before deadline',urgent
+'Read up on ML systems',no_urgent
+'Go to barber on wednesday',no_urgent
+'Go home at saturday',no_urgent
+'Get a present for grandpa',urgent
+'Sundays family meeting',no_urgent
+'Mondays training',no_urgent
+'Pay my registration at uni',no_urgent
+'Pay my registration for mondays training',no_urgent
+'Buy ingredients for tonights meal',urgent
+'Cook meal',no_urgent
+'Citytrip Amsterdam',no_urgent
+'Read city info',no_urgent
+'Pay citytryp',urgent
+'Convert project report to PDF',no_urgent
+'Run some miles',no_urgent
+'Meet for project OSS',no_urgent
+'Dinner at sammy s',no_urgent
+'Pay monthly rent',no_urgent
+'Have dinner with girlfriend',no_urgent
+'Read literature for project',no_urgent
+'Have winter tires put on car',no_urgent
+'Buy christmas gifts for family',no_urgent
+'Pay friend back for ski trip he booked',no_urgent
+'Print directions to location of party on friday',urgent
+'Work on school task',urgent
+'Have a drink with friends on monday',no_urgent
+'Do some groceries for mom',no_urgent
+'Have a look at bank transactions',no_urgent
+'Buy present for friend s birthday',no_urgent
+'Maintain website',no_urgent
+'Buy tickets to concert',urgent
+'Feedback session of project',no_urgent
+'Clean room',no_urgent
+'Family weekend in the Ardennes',no_urgent
+'Play tennis with girlfriend',no_urgent
+'Keep up with courses',no_urgent
+'Buy new snowboard',no_urgent
+'Study my course of Lineaire Algebra',no_urgent
+'Go home and pack my bags',no_urgent
+'Finish PenO',urgent
+'Buy new beer',urgent
+'Get on time in class',no_urgent
+'Go work in the alma',no_urgent
+'Get dollars from the bank',urgent
+'Call my friend to ask him about my diving bag',no_urgent
+'Start to study the course of Machine Learning',urgent
+'Go to the tutoring at 21h',no_urgent
+'Watch the lecture of Stephen Hawking',urgent
+'Send this nice girl from class a text message',urgent
+'Call my mom',urgent
+'Go to the dentist',no_urgent
+'Fix my bike',urgent
+'Calculate my finances',urgent
+'Cook my dinner',no_urgent
+'Watch the new episode of How I Met Your Mother',no_urgent
+'Get some cash on my cellphone',urgent
+'Buy birthday present for Sarah',no_urgent
+'Register for lecture on google',no_urgent
+'Write report for machine learning',no_urgent
+'Request new student card',urgent
+'Request new debit card',urgent
+'Buy new wallet',no_urgent
+'Schedule movie night',no_urgent
+'Plan ski trip',no_urgent
+'Pay electric bill',no_urgent
+'Visit grandpa to fix his computer problems',no_urgent
+'read articles on tag prediction',urgent
+'Work on group project',no_urgent
+'Yearly dentist',no_urgent
+'Buy new laptop',no_urgent
+'Return DVD-box to Yana',no_urgent
+'Fix brakes on my bike',urgent
+'Study for drivers licence',urgent
+'Work on programming assignment with Wouter and Pieter, Monday',no_urgent
+'Mow the lawn',no_urgent
+'Poker night at old dormitory',no_urgent
+'Fix ISP courses',urgent
+'Challenge floors for Viking Kubb',no_urgent
+'Discuss algorithms with Naci',no_urgent
+'Send account info to everyone that owes me for Chinese',no_urgent
+'Finish up first part of machine learning assignment',urgent
+'Find transport for Water polo match',no_urgent
+'Contact Mark about S&S payment',urgent
+'Send update about thesis',no_urgent
+'Help Benjamin with presentation',no_urgent
+'Pick up dogs at kennel',no_urgent
+'Pick up mother from airport',no_urgent
+'Contact Jean-Philippe about Paris trip',no_urgent
+'Wash the car',no_urgent
+'Fix grandparents  DVD player',no_urgent
+'Work on CPL assignment',urgent
+'Read up to chapter 12 English workbook',no_urgent
+'Remind Michael to transfer money he owes me',no_urgent
+'Buy games from wish list',no_urgent
+'Buy chicken for dinner',no_urgent
+'Visit grandmother at the hospital',urgent
+'Fix the Internet connection',urgent
+'Buy a home-warming gift for Willem',no_urgent
+'Book a trip to Barcelona at the travel agency',no_urgent
+'Order tickets for Walibi',no_urgent
+'Retrieve new student card',urgent
+'Mail CV to VTK to include it in CV-book',no_urgent
+'Buy a new tennis racket',no_urgent
+'Discuss machine learning project with parnter',no_urgent
+'Do the dishes',urgent
+'Write 20 to-do s',no_urgent
+'Wash the car',no_urgent
+'Get vacinations for trip to Panama',no_urgent
+'Talk to bank about investments',no_urgent
+'Write thesis progress report',no_urgent
+'Start literature study for thesis',no_urgent
+'Buy a new business suit',no_urgent
+'Enroll in tennis tournament',no_urgent
+'Plan Christmas dinner',no_urgent
+'Get the latest Wheel of Time book',no_urgent
+'Pick up my brother at 4pm',no_urgent
+'Do laundry',no_urgent
+'Go jogging with Sven',no_urgent
+'Buy Eurostar tickets to London today!',urgent
+'Review the lecture about association rules',no_urgent
+'Support the new collegue with his project',no_urgent
+'Take a drink with Sarah',no_urgent
+'Buy the newest novel of Pieter Aspe',no_urgent
+'Help my dad paint the living room',no_urgent
+'Bring all my 5 euro bills to the bank',no_urgent
+'Bring my borrowed books to the library before 4pm',urgent
+'Ask my boss for a raise',no_urgent
+'Take part in the local running contest',no_urgent
+'Go to the dentist on friday at 6pm',no_urgent
+'Hand in the CPL project',no_urgent
+'Clean my room',no_urgent
+'Find a good hotel in Barcelona',no_urgent
+'Ask Ben for the money he borrowed',no_urgent
+'Take some rest when I get home',no_urgent
+'Buy a4 paper, post-its and pencils',urgent
+'Check the upcoming weather in Berlin',no_urgent
+'Saturday 19: Movie night',no_urgent
+'Read up on Support Vector Machines',no_urgent
+'Visit uncle Arthur',no_urgent
+'Finish reading  A Farewell to Arms  currently at page 105',no_urgent
+'Consultation Doctor Houben 26 November 20:00',no_urgent
+'Take out the garbage',no_urgent
+'Take another loan',no_urgent
+'Buy fishing equipment on way to boat',no_urgent
+'Inform Mark that the deadline has moved',urgent
+'Do the dishes',no_urgent
+'Figure out who to contact, ISP got messed up',no_urgent
+'MLaII schedule changed, lessons on mondays, starting 14 Nov.',no_urgent
+'Sportus Saturday 09:00 Train long-distance running',no_urgent
+'Tell Matthias I can t make it to the party',no_urgent
+'Buy bread and 5 slices of Leerdammer Light',no_urgent
+'New Dresden Codak comic out on Thursday',no_urgent
+'Doctor Claeys blood-check 9 December, 10 am',no_urgent
+'Tom is at Berlin from Wednesday to Tuesday',no_urgent
+'Buy a new suitcase',no_urgent
+'Read book for project Machine Learning',no_urgent
+'Go to meeting for project',no_urgent
+'Buy a new football',no_urgent
+'Play football with friends',no_urgent
+'Clean my bedroom',no_urgent
+'Buy pencils for my little brother',no_urgent
+'Go to the dentist',no_urgent
+'Buy books for my little brother',no_urgent
+'Buy a sponge',no_urgent
+'Clean the garden',no_urgent
+'Make dinner',urgent
+'Go to the bank',no_urgent
+'Evaluate the stock market',urgent
+'Go to Scorpions on November 26',no_urgent
+'Read the books of Stieg Larsson',no_urgent
+'Wallpaper the kitchen',no_urgent
+'Recharge batteries for my bike headlight',urgent
+'Download all the course documents',no_urgent
+'Buy some toys for the children',no_urgent
+'Visit a friend in the hospital',urgent
+'Go to football training on Friday',no_urgent
+'Meet the project advisor for the project of the software-design course',no_urgent
+'Search for a summer job',no_urgent
+'Book a vacation',no_urgent
+'Do the dishes after dinner',no_urgent
+'Read the first chapter of the book "Machine Learning and Inductive Inference"',urgent
+'Withdraw 100d from the bank account',no_urgent
+'Buy a new bike to climb the Mont Ventoux this summer',no_urgent
+'Watch the latest movie of Harry Potter in cinema',no_urgent
+'Go to the doctor',urgent
+'Remove weeds from the lawn',no_urgent
+'Read the article about the cycling race yesterday',no_urgent
+'Fire all the employees who don t work hard',no_urgent
+'Deposit the money earned for helping grandmother',no_urgent
+'Take the flight to New York',no_urgent
+'Send a mail to confirm the team for the project about tag prediction',urgent
+'Ask father to repair the bike',urgent
+'Go to the theater with friends',no_urgent
+'Do your math homework',no_urgent
+'Go to the bank to open an account',no_urgent
+'Buy bread and yoghurt',no_urgent
+'Do the dishes',no_urgent
+'Pay the rent in the Post office',urgent
+'Go to the cinema with a couple of friends',no_urgent
+'Finish the Machine Learning report and dataset',no_urgent
+'Start reading the Godel, Escher, Bach book',no_urgent
+'Go to the meeting with prof. Smith',no_urgent
+'Go to the gymnastics practice',no_urgent
+'Buy some socks',no_urgent
+'Apply for the trip to Antwerp',no_urgent
+'Go with friends to the Bowling alley',no_urgent
+'Vacuum clean your room',no_urgent
+'Go swimming in the University pool',no_urgent
+'Find a present for the anniversary for the girlfriend',urgent
+'Change a tire on the bike',urgent
+'Pickup the package from the Post office',urgent
+'Study the literature for the Machine Learning project',no_urgent
+'Change the firmware on your smartphone',no_urgent
+'Buy the ingredients for making lunch',no_urgent
+'Study for the internship interview',no_urgent
+'Be at home when the interview is set',no_urgent
+'Meet the girlfriend in the City center',no_urgent
+'Go home for Christmas',no_urgent
+'Ask grandma for the cake recipe',no_urgent
+'Pay for the concert tickets through PayPal',no_urgent
+'Visit Paris and the Louvre museum',no_urgent
+'Go to the Machine Learning lecture',no_urgent
+'Read The Hobbit book before seeing the movies',no_urgent
+'Do the laundry',no_urgent
+'Go to the park for picnic',no_urgent
+'Help your cousin to move a bookcase',no_urgent
+'Apply for the government scholarship',no_urgent
+'Organize a barbecue event',no_urgent
+'Do the laboratory exercises for the Chemistry class',no_urgent
+'Get a new mattress for your bed',no_urgent
+'Ride your bike around the city',no_urgent
+'Buy Christmas presents for your friends',no_urgent
+'Clean your room',no_urgent
+'Fix dad s computer',no_urgent
+'Pick up the credit card in the bank',urgent
+'Practice for the Geography exam',no_urgent
+'Plan a trip around the country',no_urgent
+'Contact the Internet Service Provider Company about their offer',no_urgent
+'Go with your mother to the theater',no_urgent
+'Mow the lawn in the backyard',no_urgent
+'Go to the doctor for immediate checkup',urgent
+'Make project prolog',urgent
+'Go to the Football practice on monday',no_urgent
+'Borrow Playstation game Tom',no_urgent
+'Return book to library',urgent
+'Finish literature study machine learning',no_urgent
+'Book vacation Turkey',no_urgent
+'Make doctor appointment',urgent
+'Buy new football shoes',no_urgent
+'Clean my room',no_urgent
+'Pay back Tom',no_urgent
+'Go to dentist',no_urgent
+'Visit uncle in hospital',urgent
+'Finish presentation PenO',no_urgent
+'Sell Dexia stocks',urgent
+'Help father in garden',no_urgent
+'Visit Steve Jobs grave',no_urgent
+'Send complaint to professor of operating systems about the kernel project',urgent
+'Oral exam databases',no_urgent
+'Read book Harry Potter',no_urgent
+'Go to movies with girlfriend',no_urgent
+'Buy new hard disk',urgent
+'Lunch with boss transport department',no_urgent
+'Go to physiotherapist',no_urgent
+'Help brother with Task mathematics',no_urgent
+'Complete evaluation Machine learning course',no_urgent
+'Send mail to Apple for Job Application',urgent
+'Call pet control',urgent
+'Go to party for Lara s birthday',no_urgent
+'Collect information about javascript',no_urgent
+'Visit Jonathan in Swiss',no_urgent
+'Celebrate Berlusconi s resignation in Italy',no_urgent
+'Go to barber',urgent
+'Pick up new car',no_urgent
+'Plan meeting for reorganization R\&D department',no_urgent
+'Go to family dinner sunday',no_urgent
+'Go to lan party',no_urgent
+'Check exchange rate Drachme - Dollar',no_urgent
+'Make facebook account',no_urgent
+'Do guided tour Leuven',no_urgent
+'Buy new toothbrush',no_urgent
+'Tennis with Willem',no_urgent
+'Print boarding tickets',urgent
+'Mow the lawn',no_urgent
+'Chapter 4 of Machine Learning',no_urgent
+'Write paper for distributed systems',no_urgent
+'Call Mom to ask for extra allowance',urgent
+'Wedding present for Willem and Katie',urgent
+'Board game evening',no_urgent
+'Do the dishes',no_urgent
+'Pay the rent',urgent
+'Finish task on linear algebra',urgent
+'Pay 20 euros back to Jonas',no_urgent
+'Read the Lord of the Rings',no_urgent
+'Queue for ticket for Stephen Hawking',urgent
+'Pay Bram to write my task for machine learning',urgent
+'Choose destination for journey next summer',no_urgent
+'Print photos for sister',no_urgent
+'Watch latest episode of the Big Bang Theory',no_urgent
+'Throw my birthday party',no_urgent
+'Reading chapter about Genetic Algorithms',no_urgent
+'Working in the garden',no_urgent
+'Buying christmas presents',urgent
+'Playing the piano',no_urgent
+'Going to the bank',no_urgent
+'Participating in the IEEEXtreme contest',no_urgent
+'Preparing exercises for Artificial Intelligence course',no_urgent
+'Going to the movies with Jonas and karel',no_urgent
+'Clean bedroom',urgent
+'Change car oil',no_urgent
+'Buy halloween costume',urgent
+'Watch match of the Jupiler Pro League',no_urgent
+'Going home for the weekend',urgent
+'Repair the CRT TV',no_urgent
+'View latest episode of the IT Crowd',no_urgent
+'Throw a New Year s party',urgent
+'Visiting my sister in Kortrijk',no_urgent
+'Paying the electricity bill',no_urgent
+'Reading the Hitchhiker s Guide to the Galaxy',no_urgent
+'Go to the gym',urgent
+'Prepare machine learning project',urgent
+'Buy gift for birthday party Frank',urgent
+'Read material on natural language processing',no_urgent
+'Read course text machine learning',no_urgent
+'Go home on friday for family dinner',no_urgent
+'Go to the dentist tomorrow',urgent
+'Buy new sweaters',no_urgent
+'Buy sugar',urgent
+'fix bike',urgent
+'Work on prolog project',no_urgent
+'finish piece report operating systems paper',no_urgent
+'Clean home',no_urgent
+'Ask parents about ski trip after exams with friends',no_urgent
+'Party next week?',urgent
+'Go to jeroen tomorrow for machine learning @14u',urgent
+'Study complex systems',no_urgent
+'Work with Niels on distributed systems friday',no_urgent
+'Arrange trip to Switzerland',no_urgent
+'Apply for Athens-programme',no_urgent
+'Prepare breakfast for grandmother',no_urgent
+'bring notes of Machine learning course to Bart',no_urgent
+'swim training tonight at 9 PM with David',no_urgent
+'fix the television',urgent
+'pay the electricity bill before tomorrow',urgent
+'tomorrow meeting with assistent of Machine learning course',no_urgent
+'educative city trip to Paris with Ine',no_urgent
+'help neighbour with internet courses',no_urgent
+'buy new course material for the machine learning course',no_urgent
+'buy mother a nice birthday gift before the market closes',urgent
+'open a new bankaccount to save money for my new bike',no_urgent
+'review last week’s course slides',no_urgent
+'practice my C++ coding skills for my next project',no_urgent
+'Buy a bigger computerscreen for tomorrow’s schoolproject',urgent
+'give computerlessons at 7PM to my sister',no_urgent
+'clean up the garden',no_urgent
+'drive my sister to school at 5pm',no_urgent
+'read the manual for the new kitchen robot',no_urgent
+'pay my neighbour my debts',urgent

@@ -1,0 +1,558 @@
+@relation text
+@attribute docs string
+@attribute class {appointment,no_appointment}
+
+@data
+'Schedule meeting for project followup',no_appointment
+'Buy tickets for Mogwai concert in the AB',no_appointment
+'Buy new halogen spotlight',no_appointment
+'Read chapter on SVM',no_appointment
+'Finish assignment 1 for the advanced databases course due tomorrow',no_appointment
+'Replace batteries of wireless mouse',no_appointment
+'Buy present for my sisters birthday',no_appointment
+'Bring car to the garage for winter tires',appointment
+'Appointment with the doctor for a ?u vaccin',appointment
+'Team building activity in Antwerp',appointment
+'Play basketball match in Brussels',appointment
+'Study the sproutcore documentation',no_appointment
+'Buy new batteries for my camera',no_appointment
+'Dinner with my wifes parents',appointment
+'Fix kitchen shelf',no_appointment
+'Create movie ontology with Protege tool',no_appointment
+'Upgrade back-end servers to latest version',no_appointment
+'Prepare presentation on test driven development due tomorrow',no_appointment
+'Find holiday destination for next summer vacation',no_appointment
+'Pick up Tom to play tennis',appointment
+'Book family holiday',no_appointment
+'Washing the dishes',no_appointment
+'Finish paper on clustering',no_appointment
+'Collect new credit card',no_appointment
+'Organize company pick-nick',no_appointment
+'Go to Erasmus info lecture',appointment
+'Search quality papers for thesis',no_appointment
+'Check Toledo for changed lecture room',no_appointment
+'Ask for product refund',no_appointment
+'Help dad clean his car',no_appointment
+'Return travel guides to the library',no_appointment
+'Check e-bay for bargains on comics',no_appointment
+'Fill out ISP and examination dates by the end of this week',no_appointment
+'Read articles about text classi?ers',no_appointment
+'Fix bug in to-do application',no_appointment
+'Buy new running shoes',no_appointment
+'Write requirement specification for new project',no_appointment
+'Buy Christmas presents for the kids',no_appointment
+'Pay tuition fee',no_appointment
+'Buy christmas gifts for family reunion',no_appointment
+'Repair brother s bike',no_appointment
+'Buy cinema tickets for next week',no_appointment
+'Study chapter 7 of the Machine Learning course text',no_appointment
+'Get birthday present for girlfriend s sister',no_appointment
+'Give food to pet dinosaur',no_appointment
+'Collect airplane tickets at travel agent',no_appointment
+'Look for a summer job',no_appointment
+'Go to bank to open savings account',no_appointment
+'Go to the library to get new books',no_appointment
+'Buy new running shoes',no_appointment
+'E-mail Bart and Jos about the running race',no_appointment
+'Create new appointment with thesis promotor',appointment
+'Block credit card and request a new one at the bank',no_appointment
+'Clean up mother s laptop',no_appointment
+'Book a suprise city-trip for valentine',no_appointment
+'Take the dog out for a walk',no_appointment
+'Read new book on WordPress blogging',no_appointment
+'Buy new webhosting for personal and school related blogs',no_appointment
+'Sell shares of Dexia',no_appointment
+'Visit grandma in the hospital',appointment
+'Take out the garbage',no_appointment
+'Invite Berlusconi and Merkel to dinner',appointment
+'Buy winter tires for the trip to Germany',no_appointment
+'Plan biking trip with Gert',no_appointment
+'Buy pizza and beer at Delhaize',no_appointment
+'Send a mail to Stefan and Philippe to organise a meeting',no_appointment
+'Send feedback about the report for Machine Learning',no_appointment
+'Go running with a friend',no_appointment
+'Read the next chapter in the textbook of Machine Learning',no_appointment
+'Mow the lawn',no_appointment
+'Watch a movie with family',no_appointment
+'Do some thesis research',no_appointment
+'Implement an alogrithm for my thesis',no_appointment
+'Clean my room',no_appointment
+'Play a board game with friends',no_appointment
+'wash the dishes',no_appointment
+'throw a housewarming party',no_appointment
+'send the MLII project planning',no_appointment
+'buy vodka',no_appointment
+'finish the financial report for this quartal',no_appointment
+'visit your family abroad',no_appointment
+'finish reading Goethe?s Faust',no_appointment
+'build AI and destroy the world',no_appointment
+'make a tenth todo for this todo list',no_appointment
+'arrange delivery of the vodka to the Russian mafia',appointment
+'go hunt some bear with the Russian mafia',no_appointment
+'buy sigarettes',no_appointment
+'buy a good computer',no_appointment
+'make a dinner and eat it',no_appointment
+'go to the hairdresser and cut your hair',appointment
+'finish this report on time',no_appointment
+'jump from the eiffel tower',no_appointment
+'finish the website update for the company',no_appointment
+'learn more about artificial neural networks',no_appointment
+'pay the rent',no_appointment
+'make an appointment at the dentist',appointment
+'call my dad about this year?s christmas holiday plans',no_appointment
+'read survey on word sense disambiguation for thesis',no_appointment
+'plan meeting for machine learning project',no_appointment
+'walk the dog',no_appointment
+'do the ironing',no_appointment
+'make a reservation at the restaurant for next saturday',appointment
+'go jogging on sunday morning',no_appointment
+'clean up my room',no_appointment
+'go to the movies to see the new Tintin movie',no_appointment
+'plan my birthday party',no_appointment
+'visit Martine in Gent',no_appointment
+'buy a new pair of jogging shoes and trousers in Maastricht',no_appointment
+'arrange a meeting with my thesis supervisor',no_appointment
+'check my bank account for the payment from my summer job',no_appointment
+'start planning next year?s holiday',no_appointment
+'call the hairdresser for an appointment for cutting and dying my hair',appointment
+'buy the course text on machine learning',no_appointment
+'wash and vacuum clean the car',no_appointment
+'Read literature for ml-project',no_appointment
+'Make appointment with the bank for a loan',appointment
+'Book snowboardvacation for after the exams',no_appointment
+'Plan a footballnight with Samson and Gert',no_appointment
+'Go out for a drink',no_appointment
+'Go jogging',no_appointment
+'Buy new pair of shoes for work',no_appointment
+'Read the eos',no_appointment
+'Give invoice of university to mum',no_appointment
+'Mow lawn at grandma s',no_appointment
+'Work on the project for  Comparative Programming Languages ',no_appointment
+'Meet up with the team for the  Comparative Programming Languages -project',appointment
+'Write to do list',no_appointment
+'Make presentation for lecture in Germany',no_appointment
+'Buy books for classes',no_appointment
+'Pay rent for  kot ',no_appointment
+'Go to CW 2012 game night',no_appointment
+'Give children their allowance',no_appointment
+'Prepare schooltrip to the Netherlands',no_appointment
+'Study for my test',no_appointment
+'Play tennis',no_appointment
+'Go to the lecture',no_appointment
+'Apply for a new job',no_appointment
+'Buy beer for the party this evening',no_appointment
+'Read the new book of Stephen Hawking',no_appointment
+'Arrange the ski trip',no_appointment
+'Enjoy the weekend',no_appointment
+'Pay my bills',no_appointment
+'Discuss my paper at 16h',appointment
+'Look for Christmas gifts',no_appointment
+'Take the train home',no_appointment
+'Visit my grandfather',no_appointment
+'Watch a movie at the movie theater',no_appointment
+'Go to the bakery',no_appointment
+'Mow the grass',no_appointment
+'Go to the bank tomorrow at 10h',appointment
+'Wash my clothes',no_appointment
+'Read some chapters of my textbook of machine learning',no_appointment
+'Play guitar',no_appointment
+'Buy and ship birthday present to Vidath.',no_appointment
+'Look up information about connecting sproutcore to different kind of backends.',no_appointment
+'Update centos running on vps to latest version.',no_appointment
+'Inform about vps experation date.',no_appointment
+'Pay final bill luminus for studio year 2010-2011.',no_appointment
+'Cancel telenet subscription studio.',no_appointment
+'inform about which version of aquabeat V2.0 decathlon is actually selling.',no_appointment
+'Check review aquabeat V2.0.',no_appointment
+'Pick up book at vtk.',no_appointment
+'Read up on formal systems.',no_appointment
+'Finish intermediate report for machine learning.',no_appointment
+'Read up on computer graphics.',no_appointment
+'Finish sequence diagrams distributed computing and add to report.',no_appointment
+'Send in source code and report JEE2 assignment.',no_appointment
+'Make appointment dentist',appointment
+'Upgrade firmware NAS.',no_appointment
+'Inform about repayment rent guarantee.',no_appointment
+'Update forum software.',no_appointment
+'Post letter from bank.',no_appointment
+'Go shopping at Delhaize.',no_appointment
+'Upload task Machine Learning to Toledo.',no_appointment
+'Draw UML Class Diagram for Distributed Systems.',no_appointment
+'Write roadbook for international youth camp.',no_appointment
+'Have a drink at the pub Trawantel.',no_appointment
+'Prepare inteview for World Diabetes Day with VTM News.',no_appointment
+'Reply to the SMS I just received from my girlfriend.',no_appointment
+'Draw my idea for a data visualisation for the advanced database systems course.',no_appointment
+'Go cycling twice a week to keep fit.',no_appointment
+'Rake the leaves from the grass.',no_appointment
+'Go get my passport at the town hall before traveling to Dubai.',no_appointment
+'Inform my teachers that I leave for ten days to Dubai.',no_appointment
+'Get in touch with the international young leaders in diabetes.',no_appointment
+'Go walking the 14th of November for World Diabetes Day.',no_appointment
+'Read the last chapter of the Machine Learning course.',no_appointment
+'Give my neighbor tutoring in math this evening at 7 pm.',appointment
+'Clean up my room at Leuven.',no_appointment
+'Pay the doctors cost.',no_appointment
+'Read the local newspaper.',no_appointment
+'Prepare the old years eve party.',no_appointment
+'Do my daily excercises',no_appointment
+'Thursday party',no_appointment
+'Finish OSS project before deadline',no_appointment
+'Read up on ML systems',no_appointment
+'Go to barber on wednesday',appointment
+'Go home at saturday',no_appointment
+'Get a present for grandpa',no_appointment
+'Sundays family meeting',no_appointment
+'Mondays training',no_appointment
+'Pay my registration at uni',no_appointment
+'Pay my registration for mondays training',no_appointment
+'Buy ingredients for tonights meal',no_appointment
+'Cook meal',no_appointment
+'Citytrip Amsterdam',no_appointment
+'Read city info',no_appointment
+'Pay citytryp',no_appointment
+'Convert project report to PDF',no_appointment
+'Run some miles',no_appointment
+'Meet for project OSS',appointment
+'Dinner at sammy s',no_appointment
+'Pay monthly rent',no_appointment
+'Have dinner with girlfriend',no_appointment
+'Read literature for project',no_appointment
+'Have winter tires put on car',appointment
+'Buy christmas gifts for family',no_appointment
+'Pay friend back for ski trip he booked',no_appointment
+'Print directions to location of party on friday',no_appointment
+'Work on school task',no_appointment
+'Have a drink with friends on monday',no_appointment
+'Do some groceries for mom',no_appointment
+'Have a look at bank transactions',no_appointment
+'Buy present for friend s birthday',no_appointment
+'Maintain website',no_appointment
+'Buy tickets to concert',no_appointment
+'Feedback session of project',appointment
+'Clean room',no_appointment
+'Family weekend in the Ardennes',no_appointment
+'Play tennis with girlfriend',no_appointment
+'Keep up with courses',no_appointment
+'Buy new snowboard',no_appointment
+'Study my course of Lineaire Algebra',no_appointment
+'Go home and pack my bags',no_appointment
+'Finish PenO',appointment
+'Buy new beer',no_appointment
+'Get on time in class',appointment
+'Go work in the alma',appointment
+'Get dollars from the bank',no_appointment
+'Call my friend to ask him about my diving bag',no_appointment
+'Start to study the course of Machine Learning',no_appointment
+'Go to the tutoring at 21h',appointment
+'Watch the lecture of Stephen Hawking',no_appointment
+'Send this nice girl from class a text message',no_appointment
+'Call my mom',no_appointment
+'Go to the dentist',appointment
+'Fix my bike',no_appointment
+'Calculate my finances',no_appointment
+'Cook my dinner',no_appointment
+'Watch the new episode of How I Met Your Mother',no_appointment
+'Get some cash on my cellphone',no_appointment
+'Buy birthday present for Sarah',no_appointment
+'Register for lecture on google',appointment
+'Write report for machine learning',no_appointment
+'Request new student card',no_appointment
+'Request new debit card',no_appointment
+'Buy new wallet',no_appointment
+'Schedule movie night',no_appointment
+'Plan ski trip',no_appointment
+'Pay electric bill',no_appointment
+'Visit grandpa to fix his computer problems',no_appointment
+'read articles on tag prediction',no_appointment
+'Work on group project',appointment
+'Yearly dentist',appointment
+'Buy new laptop',no_appointment
+'Return DVD-box to Yana',no_appointment
+'Fix brakes on my bike',no_appointment
+'Study for drivers licence',no_appointment
+'Work on programming assignment with Wouter and Pieter, Monday',appointment
+'Mow the lawn',no_appointment
+'Poker night at old dormitory',appointment
+'Fix ISP courses',no_appointment
+'Challenge floors for Viking Kubb',no_appointment
+'Discuss algorithms with Naci',no_appointment
+'Send account info to everyone that owes me for Chinese',no_appointment
+'Finish up first part of machine learning assignment',no_appointment
+'Find transport for Water polo match',appointment
+'Contact Mark about S&S payment',no_appointment
+'Send update about thesis',no_appointment
+'Help Benjamin with presentation',no_appointment
+'Pick up dogs at kennel',appointment
+'Pick up mother from airport',appointment
+'Contact Jean-Philippe about Paris trip',no_appointment
+'Wash the car',no_appointment
+'Fix grandparents  DVD player',appointment
+'Work on CPL assignment',no_appointment
+'Read up to chapter 12 English workbook',no_appointment
+'Remind Michael to transfer money he owes me',no_appointment
+'Buy games from wish list',no_appointment
+'Buy chicken for dinner',no_appointment
+'Visit grandmother at the hospital',no_appointment
+'Fix the Internet connection',no_appointment
+'Buy a home-warming gift for Willem',no_appointment
+'Book a trip to Barcelona at the travel agency',appointment
+'Order tickets for Walibi',no_appointment
+'Retrieve new student card',no_appointment
+'Mail CV to VTK to include it in CV-book',no_appointment
+'Buy a new tennis racket',no_appointment
+'Discuss machine learning project with parnter',no_appointment
+'Do the dishes',no_appointment
+'Write 20 to-do s',no_appointment
+'Wash the car',no_appointment
+'Get vacinations for trip to Panama',no_appointment
+'Talk to bank about investments',appointment
+'Write thesis progress report',no_appointment
+'Start literature study for thesis',no_appointment
+'Buy a new business suit',no_appointment
+'Enroll in tennis tournament',no_appointment
+'Plan Christmas dinner',no_appointment
+'Get the latest Wheel of Time book',no_appointment
+'Pick up my brother at 4pm',appointment
+'Do laundry',no_appointment
+'Go jogging with Sven',no_appointment
+'Buy Eurostar tickets to London today!',no_appointment
+'Review the lecture about association rules',no_appointment
+'Support the new collegue with his project',no_appointment
+'Take a drink with Sarah',no_appointment
+'Buy the newest novel of Pieter Aspe',no_appointment
+'Help my dad paint the living room',no_appointment
+'Bring all my 5 euro bills to the bank',no_appointment
+'Bring my borrowed books to the library before 4pm',no_appointment
+'Ask my boss for a raise',no_appointment
+'Take part in the local running contest',no_appointment
+'Go to the dentist on friday at 6pm',appointment
+'Hand in the CPL project',no_appointment
+'Clean my room',no_appointment
+'Find a good hotel in Barcelona',no_appointment
+'Ask Ben for the money he borrowed',no_appointment
+'Take some rest when I get home',no_appointment
+'Buy a4 paper, post-its and pencils',no_appointment
+'Check the upcoming weather in Berlin',no_appointment
+'Saturday 19: Movie night',no_appointment
+'Read up on Support Vector Machines',no_appointment
+'Visit uncle Arthur',no_appointment
+'Finish reading  A Farewell to Arms  currently at page 105',no_appointment
+'Consultation Doctor Houben 26 November 20:00',appointment
+'Take out the garbage',no_appointment
+'Take another loan',no_appointment
+'Buy fishing equipment on way to boat',no_appointment
+'Inform Mark that the deadline has moved',no_appointment
+'Do the dishes',no_appointment
+'Figure out who to contact, ISP got messed up',no_appointment
+'MLaII schedule changed, lessons on mondays, starting 14 Nov.',no_appointment
+'Sportus Saturday 09:00 Train long-distance running',no_appointment
+'Tell Matthias I can t make it to the party',no_appointment
+'Buy bread and 5 slices of Leerdammer Light',no_appointment
+'New Dresden Codak comic out on Thursday',no_appointment
+'Doctor Claeys blood-check 9 December, 10 am',appointment
+'Tom is at Berlin from Wednesday to Tuesday',no_appointment
+'Buy a new suitcase',no_appointment
+'Read book for project Machine Learning',no_appointment
+'Go to meeting for project',appointment
+'Buy a new football',no_appointment
+'Play football with friends',no_appointment
+'Clean my bedroom',no_appointment
+'Buy pencils for my little brother',no_appointment
+'Go to the dentist',appointment
+'Buy books for my little brother',no_appointment
+'Buy a sponge',no_appointment
+'Clean the garden',no_appointment
+'Make dinner',no_appointment
+'Go to the bank',no_appointment
+'Evaluate the stock market',no_appointment
+'Go to Scorpions on November 26',no_appointment
+'Read the books of Stieg Larsson',no_appointment
+'Wallpaper the kitchen',no_appointment
+'Recharge batteries for my bike headlight',no_appointment
+'Download all the course documents',no_appointment
+'Buy some toys for the children',no_appointment
+'Visit a friend in the hospital',no_appointment
+'Go to football training on Friday',no_appointment
+'Meet the project advisor for the project of the software-design course',appointment
+'Search for a summer job',no_appointment
+'Book a vacation',no_appointment
+'Do the dishes after dinner',no_appointment
+'Read the first chapter of the book "Machine Learning and Inductive Inference"',no_appointment
+'Withdraw 100d from the bank account',no_appointment
+'Buy a new bike to climb the Mont Ventoux this summer',no_appointment
+'Watch the latest movie of Harry Potter in cinema',no_appointment
+'Go to the doctor',appointment
+'Remove weeds from the lawn',no_appointment
+'Read the article about the cycling race yesterday',no_appointment
+'Fire all the employees who don t work hard',no_appointment
+'Deposit the money earned for helping grandmother',no_appointment
+'Take the flight to New York',no_appointment
+'Send a mail to confirm the team for the project about tag prediction',no_appointment
+'Ask father to repair the bike',no_appointment
+'Go to the theater with friends',no_appointment
+'Do your math homework',no_appointment
+'Go to the bank to open an account',no_appointment
+'Buy bread and yoghurt',no_appointment
+'Do the dishes',no_appointment
+'Pay the rent in the Post office',no_appointment
+'Go to the cinema with a couple of friends',no_appointment
+'Finish the Machine Learning report and dataset',no_appointment
+'Start reading the Godel, Escher, Bach book',no_appointment
+'Go to the meeting with prof. Smith',appointment
+'Go to the gymnastics practice',no_appointment
+'Buy some socks',no_appointment
+'Apply for the trip to Antwerp',no_appointment
+'Go with friends to the Bowling alley',no_appointment
+'Vacuum clean your room',no_appointment
+'Go swimming in the University pool',no_appointment
+'Find a present for the anniversary for the girlfriend',no_appointment
+'Change a tire on the bike',no_appointment
+'Pickup the package from the Post office',no_appointment
+'Study the literature for the Machine Learning project',no_appointment
+'Change the firmware on your smartphone',no_appointment
+'Buy the ingredients for making lunch',no_appointment
+'Study for the internship interview',no_appointment
+'Be at home when the interview is set',appointment
+'Meet the girlfriend in the City center',appointment
+'Go home for Christmas',no_appointment
+'Ask grandma for the cake recipe',no_appointment
+'Pay for the concert tickets through PayPal',no_appointment
+'Visit Paris and the Louvre museum',no_appointment
+'Go to the Machine Learning lecture',no_appointment
+'Read The Hobbit book before seeing the movies',no_appointment
+'Do the laundry',no_appointment
+'Go to the park for picnic',no_appointment
+'Help your cousin to move a bookcase',no_appointment
+'Apply for the government scholarship',no_appointment
+'Organize a barbecue event',no_appointment
+'Do the laboratory exercises for the Chemistry class',no_appointment
+'Get a new mattress for your bed',no_appointment
+'Ride your bike around the city',no_appointment
+'Buy Christmas presents for your friends',no_appointment
+'Clean your room',no_appointment
+'Fix dad s computer',no_appointment
+'Pick up the credit card in the bank',no_appointment
+'Practice for the Geography exam',no_appointment
+'Plan a trip around the country',no_appointment
+'Contact the Internet Service Provider Company about their offer',no_appointment
+'Go with your mother to the theater',appointment
+'Mow the lawn in the backyard',no_appointment
+'Go to the doctor for immediate checkup',appointment
+'Make project prolog',no_appointment
+'Go to the Football practice on monday',no_appointment
+'Borrow Playstation game Tom',no_appointment
+'Return book to library',no_appointment
+'Finish literature study machine learning',no_appointment
+'Book vacation Turkey',no_appointment
+'Make doctor appointment',appointment
+'Buy new football shoes',no_appointment
+'Clean my room',no_appointment
+'Pay back Tom',no_appointment
+'Go to dentist',appointment
+'Visit uncle in hospital',no_appointment
+'Finish presentation PenO',no_appointment
+'Sell Dexia stocks',no_appointment
+'Help father in garden',no_appointment
+'Visit Steve Jobs grave',no_appointment
+'Send complaint to professor of operating systems about the kernel project',no_appointment
+'Oral exam databases',appointment
+'Read book Harry Potter',no_appointment
+'Go to movies with girlfriend',no_appointment
+'Buy new hard disk',no_appointment
+'Lunch with boss transport department',no_appointment
+'Go to physiotherapist',appointment
+'Help brother with Task mathematics',no_appointment
+'Complete evaluation Machine learning course',no_appointment
+'Send mail to Apple for Job Application',no_appointment
+'Call pet control',no_appointment
+'Go to party for Lara s birthday',no_appointment
+'Collect information about javascript',no_appointment
+'Visit Jonathan in Swiss',no_appointment
+'Celebrate Berlusconi s resignation in Italy',no_appointment
+'Go to barber',appointment
+'Pick up new car',appointment
+'Plan meeting for reorganization R\&D department',no_appointment
+'Go to family dinner sunday',no_appointment
+'Go to lan party',no_appointment
+'Check exchange rate Drachme - Dollar',no_appointment
+'Make facebook account',no_appointment
+'Do guided tour Leuven',appointment
+'Buy new toothbrush',no_appointment
+'Tennis with Willem',appointment
+'Print boarding tickets',no_appointment
+'Mow the lawn',no_appointment
+'Chapter 4 of Machine Learning',no_appointment
+'Write paper for distributed systems',no_appointment
+'Call Mom to ask for extra allowance',no_appointment
+'Wedding present for Willem and Katie',no_appointment
+'Board game evening',appointment
+'Do the dishes',no_appointment
+'Pay the rent',no_appointment
+'Finish task on linear algebra',no_appointment
+'Pay 20 euros back to Jonas',no_appointment
+'Read the Lord of the Rings',no_appointment
+'Queue for ticket for Stephen Hawking',no_appointment
+'Pay Bram to write my task for machine learning',no_appointment
+'Choose destination for journey next summer',no_appointment
+'Print photos for sister',no_appointment
+'Watch latest episode of the Big Bang Theory',no_appointment
+'Throw my birthday party',no_appointment
+'Reading chapter about Genetic Algorithms',no_appointment
+'Working in the garden',no_appointment
+'Buying christmas presents',no_appointment
+'Playing the piano',no_appointment
+'Going to the bank',no_appointment
+'Participating in the IEEEXtreme contest',appointment
+'Preparing exercises for Artificial Intelligence course',no_appointment
+'Going to the movies with Jonas and karel',no_appointment
+'Clean bedroom',no_appointment
+'Change car oil',no_appointment
+'Buy halloween costume',no_appointment
+'Watch match of the Jupiler Pro League',no_appointment
+'Going home for the weekend',no_appointment
+'Repair the CRT TV',no_appointment
+'View latest episode of the IT Crowd',no_appointment
+'Throw a New Year s party',no_appointment
+'Visiting my sister in Kortrijk',no_appointment
+'Paying the electricity bill',no_appointment
+'Reading the Hitchhiker s Guide to the Galaxy',no_appointment
+'Go to the gym',no_appointment
+'Prepare machine learning project',appointment
+'Buy gift for birthday party Frank',no_appointment
+'Read material on natural language processing',no_appointment
+'Read course text machine learning',no_appointment
+'Go home on friday for family dinner',no_appointment
+'Go to the dentist tomorrow',appointment
+'Buy new sweaters',no_appointment
+'Buy sugar',no_appointment
+'fix bike',no_appointment
+'Work on prolog project',no_appointment
+'finish piece report operating systems paper',no_appointment
+'Clean home',no_appointment
+'Ask parents about ski trip after exams with friends',no_appointment
+'Party next week?',no_appointment
+'Go to jeroen tomorrow for machine learning @14u',appointment
+'Study complex systems',no_appointment
+'Work with Niels on distributed systems friday',appointment
+'Arrange trip to Switzerland',no_appointment
+'Apply for Athens-programme',no_appointment
+'Prepare breakfast for grandmother',no_appointment
+'bring notes of Machine learning course to Bart',no_appointment
+'swim training tonight at 9 PM with David',appointment
+'fix the television',no_appointment
+'pay the electricity bill before tomorrow',no_appointment
+'tomorrow meeting with assistent of Machine learning course',appointment
+'educative city trip to Paris with Ine',no_appointment
+'help neighbour with internet courses',no_appointment
+'buy new course material for the machine learning course',no_appointment
+'buy mother a nice birthday gift before the market closes',no_appointment
+'open a new bankaccount to save money for my new bike',no_appointment
+'review last week’s course slides',no_appointment
+'practice my C++ coding skills for my next project',no_appointment
+'Buy a bigger computerscreen for tomorrow’s schoolproject',no_appointment
+'give computerlessons at 7PM to my sister',appointment
+'clean up the garden',no_appointment
+'drive my sister to school at 5pm',appointment
+'read the manual for the new kitchen robot',no_appointment
+'pay my neighbour my debts',no_appointment

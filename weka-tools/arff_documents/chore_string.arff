@@ -1,0 +1,558 @@
+@relation text
+@attribute docs string
+@attribute class {chore,no_chore}
+
+@data
+'Schedule meeting for project followup',no_chore
+'Buy tickets for Mogwai concert in the AB',no_chore
+'Buy new halogen spotlight',chore
+'Read chapter on SVM',no_chore
+'Finish assignment 1 for the advanced databases course due tomorrow',no_chore
+'Replace batteries of wireless mouse',chore
+'Buy present for my sisters birthday',no_chore
+'Bring car to the garage for winter tires',chore
+'Appointment with the doctor for a ?u vaccin',no_chore
+'Team building activity in Antwerp',no_chore
+'Play basketball match in Brussels',no_chore
+'Study the sproutcore documentation',no_chore
+'Buy new batteries for my camera',no_chore
+'Dinner with my wifes parents',no_chore
+'Fix kitchen shelf',chore
+'Create movie ontology with Protege tool',no_chore
+'Upgrade back-end servers to latest version',no_chore
+'Prepare presentation on test driven development due tomorrow',no_chore
+'Find holiday destination for next summer vacation',no_chore
+'Pick up Tom to play tennis',no_chore
+'Book family holiday',no_chore
+'Washing the dishes',chore
+'Finish paper on clustering',no_chore
+'Collect new credit card',no_chore
+'Organize company pick-nick',no_chore
+'Go to Erasmus info lecture',no_chore
+'Search quality papers for thesis',no_chore
+'Check Toledo for changed lecture room',no_chore
+'Ask for product refund',no_chore
+'Help dad clean his car',chore
+'Return travel guides to the library',no_chore
+'Check e-bay for bargains on comics',no_chore
+'Fill out ISP and examination dates by the end of this week',no_chore
+'Read articles about text classi?ers',no_chore
+'Fix bug in to-do application',no_chore
+'Buy new running shoes',no_chore
+'Write requirement specification for new project',no_chore
+'Buy Christmas presents for the kids',no_chore
+'Pay tuition fee',no_chore
+'Buy christmas gifts for family reunion',no_chore
+'Repair brother s bike',chore
+'Buy cinema tickets for next week',no_chore
+'Study chapter 7 of the Machine Learning course text',no_chore
+'Get birthday present for girlfriend s sister',no_chore
+'Give food to pet dinosaur',chore
+'Collect airplane tickets at travel agent',no_chore
+'Look for a summer job',no_chore
+'Go to bank to open savings account',no_chore
+'Go to the library to get new books',no_chore
+'Buy new running shoes',no_chore
+'E-mail Bart and Jos about the running race',no_chore
+'Create new appointment with thesis promotor',no_chore
+'Block credit card and request a new one at the bank',no_chore
+'Clean up mother s laptop',chore
+'Book a suprise city-trip for valentine',no_chore
+'Take the dog out for a walk',no_chore
+'Read new book on WordPress blogging',no_chore
+'Buy new webhosting for personal and school related blogs',no_chore
+'Sell shares of Dexia',no_chore
+'Visit grandma in the hospital',no_chore
+'Take out the garbage',chore
+'Invite Berlusconi and Merkel to dinner',no_chore
+'Buy winter tires for the trip to Germany',no_chore
+'Plan biking trip with Gert',no_chore
+'Buy pizza and beer at Delhaize',no_chore
+'Send a mail to Stefan and Philippe to organise a meeting',no_chore
+'Send feedback about the report for Machine Learning',no_chore
+'Go running with a friend',no_chore
+'Read the next chapter in the textbook of Machine Learning',no_chore
+'Mow the lawn',chore
+'Watch a movie with family',no_chore
+'Do some thesis research',no_chore
+'Implement an alogrithm for my thesis',no_chore
+'Clean my room',chore
+'Play a board game with friends',no_chore
+'wash the dishes',chore
+'throw a housewarming party',no_chore
+'send the MLII project planning',no_chore
+'buy vodka',no_chore
+'finish the financial report for this quartal',chore
+'visit your family abroad',no_chore
+'finish reading Goethe?s Faust',no_chore
+'build AI and destroy the world',no_chore
+'make a tenth todo for this todo list',no_chore
+'arrange delivery of the vodka to the Russian mafia',chore
+'go hunt some bear with the Russian mafia',no_chore
+'buy sigarettes',no_chore
+'buy a good computer',no_chore
+'make a dinner and eat it',no_chore
+'go to the hairdresser and cut your hair',no_chore
+'finish this report on time',no_chore
+'jump from the eiffel tower',no_chore
+'finish the website update for the company',no_chore
+'learn more about artificial neural networks',no_chore
+'pay the rent',no_chore
+'make an appointment at the dentist',no_chore
+'call my dad about this year?s christmas holiday plans',no_chore
+'read survey on word sense disambiguation for thesis',no_chore
+'plan meeting for machine learning project',no_chore
+'walk the dog',no_chore
+'do the ironing',chore
+'make a reservation at the restaurant for next saturday',no_chore
+'go jogging on sunday morning',no_chore
+'clean up my room',chore
+'go to the movies to see the new Tintin movie',no_chore
+'plan my birthday party',no_chore
+'visit Martine in Gent',no_chore
+'buy a new pair of jogging shoes and trousers in Maastricht',no_chore
+'arrange a meeting with my thesis supervisor',no_chore
+'check my bank account for the payment from my summer job',no_chore
+'start planning next year?s holiday',no_chore
+'call the hairdresser for an appointment for cutting and dying my hair',no_chore
+'buy the course text on machine learning',no_chore
+'wash and vacuum clean the car',chore
+'Read literature for ml-project',chore
+'Make appointment with the bank for a loan',no_chore
+'Book snowboardvacation for after the exams',no_chore
+'Plan a footballnight with Samson and Gert',no_chore
+'Go out for a drink',no_chore
+'Go jogging',no_chore
+'Buy new pair of shoes for work',no_chore
+'Read the eos',no_chore
+'Give invoice of university to mum',no_chore
+'Mow lawn at grandma s',no_chore
+'Work on the project for  Comparative Programming Languages ',no_chore
+'Meet up with the team for the  Comparative Programming Languages -project',no_chore
+'Write to do list',chore
+'Make presentation for lecture in Germany',no_chore
+'Buy books for classes',no_chore
+'Pay rent for  kot ',no_chore
+'Go to CW 2012 game night',no_chore
+'Give children their allowance',no_chore
+'Prepare schooltrip to the Netherlands',no_chore
+'Study for my test',no_chore
+'Play tennis',no_chore
+'Go to the lecture',no_chore
+'Apply for a new job',no_chore
+'Buy beer for the party this evening',no_chore
+'Read the new book of Stephen Hawking',no_chore
+'Arrange the ski trip',no_chore
+'Enjoy the weekend',no_chore
+'Pay my bills',no_chore
+'Discuss my paper at 16h',no_chore
+'Look for Christmas gifts',no_chore
+'Take the train home',no_chore
+'Visit my grandfather',no_chore
+'Watch a movie at the movie theater',no_chore
+'Go to the bakery',no_chore
+'Mow the grass',chore
+'Go to the bank tomorrow at 10h',no_chore
+'Wash my clothes',chore
+'Read some chapters of my textbook of machine learning',no_chore
+'Play guitar',no_chore
+'Buy and ship birthday present to Vidath.',no_chore
+'Look up information about connecting sproutcore to different kind of backends.',no_chore
+'Update centos running on vps to latest version.',no_chore
+'Inform about vps experation date.',no_chore
+'Pay final bill luminus for studio year 2010-2011.',no_chore
+'Cancel telenet subscription studio.',no_chore
+'inform about which version of aquabeat V2.0 decathlon is actually selling.',no_chore
+'Check review aquabeat V2.0.',no_chore
+'Pick up book at vtk.',no_chore
+'Read up on formal systems.',no_chore
+'Finish intermediate report for machine learning.',no_chore
+'Read up on computer graphics.',no_chore
+'Finish sequence diagrams distributed computing and add to report.',no_chore
+'Send in source code and report JEE2 assignment.',no_chore
+'Make appointment dentist',no_chore
+'Upgrade firmware NAS.',no_chore
+'Inform about repayment rent guarantee.',no_chore
+'Update forum software.',no_chore
+'Post letter from bank.',no_chore
+'Go shopping at Delhaize.',chore
+'Upload task Machine Learning to Toledo.',no_chore
+'Draw UML Class Diagram for Distributed Systems.',no_chore
+'Write roadbook for international youth camp.',no_chore
+'Have a drink at the pub Trawantel.',no_chore
+'Prepare inteview for World Diabetes Day with VTM News.',no_chore
+'Reply to the SMS I just received from my girlfriend.',no_chore
+'Draw my idea for a data visualisation for the advanced database systems course.',no_chore
+'Go cycling twice a week to keep fit.',no_chore
+'Rake the leaves from the grass.',chore
+'Go get my passport at the town hall before traveling to Dubai.',no_chore
+'Inform my teachers that I leave for ten days to Dubai.',no_chore
+'Get in touch with the international young leaders in diabetes.',no_chore
+'Go walking the 14th of November for World Diabetes Day.',no_chore
+'Read the last chapter of the Machine Learning course.',no_chore
+'Give my neighbor tutoring in math this evening at 7 pm.',no_chore
+'Clean up my room at Leuven.',chore
+'Pay the doctors cost.',no_chore
+'Read the local newspaper.',no_chore
+'Prepare the old years eve party.',chore
+'Do my daily excercises',chore
+'Thursday party',no_chore
+'Finish OSS project before deadline',no_chore
+'Read up on ML systems',no_chore
+'Go to barber on wednesday',no_chore
+'Go home at saturday',no_chore
+'Get a present for grandpa',no_chore
+'Sundays family meeting',no_chore
+'Mondays training',chore
+'Pay my registration at uni',no_chore
+'Pay my registration for mondays training',no_chore
+'Buy ingredients for tonights meal',no_chore
+'Cook meal',no_chore
+'Citytrip Amsterdam',no_chore
+'Read city info',no_chore
+'Pay citytryp',no_chore
+'Convert project report to PDF',no_chore
+'Run some miles',chore
+'Meet for project OSS',no_chore
+'Dinner at sammy s',no_chore
+'Pay monthly rent',no_chore
+'Have dinner with girlfriend',no_chore
+'Read literature for project',no_chore
+'Have winter tires put on car',no_chore
+'Buy christmas gifts for family',no_chore
+'Pay friend back for ski trip he booked',no_chore
+'Print directions to location of party on friday',no_chore
+'Work on school task',no_chore
+'Have a drink with friends on monday',no_chore
+'Do some groceries for mom',no_chore
+'Have a look at bank transactions',no_chore
+'Buy present for friend s birthday',no_chore
+'Maintain website',no_chore
+'Buy tickets to concert',no_chore
+'Feedback session of project',no_chore
+'Clean room',chore
+'Family weekend in the Ardennes',no_chore
+'Play tennis with girlfriend',no_chore
+'Keep up with courses',no_chore
+'Buy new snowboard',no_chore
+'Study my course of Lineaire Algebra',no_chore
+'Go home and pack my bags',no_chore
+'Finish PenO',no_chore
+'Buy new beer',no_chore
+'Get on time in class',no_chore
+'Go work in the alma',no_chore
+'Get dollars from the bank',no_chore
+'Call my friend to ask him about my diving bag',no_chore
+'Start to study the course of Machine Learning',no_chore
+'Go to the tutoring at 21h',no_chore
+'Watch the lecture of Stephen Hawking',no_chore
+'Send this nice girl from class a text message',no_chore
+'Call my mom',no_chore
+'Go to the dentist',no_chore
+'Fix my bike',chore
+'Calculate my finances',no_chore
+'Cook my dinner',chore
+'Watch the new episode of How I Met Your Mother',no_chore
+'Get some cash on my cellphone',no_chore
+'Buy birthday present for Sarah',no_chore
+'Register for lecture on google',no_chore
+'Write report for machine learning',no_chore
+'Request new student card',no_chore
+'Request new debit card',no_chore
+'Buy new wallet',no_chore
+'Schedule movie night',no_chore
+'Plan ski trip',no_chore
+'Pay electric bill',no_chore
+'Visit grandpa to fix his computer problems',no_chore
+'read articles on tag prediction',no_chore
+'Work on group project',no_chore
+'Yearly dentist',no_chore
+'Buy new laptop',no_chore
+'Return DVD-box to Yana',no_chore
+'Fix brakes on my bike',no_chore
+'Study for drivers licence',no_chore
+'Work on programming assignment with Wouter and Pieter, Monday',no_chore
+'Mow the lawn',chore
+'Poker night at old dormitory',no_chore
+'Fix ISP courses',no_chore
+'Challenge floors for Viking Kubb',no_chore
+'Discuss algorithms with Naci',no_chore
+'Send account info to everyone that owes me for Chinese',no_chore
+'Finish up first part of machine learning assignment',no_chore
+'Find transport for Water polo match',no_chore
+'Contact Mark about S&S payment',no_chore
+'Send update about thesis',no_chore
+'Help Benjamin with presentation',chore
+'Pick up dogs at kennel',chore
+'Pick up mother from airport',no_chore
+'Contact Jean-Philippe about Paris trip',no_chore
+'Wash the car',chore
+'Fix grandparents  DVD player',chore
+'Work on CPL assignment',no_chore
+'Read up to chapter 12 English workbook',no_chore
+'Remind Michael to transfer money he owes me',no_chore
+'Buy games from wish list',no_chore
+'Buy chicken for dinner',chore
+'Visit grandmother at the hospital',no_chore
+'Fix the Internet connection',chore
+'Buy a home-warming gift for Willem',no_chore
+'Book a trip to Barcelona at the travel agency',no_chore
+'Order tickets for Walibi',no_chore
+'Retrieve new student card',no_chore
+'Mail CV to VTK to include it in CV-book',no_chore
+'Buy a new tennis racket',no_chore
+'Discuss machine learning project with parnter',no_chore
+'Do the dishes',chore
+'Write 20 to-do s',no_chore
+'Wash the car',chore
+'Get vacinations for trip to Panama',no_chore
+'Talk to bank about investments',no_chore
+'Write thesis progress report',no_chore
+'Start literature study for thesis',no_chore
+'Buy a new business suit',no_chore
+'Enroll in tennis tournament',no_chore
+'Plan Christmas dinner',no_chore
+'Get the latest Wheel of Time book',no_chore
+'Pick up my brother at 4pm',no_chore
+'Do laundry',chore
+'Go jogging with Sven',no_chore
+'Buy Eurostar tickets to London today!',no_chore
+'Review the lecture about association rules',no_chore
+'Support the new collegue with his project',no_chore
+'Take a drink with Sarah',no_chore
+'Buy the newest novel of Pieter Aspe',no_chore
+'Help my dad paint the living room',chore
+'Bring all my 5 euro bills to the bank',no_chore
+'Bring my borrowed books to the library before 4pm',no_chore
+'Ask my boss for a raise',no_chore
+'Take part in the local running contest',no_chore
+'Go to the dentist on friday at 6pm',no_chore
+'Hand in the CPL project',no_chore
+'Clean my room',chore
+'Find a good hotel in Barcelona',no_chore
+'Ask Ben for the money he borrowed',no_chore
+'Take some rest when I get home',no_chore
+'Buy a4 paper, post-its and pencils',no_chore
+'Check the upcoming weather in Berlin',no_chore
+'Saturday 19: Movie night',no_chore
+'Read up on Support Vector Machines',no_chore
+'Visit uncle Arthur',no_chore
+'Finish reading  A Farewell to Arms  currently at page 105',no_chore
+'Consultation Doctor Houben 26 November 20:00',no_chore
+'Take out the garbage',chore
+'Take another loan',no_chore
+'Buy fishing equipment on way to boat',no_chore
+'Inform Mark that the deadline has moved',no_chore
+'Do the dishes',chore
+'Figure out who to contact, ISP got messed up',no_chore
+'MLaII schedule changed, lessons on mondays, starting 14 Nov.',no_chore
+'Sportus Saturday 09:00 Train long-distance running',no_chore
+'Tell Matthias I can t make it to the party',no_chore
+'Buy bread and 5 slices of Leerdammer Light',chore
+'New Dresden Codak comic out on Thursday',no_chore
+'Doctor Claeys blood-check 9 December, 10 am',no_chore
+'Tom is at Berlin from Wednesday to Tuesday',no_chore
+'Buy a new suitcase',no_chore
+'Read book for project Machine Learning',no_chore
+'Go to meeting for project',no_chore
+'Buy a new football',no_chore
+'Play football with friends',no_chore
+'Clean my bedroom',chore
+'Buy pencils for my little brother',no_chore
+'Go to the dentist',no_chore
+'Buy books for my little brother',no_chore
+'Buy a sponge',chore
+'Clean the garden',chore
+'Make dinner',no_chore
+'Go to the bank',no_chore
+'Evaluate the stock market',no_chore
+'Go to Scorpions on November 26',no_chore
+'Read the books of Stieg Larsson',no_chore
+'Wallpaper the kitchen',chore
+'Recharge batteries for my bike headlight',no_chore
+'Download all the course documents',no_chore
+'Buy some toys for the children',no_chore
+'Visit a friend in the hospital',no_chore
+'Go to football training on Friday',no_chore
+'Meet the project advisor for the project of the software-design course',no_chore
+'Search for a summer job',no_chore
+'Book a vacation',no_chore
+'Do the dishes after dinner',chore
+'Read the first chapter of the book "Machine Learning and Inductive Inference"',no_chore
+'Withdraw 100d from the bank account',no_chore
+'Buy a new bike to climb the Mont Ventoux this summer',no_chore
+'Watch the latest movie of Harry Potter in cinema',no_chore
+'Go to the doctor',no_chore
+'Remove weeds from the lawn',chore
+'Read the article about the cycling race yesterday',no_chore
+'Fire all the employees who don t work hard',no_chore
+'Deposit the money earned for helping grandmother',chore
+'Take the flight to New York',no_chore
+'Send a mail to confirm the team for the project about tag prediction',no_chore
+'Ask father to repair the bike',no_chore
+'Go to the theater with friends',no_chore
+'Do your math homework',no_chore
+'Go to the bank to open an account',no_chore
+'Buy bread and yoghurt',no_chore
+'Do the dishes',chore
+'Pay the rent in the Post office',no_chore
+'Go to the cinema with a couple of friends',no_chore
+'Finish the Machine Learning report and dataset',no_chore
+'Start reading the Godel, Escher, Bach book',no_chore
+'Go to the meeting with prof. Smith',no_chore
+'Go to the gymnastics practice',no_chore
+'Buy some socks',no_chore
+'Apply for the trip to Antwerp',no_chore
+'Go with friends to the Bowling alley',no_chore
+'Vacuum clean your room',chore
+'Go swimming in the University pool',no_chore
+'Find a present for the anniversary for the girlfriend',no_chore
+'Change a tire on the bike',no_chore
+'Pickup the package from the Post office',no_chore
+'Study the literature for the Machine Learning project',no_chore
+'Change the firmware on your smartphone',no_chore
+'Buy the ingredients for making lunch',no_chore
+'Study for the internship interview',no_chore
+'Be at home when the interview is set',no_chore
+'Meet the girlfriend in the City center',no_chore
+'Go home for Christmas',no_chore
+'Ask grandma for the cake recipe',no_chore
+'Pay for the concert tickets through PayPal',no_chore
+'Visit Paris and the Louvre museum',no_chore
+'Go to the Machine Learning lecture',no_chore
+'Read The Hobbit book before seeing the movies',no_chore
+'Do the laundry',chore
+'Go to the park for picnic',no_chore
+'Help your cousin to move a bookcase',no_chore
+'Apply for the government scholarship',no_chore
+'Organize a barbecue event',no_chore
+'Do the laboratory exercises for the Chemistry class',no_chore
+'Get a new mattress for your bed',no_chore
+'Ride your bike around the city',no_chore
+'Buy Christmas presents for your friends',no_chore
+'Clean your room',chore
+'Fix dad s computer',no_chore
+'Pick up the credit card in the bank',no_chore
+'Practice for the Geography exam',no_chore
+'Plan a trip around the country',no_chore
+'Contact the Internet Service Provider Company about their offer',no_chore
+'Go with your mother to the theater',no_chore
+'Mow the lawn in the backyard',chore
+'Go to the doctor for immediate checkup',no_chore
+'Make project prolog',no_chore
+'Go to the Football practice on monday',no_chore
+'Borrow Playstation game Tom',no_chore
+'Return book to library',no_chore
+'Finish literature study machine learning',no_chore
+'Book vacation Turkey',no_chore
+'Make doctor appointment',no_chore
+'Buy new football shoes',no_chore
+'Clean my room',no_chore
+'Pay back Tom',no_chore
+'Go to dentist',no_chore
+'Visit uncle in hospital',no_chore
+'Finish presentation PenO',no_chore
+'Sell Dexia stocks',no_chore
+'Help father in garden',chore
+'Visit Steve Jobs grave',no_chore
+'Send complaint to professor of operating systems about the kernel project',no_chore
+'Oral exam databases',no_chore
+'Read book Harry Potter',no_chore
+'Go to movies with girlfriend',no_chore
+'Buy new hard disk',no_chore
+'Lunch with boss transport department',no_chore
+'Go to physiotherapist',no_chore
+'Help brother with Task mathematics',chore
+'Complete evaluation Machine learning course',no_chore
+'Send mail to Apple for Job Application',no_chore
+'Call pet control',no_chore
+'Go to party for Lara s birthday',no_chore
+'Collect information about javascript',no_chore
+'Visit Jonathan in Swiss',no_chore
+'Celebrate Berlusconi s resignation in Italy',no_chore
+'Go to barber',no_chore
+'Pick up new car',no_chore
+'Plan meeting for reorganization R\&D department',no_chore
+'Go to family dinner sunday',no_chore
+'Go to lan party',no_chore
+'Check exchange rate Drachme - Dollar',no_chore
+'Make facebook account',no_chore
+'Do guided tour Leuven',no_chore
+'Buy new toothbrush',no_chore
+'Tennis with Willem',no_chore
+'Print boarding tickets',no_chore
+'Mow the lawn',chore
+'Chapter 4 of Machine Learning',no_chore
+'Write paper for distributed systems',no_chore
+'Call Mom to ask for extra allowance',no_chore
+'Wedding present for Willem and Katie',no_chore
+'Board game evening',no_chore
+'Do the dishes',chore
+'Pay the rent',no_chore
+'Finish task on linear algebra',no_chore
+'Pay 20 euros back to Jonas',no_chore
+'Read the Lord of the Rings',no_chore
+'Queue for ticket for Stephen Hawking',no_chore
+'Pay Bram to write my task for machine learning',no_chore
+'Choose destination for journey next summer',no_chore
+'Print photos for sister',no_chore
+'Watch latest episode of the Big Bang Theory',no_chore
+'Throw my birthday party',no_chore
+'Reading chapter about Genetic Algorithms',no_chore
+'Working in the garden',chore
+'Buying christmas presents',no_chore
+'Playing the piano',no_chore
+'Going to the bank',no_chore
+'Participating in the IEEEXtreme contest',no_chore
+'Preparing exercises for Artificial Intelligence course',no_chore
+'Going to the movies with Jonas and karel',no_chore
+'Clean bedroom',chore
+'Change car oil',chore
+'Buy halloween costume',no_chore
+'Watch match of the Jupiler Pro League',no_chore
+'Going home for the weekend',no_chore
+'Repair the CRT TV',no_chore
+'View latest episode of the IT Crowd',no_chore
+'Throw a New Year s party',no_chore
+'Visiting my sister in Kortrijk',no_chore
+'Paying the electricity bill',no_chore
+'Reading the Hitchhiker s Guide to the Galaxy',no_chore
+'Go to the gym',no_chore
+'Prepare machine learning project',chore
+'Buy gift for birthday party Frank',chore
+'Read material on natural language processing',no_chore
+'Read course text machine learning',no_chore
+'Go home on friday for family dinner',no_chore
+'Go to the dentist tomorrow',no_chore
+'Buy new sweaters',chore
+'Buy sugar',chore
+'fix bike',chore
+'Work on prolog project',chore
+'finish piece report operating systems paper',chore
+'Clean home',chore
+'Ask parents about ski trip after exams with friends',no_chore
+'Party next week?',no_chore
+'Go to jeroen tomorrow for machine learning @14u',no_chore
+'Study complex systems',no_chore
+'Work with Niels on distributed systems friday',no_chore
+'Arrange trip to Switzerland',no_chore
+'Apply for Athens-programme',no_chore
+'Prepare breakfast for grandmother',chore
+'bring notes of Machine learning course to Bart',no_chore
+'swim training tonight at 9 PM with David',no_chore
+'fix the television',chore
+'pay the electricity bill before tomorrow',no_chore
+'tomorrow meeting with assistent of Machine learning course',no_chore
+'educative city trip to Paris with Ine',no_chore
+'help neighbour with internet courses',no_chore
+'buy new course material for the machine learning course',no_chore
+'buy mother a nice birthday gift before the market closes',no_chore
+'open a new bankaccount to save money for my new bike',no_chore
+'review last week’s course slides',no_chore
+'practice my C++ coding skills for my next project',no_chore
+'Buy a bigger computerscreen for tomorrow’s schoolproject',no_chore
+'give computerlessons at 7PM to my sister',chore
+'clean up the garden',chore
+'drive my sister to school at 5pm',no_chore
+'read the manual for the new kitchen robot',chore
+'pay my neighbour my debts',no_chore

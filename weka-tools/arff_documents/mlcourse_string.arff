@@ -1,0 +1,558 @@
+@relation text
+@attribute docs string
+@attribute class {mlcourse,no_mlcourse}
+
+@data
+'Schedule meeting for project followup',no_mlcourse
+'Buy tickets for Mogwai concert in the AB',no_mlcourse
+'Buy new halogen spotlight',no_mlcourse
+'Read chapter on SVM',mlcourse
+'Finish assignment 1 for the advanced databases course due tomorrow',no_mlcourse
+'Replace batteries of wireless mouse',no_mlcourse
+'Buy present for my sisters birthday',no_mlcourse
+'Bring car to the garage for winter tires',no_mlcourse
+'Appointment with the doctor for a ?u vaccin',no_mlcourse
+'Team building activity in Antwerp',no_mlcourse
+'Play basketball match in Brussels',no_mlcourse
+'Study the sproutcore documentation',mlcourse
+'Buy new batteries for my camera',no_mlcourse
+'Dinner with my wifes parents',no_mlcourse
+'Fix kitchen shelf',no_mlcourse
+'Create movie ontology with Protege tool',no_mlcourse
+'Upgrade back-end servers to latest version',no_mlcourse
+'Prepare presentation on test driven development due tomorrow',no_mlcourse
+'Find holiday destination for next summer vacation',no_mlcourse
+'Pick up Tom to play tennis',no_mlcourse
+'Book family holiday',no_mlcourse
+'Washing the dishes',no_mlcourse
+'Finish paper on clustering',mlcourse
+'Collect new credit card',no_mlcourse
+'Organize company pick-nick',no_mlcourse
+'Go to Erasmus info lecture',no_mlcourse
+'Search quality papers for thesis',no_mlcourse
+'Check Toledo for changed lecture room',mlcourse
+'Ask for product refund',no_mlcourse
+'Help dad clean his car',no_mlcourse
+'Return travel guides to the library',no_mlcourse
+'Check e-bay for bargains on comics',no_mlcourse
+'Fill out ISP and examination dates by the end of this week',no_mlcourse
+'Read articles about text classi?ers',mlcourse
+'Fix bug in to-do application',mlcourse
+'Buy new running shoes',no_mlcourse
+'Write requirement specification for new project',no_mlcourse
+'Buy Christmas presents for the kids',no_mlcourse
+'Pay tuition fee',no_mlcourse
+'Buy christmas gifts for family reunion',no_mlcourse
+'Repair brother s bike',no_mlcourse
+'Buy cinema tickets for next week',no_mlcourse
+'Study chapter 7 of the Machine Learning course text',mlcourse
+'Get birthday present for girlfriend s sister',no_mlcourse
+'Give food to pet dinosaur',no_mlcourse
+'Collect airplane tickets at travel agent',no_mlcourse
+'Look for a summer job',no_mlcourse
+'Go to bank to open savings account',no_mlcourse
+'Go to the library to get new books',no_mlcourse
+'Buy new running shoes',no_mlcourse
+'E-mail Bart and Jos about the running race',no_mlcourse
+'Create new appointment with thesis promotor',no_mlcourse
+'Block credit card and request a new one at the bank',no_mlcourse
+'Clean up mother s laptop',no_mlcourse
+'Book a suprise city-trip for valentine',no_mlcourse
+'Take the dog out for a walk',no_mlcourse
+'Read new book on WordPress blogging',no_mlcourse
+'Buy new webhosting for personal and school related blogs',no_mlcourse
+'Sell shares of Dexia',no_mlcourse
+'Visit grandma in the hospital',no_mlcourse
+'Take out the garbage',no_mlcourse
+'Invite Berlusconi and Merkel to dinner',no_mlcourse
+'Buy winter tires for the trip to Germany',no_mlcourse
+'Plan biking trip with Gert',no_mlcourse
+'Buy pizza and beer at Delhaize',no_mlcourse
+'Send a mail to Stefan and Philippe to organise a meeting',no_mlcourse
+'Send feedback about the report for Machine Learning',mlcourse
+'Go running with a friend',no_mlcourse
+'Read the next chapter in the textbook of Machine Learning',mlcourse
+'Mow the lawn',no_mlcourse
+'Watch a movie with family',no_mlcourse
+'Do some thesis research',no_mlcourse
+'Implement an alogrithm for my thesis',no_mlcourse
+'Clean my room',no_mlcourse
+'Play a board game with friends',no_mlcourse
+'wash the dishes',no_mlcourse
+'throw a housewarming party',no_mlcourse
+'send the MLII project planning',mlcourse
+'buy vodka',no_mlcourse
+'finish the financial report for this quartal',no_mlcourse
+'visit your family abroad',no_mlcourse
+'finish reading Goethe?s Faust',no_mlcourse
+'build AI and destroy the world',mlcourse
+'make a tenth todo for this todo list',mlcourse
+'arrange delivery of the vodka to the Russian mafia',no_mlcourse
+'go hunt some bear with the Russian mafia',no_mlcourse
+'buy sigarettes',no_mlcourse
+'buy a good computer',no_mlcourse
+'make a dinner and eat it',no_mlcourse
+'go to the hairdresser and cut your hair',no_mlcourse
+'finish this report on time',mlcourse
+'jump from the eiffel tower',no_mlcourse
+'finish the website update for the company',no_mlcourse
+'learn more about artificial neural networks',mlcourse
+'pay the rent',no_mlcourse
+'make an appointment at the dentist',no_mlcourse
+'call my dad about this year?s christmas holiday plans',no_mlcourse
+'read survey on word sense disambiguation for thesis',no_mlcourse
+'plan meeting for machine learning project',mlcourse
+'walk the dog',no_mlcourse
+'do the ironing',no_mlcourse
+'make a reservation at the restaurant for next saturday',no_mlcourse
+'go jogging on sunday morning',no_mlcourse
+'clean up my room',no_mlcourse
+'go to the movies to see the new Tintin movie',no_mlcourse
+'plan my birthday party',no_mlcourse
+'visit Martine in Gent',no_mlcourse
+'buy a new pair of jogging shoes and trousers in Maastricht',no_mlcourse
+'arrange a meeting with my thesis supervisor',no_mlcourse
+'check my bank account for the payment from my summer job',no_mlcourse
+'start planning next year?s holiday',no_mlcourse
+'call the hairdresser for an appointment for cutting and dying my hair',no_mlcourse
+'buy the course text on machine learning',mlcourse
+'wash and vacuum clean the car',no_mlcourse
+'Read literature for ml-project',mlcourse
+'Make appointment with the bank for a loan',no_mlcourse
+'Book snowboardvacation for after the exams',no_mlcourse
+'Plan a footballnight with Samson and Gert',no_mlcourse
+'Go out for a drink',no_mlcourse
+'Go jogging',no_mlcourse
+'Buy new pair of shoes for work',no_mlcourse
+'Read the eos',no_mlcourse
+'Give invoice of university to mum',no_mlcourse
+'Mow lawn at grandma s',no_mlcourse
+'Work on the project for  Comparative Programming Languages ',no_mlcourse
+'Meet up with the team for the  Comparative Programming Languages -project',no_mlcourse
+'Write to do list',mlcourse
+'Make presentation for lecture in Germany',no_mlcourse
+'Buy books for classes',no_mlcourse
+'Pay rent for  kot ',no_mlcourse
+'Go to CW 2012 game night',no_mlcourse
+'Give children their allowance',no_mlcourse
+'Prepare schooltrip to the Netherlands',no_mlcourse
+'Study for my test',no_mlcourse
+'Play tennis',no_mlcourse
+'Go to the lecture',mlcourse
+'Apply for a new job',no_mlcourse
+'Buy beer for the party this evening',no_mlcourse
+'Read the new book of Stephen Hawking',no_mlcourse
+'Arrange the ski trip',no_mlcourse
+'Enjoy the weekend',no_mlcourse
+'Pay my bills',no_mlcourse
+'Discuss my paper at 16h',no_mlcourse
+'Look for Christmas gifts',no_mlcourse
+'Take the train home',no_mlcourse
+'Visit my grandfather',no_mlcourse
+'Watch a movie at the movie theater',no_mlcourse
+'Go to the bakery',no_mlcourse
+'Mow the grass',no_mlcourse
+'Go to the bank tomorrow at 10h',no_mlcourse
+'Wash my clothes',no_mlcourse
+'Read some chapters of my textbook of machine learning',mlcourse
+'Play guitar',no_mlcourse
+'Buy and ship birthday present to Vidath.',no_mlcourse
+'Look up information about connecting sproutcore to different kind of backends.',mlcourse
+'Update centos running on vps to latest version.',no_mlcourse
+'Inform about vps experation date.',no_mlcourse
+'Pay final bill luminus for studio year 2010-2011.',no_mlcourse
+'Cancel telenet subscription studio.',no_mlcourse
+'inform about which version of aquabeat V2.0 decathlon is actually selling.',no_mlcourse
+'Check review aquabeat V2.0.',no_mlcourse
+'Pick up book at vtk.',no_mlcourse
+'Read up on formal systems.',no_mlcourse
+'Finish intermediate report for machine learning.',no_mlcourse
+'Read up on computer graphics.',no_mlcourse
+'Finish sequence diagrams distributed computing and add to report.',no_mlcourse
+'Send in source code and report JEE2 assignment.',no_mlcourse
+'Make appointment dentist',no_mlcourse
+'Upgrade firmware NAS.',no_mlcourse
+'Inform about repayment rent guarantee.',no_mlcourse
+'Update forum software.',no_mlcourse
+'Post letter from bank.',no_mlcourse
+'Go shopping at Delhaize.',no_mlcourse
+'Upload task Machine Learning to Toledo.',mlcourse
+'Draw UML Class Diagram for Distributed Systems.',no_mlcourse
+'Write roadbook for international youth camp.',no_mlcourse
+'Have a drink at the pub Trawantel.',no_mlcourse
+'Prepare inteview for World Diabetes Day with VTM News.',no_mlcourse
+'Reply to the SMS I just received from my girlfriend.',no_mlcourse
+'Draw my idea for a data visualisation for the advanced database systems course.',no_mlcourse
+'Go cycling twice a week to keep fit.',no_mlcourse
+'Rake the leaves from the grass.',no_mlcourse
+'Go get my passport at the town hall before traveling to Dubai.',no_mlcourse
+'Inform my teachers that I leave for ten days to Dubai.',no_mlcourse
+'Get in touch with the international young leaders in diabetes.',no_mlcourse
+'Go walking the 14th of November for World Diabetes Day.',no_mlcourse
+'Read the last chapter of the Machine Learning course.',mlcourse
+'Give my neighbor tutoring in math this evening at 7 pm.',no_mlcourse
+'Clean up my room at Leuven.',no_mlcourse
+'Pay the doctors cost.',no_mlcourse
+'Read the local newspaper.',no_mlcourse
+'Prepare the old years eve party.',no_mlcourse
+'Do my daily excercises',no_mlcourse
+'Thursday party',no_mlcourse
+'Finish OSS project before deadline',no_mlcourse
+'Read up on ML systems',mlcourse
+'Go to barber on wednesday',no_mlcourse
+'Go home at saturday',no_mlcourse
+'Get a present for grandpa',no_mlcourse
+'Sundays family meeting',no_mlcourse
+'Mondays training',no_mlcourse
+'Pay my registration at uni',no_mlcourse
+'Pay my registration for mondays training',no_mlcourse
+'Buy ingredients for tonights meal',no_mlcourse
+'Cook meal',no_mlcourse
+'Citytrip Amsterdam',no_mlcourse
+'Read city info',no_mlcourse
+'Pay citytryp',no_mlcourse
+'Convert project report to PDF',mlcourse
+'Run some miles',no_mlcourse
+'Meet for project OSS',no_mlcourse
+'Dinner at sammy s',no_mlcourse
+'Pay monthly rent',no_mlcourse
+'Have dinner with girlfriend',no_mlcourse
+'Read literature for project',mlcourse
+'Have winter tires put on car',no_mlcourse
+'Buy christmas gifts for family',no_mlcourse
+'Pay friend back for ski trip he booked',no_mlcourse
+'Print directions to location of party on friday',no_mlcourse
+'Work on school task',no_mlcourse
+'Have a drink with friends on monday',no_mlcourse
+'Do some groceries for mom',no_mlcourse
+'Have a look at bank transactions',no_mlcourse
+'Buy present for friend s birthday',no_mlcourse
+'Maintain website',no_mlcourse
+'Buy tickets to concert',no_mlcourse
+'Feedback session of project',no_mlcourse
+'Clean room',no_mlcourse
+'Family weekend in the Ardennes',no_mlcourse
+'Play tennis with girlfriend',no_mlcourse
+'Keep up with courses',no_mlcourse
+'Buy new snowboard',no_mlcourse
+'Study my course of Lineaire Algebra',no_mlcourse
+'Go home and pack my bags',no_mlcourse
+'Finish PenO',no_mlcourse
+'Buy new beer',no_mlcourse
+'Get on time in class',no_mlcourse
+'Go work in the alma',no_mlcourse
+'Get dollars from the bank',no_mlcourse
+'Call my friend to ask him about my diving bag',no_mlcourse
+'Start to study the course of Machine Learning',mlcourse
+'Go to the tutoring at 21h',no_mlcourse
+'Watch the lecture of Stephen Hawking',no_mlcourse
+'Send this nice girl from class a text message',no_mlcourse
+'Call my mom',no_mlcourse
+'Go to the dentist',no_mlcourse
+'Fix my bike',no_mlcourse
+'Calculate my finances',no_mlcourse
+'Cook my dinner',no_mlcourse
+'Watch the new episode of How I Met Your Mother',no_mlcourse
+'Get some cash on my cellphone',no_mlcourse
+'Buy birthday present for Sarah',no_mlcourse
+'Register for lecture on google',no_mlcourse
+'Write report for machine learning',mlcourse
+'Request new student card',no_mlcourse
+'Request new debit card',no_mlcourse
+'Buy new wallet',no_mlcourse
+'Schedule movie night',no_mlcourse
+'Plan ski trip',no_mlcourse
+'Pay electric bill',no_mlcourse
+'Visit grandpa to fix his computer problems',no_mlcourse
+'read articles on tag prediction',mlcourse
+'Work on group project',no_mlcourse
+'Yearly dentist',no_mlcourse
+'Buy new laptop',no_mlcourse
+'Return DVD-box to Yana',no_mlcourse
+'Fix brakes on my bike',no_mlcourse
+'Study for drivers licence',no_mlcourse
+'Work on programming assignment with Wouter and Pieter, Monday',no_mlcourse
+'Mow the lawn',no_mlcourse
+'Poker night at old dormitory',no_mlcourse
+'Fix ISP courses',no_mlcourse
+'Challenge floors for Viking Kubb',no_mlcourse
+'Discuss algorithms with Naci',no_mlcourse
+'Send account info to everyone that owes me for Chinese',no_mlcourse
+'Finish up first part of machine learning assignment',mlcourse
+'Find transport for Water polo match',no_mlcourse
+'Contact Mark about S&S payment',no_mlcourse
+'Send update about thesis',no_mlcourse
+'Help Benjamin with presentation',no_mlcourse
+'Pick up dogs at kennel',no_mlcourse
+'Pick up mother from airport',no_mlcourse
+'Contact Jean-Philippe about Paris trip',no_mlcourse
+'Wash the car',no_mlcourse
+'Fix grandparents  DVD player',no_mlcourse
+'Work on CPL assignment',no_mlcourse
+'Read up to chapter 12 English workbook',no_mlcourse
+'Remind Michael to transfer money he owes me',no_mlcourse
+'Buy games from wish list',no_mlcourse
+'Buy chicken for dinner',no_mlcourse
+'Visit grandmother at the hospital',no_mlcourse
+'Fix the Internet connection',no_mlcourse
+'Buy a home-warming gift for Willem',no_mlcourse
+'Book a trip to Barcelona at the travel agency',no_mlcourse
+'Order tickets for Walibi',no_mlcourse
+'Retrieve new student card',no_mlcourse
+'Mail CV to VTK to include it in CV-book',no_mlcourse
+'Buy a new tennis racket',no_mlcourse
+'Discuss machine learning project with parnter',mlcourse
+'Do the dishes',no_mlcourse
+'Write 20 to-do s',mlcourse
+'Wash the car',no_mlcourse
+'Get vacinations for trip to Panama',no_mlcourse
+'Talk to bank about investments',no_mlcourse
+'Write thesis progress report',no_mlcourse
+'Start literature study for thesis',no_mlcourse
+'Buy a new business suit',no_mlcourse
+'Enroll in tennis tournament',no_mlcourse
+'Plan Christmas dinner',no_mlcourse
+'Get the latest Wheel of Time book',no_mlcourse
+'Pick up my brother at 4pm',no_mlcourse
+'Do laundry',no_mlcourse
+'Go jogging with Sven',no_mlcourse
+'Buy Eurostar tickets to London today!',no_mlcourse
+'Review the lecture about association rules',mlcourse
+'Support the new collegue with his project',no_mlcourse
+'Take a drink with Sarah',no_mlcourse
+'Buy the newest novel of Pieter Aspe',no_mlcourse
+'Help my dad paint the living room',no_mlcourse
+'Bring all my 5 euro bills to the bank',no_mlcourse
+'Bring my borrowed books to the library before 4pm',no_mlcourse
+'Ask my boss for a raise',no_mlcourse
+'Take part in the local running contest',no_mlcourse
+'Go to the dentist on friday at 6pm',no_mlcourse
+'Hand in the CPL project',no_mlcourse
+'Clean my room',no_mlcourse
+'Find a good hotel in Barcelona',no_mlcourse
+'Ask Ben for the money he borrowed',no_mlcourse
+'Take some rest when I get home',no_mlcourse
+'Buy a4 paper, post-its and pencils',no_mlcourse
+'Check the upcoming weather in Berlin',no_mlcourse
+'Saturday 19: Movie night',no_mlcourse
+'Read up on Support Vector Machines',mlcourse
+'Visit uncle Arthur',no_mlcourse
+'Finish reading  A Farewell to Arms  currently at page 105',no_mlcourse
+'Consultation Doctor Houben 26 November 20:00',no_mlcourse
+'Take out the garbage',no_mlcourse
+'Take another loan',no_mlcourse
+'Buy fishing equipment on way to boat',no_mlcourse
+'Inform Mark that the deadline has moved',no_mlcourse
+'Do the dishes',no_mlcourse
+'Figure out who to contact, ISP got messed up',no_mlcourse
+'MLaII schedule changed, lessons on mondays, starting 14 Nov.',mlcourse
+'Sportus Saturday 09:00 Train long-distance running',no_mlcourse
+'Tell Matthias I can t make it to the party',no_mlcourse
+'Buy bread and 5 slices of Leerdammer Light',no_mlcourse
+'New Dresden Codak comic out on Thursday',no_mlcourse
+'Doctor Claeys blood-check 9 December, 10 am',no_mlcourse
+'Tom is at Berlin from Wednesday to Tuesday',no_mlcourse
+'Buy a new suitcase',no_mlcourse
+'Read book for project Machine Learning',mlcourse
+'Go to meeting for project',mlcourse
+'Buy a new football',no_mlcourse
+'Play football with friends',no_mlcourse
+'Clean my bedroom',no_mlcourse
+'Buy pencils for my little brother',no_mlcourse
+'Go to the dentist',no_mlcourse
+'Buy books for my little brother',no_mlcourse
+'Buy a sponge',no_mlcourse
+'Clean the garden',no_mlcourse
+'Make dinner',no_mlcourse
+'Go to the bank',no_mlcourse
+'Evaluate the stock market',no_mlcourse
+'Go to Scorpions on November 26',no_mlcourse
+'Read the books of Stieg Larsson',no_mlcourse
+'Wallpaper the kitchen',no_mlcourse
+'Recharge batteries for my bike headlight',no_mlcourse
+'Download all the course documents',no_mlcourse
+'Buy some toys for the children',no_mlcourse
+'Visit a friend in the hospital',no_mlcourse
+'Go to football training on Friday',no_mlcourse
+'Meet the project advisor for the project of the software-design course',no_mlcourse
+'Search for a summer job',no_mlcourse
+'Book a vacation',no_mlcourse
+'Do the dishes after dinner',no_mlcourse
+'Read the first chapter of the book "Machine Learning and Inductive Inference"',mlcourse
+'Withdraw 100d from the bank account',no_mlcourse
+'Buy a new bike to climb the Mont Ventoux this summer',no_mlcourse
+'Watch the latest movie of Harry Potter in cinema',no_mlcourse
+'Go to the doctor',no_mlcourse
+'Remove weeds from the lawn',no_mlcourse
+'Read the article about the cycling race yesterday',no_mlcourse
+'Fire all the employees who don t work hard',no_mlcourse
+'Deposit the money earned for helping grandmother',no_mlcourse
+'Take the flight to New York',no_mlcourse
+'Send a mail to confirm the team for the project about tag prediction',mlcourse
+'Ask father to repair the bike',no_mlcourse
+'Go to the theater with friends',no_mlcourse
+'Do your math homework',no_mlcourse
+'Go to the bank to open an account',no_mlcourse
+'Buy bread and yoghurt',no_mlcourse
+'Do the dishes',no_mlcourse
+'Pay the rent in the Post office',no_mlcourse
+'Go to the cinema with a couple of friends',no_mlcourse
+'Finish the Machine Learning report and dataset',mlcourse
+'Start reading the Godel, Escher, Bach book',no_mlcourse
+'Go to the meeting with prof. Smith',no_mlcourse
+'Go to the gymnastics practice',no_mlcourse
+'Buy some socks',no_mlcourse
+'Apply for the trip to Antwerp',no_mlcourse
+'Go with friends to the Bowling alley',no_mlcourse
+'Vacuum clean your room',no_mlcourse
+'Go swimming in the University pool',no_mlcourse
+'Find a present for the anniversary for the girlfriend',no_mlcourse
+'Change a tire on the bike',no_mlcourse
+'Pickup the package from the Post office',no_mlcourse
+'Study the literature for the Machine Learning project',mlcourse
+'Change the firmware on your smartphone',no_mlcourse
+'Buy the ingredients for making lunch',no_mlcourse
+'Study for the internship interview',no_mlcourse
+'Be at home when the interview is set',no_mlcourse
+'Meet the girlfriend in the City center',no_mlcourse
+'Go home for Christmas',no_mlcourse
+'Ask grandma for the cake recipe',no_mlcourse
+'Pay for the concert tickets through PayPal',no_mlcourse
+'Visit Paris and the Louvre museum',no_mlcourse
+'Go to the Machine Learning lecture',mlcourse
+'Read The Hobbit book before seeing the movies',no_mlcourse
+'Do the laundry',no_mlcourse
+'Go to the park for picnic',no_mlcourse
+'Help your cousin to move a bookcase',no_mlcourse
+'Apply for the government scholarship',no_mlcourse
+'Organize a barbecue event',no_mlcourse
+'Do the laboratory exercises for the Chemistry class',no_mlcourse
+'Get a new mattress for your bed',no_mlcourse
+'Ride your bike around the city',no_mlcourse
+'Buy Christmas presents for your friends',no_mlcourse
+'Clean your room',no_mlcourse
+'Fix dad s computer',no_mlcourse
+'Pick up the credit card in the bank',no_mlcourse
+'Practice for the Geography exam',no_mlcourse
+'Plan a trip around the country',no_mlcourse
+'Contact the Internet Service Provider Company about their offer',no_mlcourse
+'Go with your mother to the theater',no_mlcourse
+'Mow the lawn in the backyard',no_mlcourse
+'Go to the doctor for immediate checkup',no_mlcourse
+'Make project prolog',no_mlcourse
+'Go to the Football practice on monday',no_mlcourse
+'Borrow Playstation game Tom',no_mlcourse
+'Return book to library',no_mlcourse
+'Finish literature study machine learning',mlcourse
+'Book vacation Turkey',no_mlcourse
+'Make doctor appointment',no_mlcourse
+'Buy new football shoes',no_mlcourse
+'Clean my room',no_mlcourse
+'Pay back Tom',no_mlcourse
+'Go to dentist',no_mlcourse
+'Visit uncle in hospital',no_mlcourse
+'Finish presentation PenO',no_mlcourse
+'Sell Dexia stocks',no_mlcourse
+'Help father in garden',no_mlcourse
+'Visit Steve Jobs grave',no_mlcourse
+'Send complaint to professor of operating systems about the kernel project',no_mlcourse
+'Oral exam databases',no_mlcourse
+'Read book Harry Potter',no_mlcourse
+'Go to movies with girlfriend',no_mlcourse
+'Buy new hard disk',no_mlcourse
+'Lunch with boss transport department',no_mlcourse
+'Go to physiotherapist',no_mlcourse
+'Help brother with Task mathematics',no_mlcourse
+'Complete evaluation Machine learning course',mlcourse
+'Send mail to Apple for Job Application',no_mlcourse
+'Call pet control',no_mlcourse
+'Go to party for Lara s birthday',no_mlcourse
+'Collect information about javascript',no_mlcourse
+'Visit Jonathan in Swiss',no_mlcourse
+'Celebrate Berlusconi s resignation in Italy',no_mlcourse
+'Go to barber',no_mlcourse
+'Pick up new car',no_mlcourse
+'Plan meeting for reorganization R\&D department',no_mlcourse
+'Go to family dinner sunday',no_mlcourse
+'Go to lan party',no_mlcourse
+'Check exchange rate Drachme - Dollar',no_mlcourse
+'Make facebook account',no_mlcourse
+'Do guided tour Leuven',no_mlcourse
+'Buy new toothbrush',no_mlcourse
+'Tennis with Willem',no_mlcourse
+'Print boarding tickets',no_mlcourse
+'Mow the lawn',no_mlcourse
+'Chapter 4 of Machine Learning',mlcourse
+'Write paper for distributed systems',no_mlcourse
+'Call Mom to ask for extra allowance',no_mlcourse
+'Wedding present for Willem and Katie',no_mlcourse
+'Board game evening',no_mlcourse
+'Do the dishes',no_mlcourse
+'Pay the rent',no_mlcourse
+'Finish task on linear algebra',no_mlcourse
+'Pay 20 euros back to Jonas',no_mlcourse
+'Read the Lord of the Rings',no_mlcourse
+'Queue for ticket for Stephen Hawking',no_mlcourse
+'Pay Bram to write my task for machine learning',mlcourse
+'Choose destination for journey next summer',no_mlcourse
+'Print photos for sister',no_mlcourse
+'Watch latest episode of the Big Bang Theory',no_mlcourse
+'Throw my birthday party',no_mlcourse
+'Reading chapter about Genetic Algorithms',mlcourse
+'Working in the garden',no_mlcourse
+'Buying christmas presents',no_mlcourse
+'Playing the piano',no_mlcourse
+'Going to the bank',no_mlcourse
+'Participating in the IEEEXtreme contest',no_mlcourse
+'Preparing exercises for Artificial Intelligence course',no_mlcourse
+'Going to the movies with Jonas and karel',no_mlcourse
+'Clean bedroom',no_mlcourse
+'Change car oil',no_mlcourse
+'Buy halloween costume',no_mlcourse
+'Watch match of the Jupiler Pro League',no_mlcourse
+'Going home for the weekend',no_mlcourse
+'Repair the CRT TV',no_mlcourse
+'View latest episode of the IT Crowd',no_mlcourse
+'Throw a New Year s party',no_mlcourse
+'Visiting my sister in Kortrijk',no_mlcourse
+'Paying the electricity bill',no_mlcourse
+'Reading the Hitchhiker s Guide to the Galaxy',no_mlcourse
+'Go to the gym',no_mlcourse
+'Prepare machine learning project',mlcourse
+'Buy gift for birthday party Frank',no_mlcourse
+'Read material on natural language processing',mlcourse
+'Read course text machine learning',mlcourse
+'Go home on friday for family dinner',no_mlcourse
+'Go to the dentist tomorrow',no_mlcourse
+'Buy new sweaters',no_mlcourse
+'Buy sugar',no_mlcourse
+'fix bike',no_mlcourse
+'Work on prolog project',no_mlcourse
+'finish piece report operating systems paper',no_mlcourse
+'Clean home',no_mlcourse
+'Ask parents about ski trip after exams with friends',no_mlcourse
+'Party next week?',no_mlcourse
+'Go to jeroen tomorrow for machine learning @14u',mlcourse
+'Study complex systems',no_mlcourse
+'Work with Niels on distributed systems friday',no_mlcourse
+'Arrange trip to Switzerland',no_mlcourse
+'Apply for Athens-programme',no_mlcourse
+'Prepare breakfast for grandmother',no_mlcourse
+'bring notes of Machine learning course to Bart',no_mlcourse
+'swim training tonight at 9 PM with David',no_mlcourse
+'fix the television',no_mlcourse
+'pay the electricity bill before tomorrow',no_mlcourse
+'tomorrow meeting with assistent of Machine learning course',mlcourse
+'educative city trip to Paris with Ine',no_mlcourse
+'help neighbour with internet courses',no_mlcourse
+'buy new course material for the machine learning course',mlcourse
+'buy mother a nice birthday gift before the market closes',no_mlcourse
+'open a new bankaccount to save money for my new bike',no_mlcourse
+'review last week’s course slides',no_mlcourse
+'practice my C++ coding skills for my next project',no_mlcourse
+'Buy a bigger computerscreen for tomorrow’s schoolproject',no_mlcourse
+'give computerlessons at 7PM to my sister',no_mlcourse
+'clean up the garden',no_mlcourse
+'drive my sister to school at 5pm',no_mlcourse
+'read the manual for the new kitchen robot',no_mlcourse
+'pay my neighbour my debts',no_mlcourse

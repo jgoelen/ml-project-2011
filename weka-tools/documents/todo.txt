@@ -1,0 +1,553 @@
+Schedule meeting for project followup #work
+Buy tickets for Mogwai concert in the AB #shop #leisure
+Buy new halogen spotlight #home #shop #chore
+Read chapter on SVM #reading #mlcourse #school
+Finish assignment 1 for the advanced databases course due tomorrow #school #urgent
+Replace batteries of wireless mouse #chore
+Buy present for my sisters birthday #shop #family
+Bring car to the garage for winter tires #chore #appointment
+Appointment with the doctor for a ?u vaccin #appointment
+Team building activity in Antwerp #appointment #work
+Play basketball match in Brussels #sport #appointment
+Study the sproutcore documentation #mlcourse #school
+Buy new batteries for my camera #shop
+Dinner with my wifes parents #appointment #family
+Fix kitchen shelf #chore #home
+Create movie ontology with Protege tool #school
+Upgrade back-end servers to latest version #work
+Prepare presentation on test driven development due tomorrow #work #urgent
+Find holiday destination for next summer vacation #travel #family
+Pick up Tom to play tennis #sport #friends #leisure #appointment
+Book family holiday #family #travel
+Washing the dishes #home #chore
+Finish paper on clustering #urgent #school #mlcourse
+Collect new credit card #finance
+Organize company pick-nick #leisure #work
+Go to Erasmus info lecture #travel #school #appointment
+Search quality papers for thesis #school #reading
+Check Toledo for changed lecture room #mlcourse #school
+Ask for product refund #shop #finance
+Help dad clean his car #family #chore
+Return travel guides to the library #travel #reading
+Check e-bay for bargains on comics #shop #reading #leisure
+Fill out ISP and examination dates by the end of this week #school #urgent
+Read articles about text classi?ers #reading #school #mlcourse
+Fix bug in to-do application #school #mlcourse
+Buy new running shoes #sport #shop
+Write requirement specification for new project #work
+Buy Christmas presents for the kids #family #shop
+Pay tuition fee #school #finance
+Buy christmas gifts for family reunion #shop #family #urgent
+Repair brother's bike #chore #home #family 
+Buy cinema tickets for next week #leisure #friends
+Study chapter 7 of the Machine Learning course text #reading #mlcourse #school
+Get birthday present for girlfriend's sister #shop #urgent
+Give food to pet dinosaur #chore #home
+Collect airplane tickets at travel agent #travel #shop #leisure
+Look for a summer job #work #finance
+Go to bank to open savings account #finance
+Go to the library to get new books #reading #leisure
+Buy new running shoes #shop #sport #leisure
+E-mail Bart and Jos about the running race #sport #leisure #friends
+Create new appointment with thesis promotor #school #appointment
+Block credit card and request a new one at the bank #finance #urgent
+Clean up mother's laptop #chore #family
+Book a suprise city-trip for valentine #travel #leisure
+Take the dog out for a walk #home #leisure
+Read new book on WordPress blogging #reading #leisure
+Buy new webhosting for personal and school related blogs #shop #leisure #school
+Sell shares of Dexia #finance #urgent
+Visit grandma in the hospital #family #appointment
+Take out the garbage #chore #home
+Invite Berlusconi and Merkel to dinner #friends #appointment #work
+Buy winter tires for the trip to Germany #shop #travel
+Plan biking trip with Gert #sport #leisure #friends
+Buy pizza and beer at Delhaize #shop
+Send a mail to Stefan and Philippe to organise a meeting #urgent #school 
+Send feedback about the report for Machine Learning #urgent #school #mlcourse
+Go running with a friend #friends #sport
+Read the next chapter in the textbook of Machine Learning #mlcourse #reading
+Mow the lawn #chore #home
+Watch a movie with family #family #leisure
+Do some thesis research #work #school
+Implement an alogrithm for my thesis #work #school
+Clean my room #chore #home
+Play a board game with friends #friends #leisure
+wash the dishes #chore #home
+throw a housewarming party #friends #family #home
+send the MLII project planning #urgent #school #mlcourse
+buy vodka #shop #leisure
+finish the financial report for this quartal #finance #work #urgent #chore
+visit your family abroad #family #travel
+finish reading Goethe?s Faust #reading #leisure
+build AI and destroy the world #mlcourse #leisure
+make a tenth todo for this todo list #mlcourse #school
+arrange delivery of the vodka to the Russian mafia #work #appointment #chore
+go hunt some bear with the Russian mafia #leisure #sport #work
+buy sigarettes #urgent #shop
+buy a good computer #shop
+make a dinner and eat it #home
+go to the hairdresser and cut your hair #appointment
+finish this report on time #mlcourse #school #urgent
+jump from the eiffel tower #travel #leisure
+finish the website update for the company #work #urgent
+learn more about artificial neural networks #mlcourse #reading #school
+pay the rent #finance
+make an appointment at the dentist #appointment #urgent
+call my dad about this year?s christmas holiday plans #family
+read survey on word sense disambiguation for thesis #school #reading
+plan meeting for machine learning project #mlcourse #urgent #school
+walk the dog #home #leisure
+do the ironing #home #chore
+make a reservation at the restaurant for next saturday #appointment #friends #leisure
+go jogging on sunday morning #sport #leisure
+clean up my room #chore #home
+go to the movies to see the new Tintin movie #leisure
+plan my birthday party #family #friends
+visit Martine in Gent #travel #friends #travel
+buy a new pair of jogging shoes and trousers in Maastricht #shop #sport #travel
+arrange a meeting with my thesis supervisor #school #urgent
+check my bank account for the payment from my summer job #finance
+start planning next year?s holiday #travel #leisure
+call the hairdresser for an appointment for cutting and dying my hair #appointment #urgent
+buy the course text on machine learning #shop #school #mlcourse
+wash and vacuum clean the car #home #chore
+Read literature for ml-project #mlcourse #school #reading #chore
+Make appointment with the bank for a loan #appointment #finance #urgent
+Book snowboardvacation for after the exams #travel #sport #finance
+Plan a footballnight with Samson and Gert #leisure #sport #friends
+Go out for a drink #leisure #friends
+Go jogging #leisure #sport 
+Buy new pair of shoes for work #finance #work #shop
+Read the eos #reading #leisure
+Give invoice of university to mum #finance #school #family #urgent 
+Mow lawn at grandma's #family #urgent
+Work on the project for 'Comparative Programming Languages' #school
+Meet up with the team for the 'Comparative Programming Languages'-project #school #appointment
+Write to do list #mlcourse #school #chore
+Make presentation for lecture in Germany #work #travel
+Buy books for classes #shop #school 
+Pay rent for 'kot' #finance #urgent 
+Go to CW 2012 game night #school #friends #leisure
+Give children their allowance #family #finance #urgent
+Prepare schooltrip to the Netherlands #school #travel
+Study for my test #school
+Play tennis #sport
+Go to the lecture #mlcourse #school
+Apply for a new job #work
+Buy beer for the party this evening #shop #friends
+Read the new book of Stephen Hawking #reading
+Arrange the ski trip #travel #sport
+Enjoy the weekend #home #leisure
+Pay my bills #finance #urgent
+Discuss my paper at 16h #appointment #school
+Look for Christmas gifts #family #friends #shop
+Take the train home #home #travel
+Visit my grandfather #family
+Watch a movie at the movie theater #leisure
+Go to the bakery #shop
+Mow the grass #chore #home
+Go to the bank tomorrow at 10h #finance #appointment
+Wash my clothes #chore
+Read some chapters of my textbook of machine learning #mlcourse #reading #school
+Play guitar #leisure
+Buy and ship birthday present to Vidath. #shop #friends
+Look up information about connecting sproutcore to different kind of backends. #mlcourse #school #reading
+Update centos running on vps to latest version. #leisure
+Inform about vps experation date. #leisure
+Pay final bill luminus for studio year 2010-2011. #finance #urgent
+Cancel telenet subscription studio. #finance #urgent
+inform about which version of aquabeat V2.0 decathlon is actually selling. #leisure #sport
+Check review aquabeat V2.0. #leisure #sport
+Pick up book at vtk. #school #reading
+Read up on formal systems. #reading #school
+Finish intermediate report for machine learning. #reading #school
+Read up on computer graphics. #reading #school
+Finish sequence diagrams distributed computing and add to report. #school #urgent
+Send in source code and report JEE2 assignment. #school #urgent
+Make appointment dentist #appointment
+Upgrade firmware NAS. #leisure
+Inform about repayment rent guarantee. #finance
+Update forum software. #leisure #friends
+Post letter from bank. #finance
+Go shopping at Delhaize. #shop #chore #finance
+Upload task Machine Learning to Toledo. #work #mlcourse #school #urgent
+Draw UML Class Diagram for Distributed Systems. #work #school #urgent
+Write roadbook for international youth camp. #travel
+Have a drink at the pub Trawantel. #friends #leisure
+Prepare inteview for World Diabetes Day with VTM News.#work
+Reply to the SMS I just received from my girlfriend. #friends #urgent
+Draw my idea for a data visualisation for the advanced database systems course. #school #work
+Go cycling twice a week to keep fit. #leisure #sport
+Rake the leaves from the grass. #home #chore
+Go get my passport at the town hall before traveling to Dubai.#travel #urgent
+Inform my teachers that I leave for ten days to Dubai. #travel #work #school
+Get in touch with the international young leaders in diabetes.#urgent #work
+Go walking the 14th of November for World Diabetes Day. #sport #leisure
+Read the last chapter of the Machine Learning course. #mlcourse #school #reading
+Give my neighbor tutoring in math this evening at 7 pm. #friends #school #appointment
+Clean up my room at Leuven. #chore
+Pay the doctors cost. #finance
+Read the local newspaper. #urgent #reading #leisure
+Prepare the old years eve party. #friends #leisure #chore
+Do my daily excercises #sport  #chore 
+Thursday party #friends #leisure 
+Finish OSS project before deadline #urgent #work 
+Read up on ML systems #mlcourse #reading #work 
+Go to barber on wednesday #appointment 
+Go home at saturday #travel #home 
+Get a present for grandpa #shop #family #urgent 
+Sundays family meeting #family #travel 
+Mondays training #sport #chore 
+Pay my registration at uni #finance #school 
+Pay my registration for mondays training #finance #sport 
+Buy ingredients for tonights meal #shop #urgent 
+Cook meal #home 
+Citytrip Amsterdam #leisure #friends #travel 
+Read city info #reading #travel #leisure 
+Pay citytryp #finance #urgent 
+Convert project report to PDF #mlcourse #work 
+Run some miles #chore #sport
+Meet for project OSS #work #school #appointment 
+Dinner at sammy's #friends #leisure
+Pay monthly rent #finance #home 
+Have dinner with girlfriend #leisure #friends 
+Read literature for project #mlcourse #work #school #reading 
+Have winter tires put on car #appointment #travel 
+Buy christmas gifts for family #shop #family  
+Pay friend back for ski trip he booked #travel #friends #finance #sport 
+Print directions to location of party on friday #urgent #travel 
+Work on school task #urgent #school #work 
+Have a drink with friends on monday #friends #leisure 
+Do some groceries for mom #home #shop #family 
+Have a look at bank transactions #finance 
+Buy present for friend's birthday #friends #shop 
+Maintain website #leisure 
+Buy tickets to concert #finance #leisure #urgent 
+Feedback session of project #school #appointment 
+Clean room #chore 
+Family weekend in the Ardennes #family #travel 
+Play tennis with girlfriend #sport #friends #leisure 
+Keep up with courses #school #reading #work 
+Buy new snowboard #sport #shop #finance 
+Study my course of Lineaire Algebra #reading #school
+Go home and pack my bags #travel #home #leisure
+Finish PenO #appointment #urgent #school
+Buy new beer #shop #urgent #friends
+Get on time in class #appointment #school
+Go work in the alma #work #appointment #finance
+Get dollars from the bank #travel #urgent #finance
+Call my friend to ask him about my diving bag #sport #travel #home #friends
+Start to study the course of Machine Learning #reading #mlcourse #urgent #school
+Go to the tutoring at 21h #appointment #school
+Watch the lecture of Stephen Hawking #urgent #leisure
+Send this nice girl from class a text message #urgent #school #friends
+Call my mom #family #urgent
+Go to the dentist #appointment
+Fix my bike #sport #travel #chore #urgent
+Calculate my finances #urgent #finance
+Cook my dinner #home #chore
+Watch the new episode of How I Met Your Mother #leisure
+Get some cash on my cellphone #urgent #finance
+Buy birthday present for Sarah #shop #family
+Register for lecture on google #appointment
+Write report for machine learning #mlcourse #school
+Request new student card #school #urgent
+Request new debit card #urgent #finance
+Buy new wallet #shop
+Schedule movie night #leisure #friends
+Plan ski trip #sport #leisure #travel
+Pay electric bill #finance
+Visit grandpa to fix his computer problems #family
+read articles on tag prediction #reading #mlcourse #school #urgent
+Work on group project #school #appointment
+Yearly dentist #appointment
+Buy new laptop #shop
+Return DVD-box to Yana #friends
+Fix brakes on my bike #urgent
+Study for drivers licence #urgent
+Work on programming assignment with Wouter and Pieter, Monday #school #appointment
+Mow the lawn #chore #home
+Poker night at old dormitory #appointment #leisure
+Fix ISP courses #school #urgent
+Challenge floors for Viking Kubb #leisure #friends
+Discuss algorithms with Naci #friends #school
+Send account info to everyone that owes me for Chinese #friends #finance
+Finish up first part of machine learning assignment #school #urgent #mlcourse
+Find transport for Water polo match #sport #appointment #leisure
+Contact Mark about S&S payment #finance #urgent #work
+Send update about thesis #school
+Help Benjamin with presentation #family #chore
+Pick up dogs at kennel #chore #appointment
+Pick up mother from airport #appointment #family
+Contact Jean-Philippe about Paris trip #travel #leisure #friends
+Wash the car #chore #home
+Fix grandparents' DVD player #family #chore #appointment
+Work on CPL assignment #school #urgent
+Read up to chapter 12 English workbook #school #reading
+Remind Michael to transfer money he owes me #finance #friends
+Buy games from wish list #shop #leisure
+Buy chicken for dinner #shop #home #chore
+Visit grandmother at the hospital #family #urgent
+Fix the Internet connection #home #urgent #chore
+Buy a home-warming gift for Willem #friends #shop 
+Book a trip to Barcelona at the travel agency #travel #appointment
+Order tickets for Walibi #leisure #friends
+Retrieve new student card #school #urgent
+Mail CV to VTK to include it in CV-book #work
+Buy a new tennis racket #sport #shop #leisure
+Discuss machine learning project with parnter #mlcourse #school
+Do the dishes #home #chore #urgent
+Write 20 to-do's #mlcourse #school
+Wash the car #home #chore
+Get vacinations for trip to Panama #travel
+Talk to bank about investments #finance #appointment
+Write thesis progress report #school
+Start literature study for thesis #school #reading
+Buy a new business suit #work #shop
+Enroll in tennis tournament #leisure #sport
+Plan Christmas dinner #home #family
+Get the latest Wheel of Time book #reading #shop #leisure
+Pick up my brother at 4pm #family #appointment
+Do laundry #chore
+Go jogging with Sven #sport #friends 
+Buy Eurostar tickets to London today! #urgent #travel #shop
+Review the lecture about association rules #mlcourse #school
+Support the new collegue with his project #work
+Take a drink with Sarah #leisure #friends
+Buy the newest novel of Pieter Aspe #shop #reading
+Help my dad paint the living room #family #home #chore
+Bring all my 5 euro bills to the bank #finance
+Bring my borrowed books to the library before 4pm #urgent #reading
+Ask my boss for a raise #work #finance
+Take part in the local running contest #sport
+Go to the dentist on friday at 6pm #appointment
+Hand in the CPL project #school
+Clean my room #home #chore
+Find a good hotel in Barcelona #travel 
+Ask Ben for the money he borrowed #friends #finance 
+Take some rest when I get home #home 
+Buy a4 paper, post-its and pencils #shop #urgent 
+Check the upcoming weather in Berlin #travel 
+Saturday 19: Movie night #home #family 
+Read up on Support Vector Machines #mlcourse #work #reading 
+Visit uncle Arthur #family 
+Finish reading 'A Farewell to Arms' currently at page 105 #reading #leisure 
+Consultation Doctor Houben 26 November 20:00 #appointment 
+Take out the garbage #chore 
+Take another loan #finance 
+Buy fishing equipment on way to boat #shop #leisure 
+Inform Mark that the deadline has moved #work #urgent 
+Do the dishes #chore #home 
+Figure out who to contact, ISP got messed up #school 
+MLaII schedule changed, lessons on mondays, starting 14 Nov. #mlcourse #school 
+Sportus Saturday 09:00 Train long-distance running #sport 
+Tell Matthias I can't make it to the party #friends 
+Buy bread and 5 slices of Leerdammer Light #shop #chore 
+New Dresden Codak comic out on Thursday #leisure #reading 
+Doctor Claeys blood-check 9 December, 10 am #appointment 
+Tom is at Berlin from Wednesday to Tuesday #family #travel
+Buy a new suitcase #shop #travel 
+Read book for project Machine Learning #mlcourse #reading #work 
+Go to meeting for project #appointment #mlcourse #work 
+Buy a new football #shop #sport 
+Play football with friends #friends #leisure #sport 
+Clean my bedroom #chore #home 
+Buy pencils for my little brother #shop #family #school 
+Go to the dentist #appointment
+Buy books for my little brother #shop #family #school #reading 
+Buy a sponge #shop #chore 
+Clean the garden #chore #home 
+Make dinner #urgent
+Go to the bank #finance 
+Evaluate the stock market #finance #urgent 
+Go to Scorpions on November 26 #leisure #friends 
+Read the books of Stieg Larsson #reading #leisure 
+Wallpaper the kitchen #home #chore 
+Recharge batteries for my bike headlight #urgent 
+Download all the course documents #school
+Buy some toys for the children #shop #family
+Visit a friend in the hospital #urgent #friends
+Go to football training on Friday #sport #leisure
+Meet the project advisor for the project of the software-design course #appointment #school
+Search for a summer job #work
+Book a vacation #travel
+Do the dishes after dinner #home #chore
+Read the first chapter of the book "Machine Learning and Inductive Inference" #reading #urgent #school #mlcourse
+Withdraw 100d from the bank account #finance
+Buy a new bike to climb the Mont Ventoux this summer #shop #sport #leisure
+Watch the latest movie of Harry Potter in cinema #leisure
+Go to the doctor #appointment #urgent
+Remove weeds from the lawn #chore #home
+Read the article about the cycling race yesterday #sport #reading
+Fire all the employees who don't work hard #work
+Deposit the money earned for helping grandmother #finance #family #chore
+Take the flight to New York #travel
+Send a mail to confirm the team for the project about tag prediction #urgent #mlcourse #school
+Ask father to repair the bike #urgent #family #sport
+Go to the theater with friends #friends #leisure
+Do your math homework #work #school
+Go to the bank to open an account #finance
+Buy bread and yoghurt #shop
+Do the dishes #home #chore
+Pay the rent in the Post office #urgent #finance
+Go to the cinema with a couple of friends #leisure #friends
+Finish the Machine Learning report and dataset #work #school #mlcourse
+Start reading the Godel, Escher, Bach book #reading #leisure
+Go to the meeting with prof. Smith #appointment
+Go to the gymnastics practice #sport
+Buy some socks #shop
+Apply for the trip to Antwerp #travel
+Go with friends to the Bowling alley #leisure #friends
+Vacuum clean your room #home #chore
+Go swimming in the University pool #sport
+Find a present for the anniversary for the girlfriend #urgent #shop
+Change a tire on the bike #urgent #home
+Pickup the package from the Post office #urgent
+Study the literature for the Machine Learning project #reading #mlcourse
+Change the firmware on your smartphone #work
+Buy the ingredients for making lunch #shop #home
+Study for the internship interview #work #reading
+Be at home when the interview is set #appointment #home
+Meet the girlfriend in the City center #appointment
+Go home for Christmas #home #travel
+Ask grandma for the cake recipe #family
+Pay for the concert tickets through PayPal #finance #shop
+Visit Paris and the Louvre museum #travel
+Go to the Machine Learning lecture #mlcourse #school
+Read The Hobbit book before seeing the movies #reading #leisure
+Do the laundry #chore
+Go to the park for picnic #leisure
+Help your cousin to move a bookcase #family #work
+Apply for the government scholarship #finance #work
+Organize a barbecue event #friends #leisure #work
+Do the laboratory exercises for the Chemistry class #work #school
+Get a new mattress for your bed #shop #home
+Ride your bike around the city #leisure #sport
+Buy Christmas presents for your friends #shop #friends
+Clean your room #chore #home
+Fix dad's computer #family #work
+Pick up the credit card in the bank #urgent #finance
+Practice for the Geography exam #work #school
+Plan a trip around the country #travel
+Contact the Internet Service Provider Company about their offer #home
+Go with your mother to the theater #family #appointment
+Mow the lawn in the backyard #home #chore
+Go to the doctor for immediate checkup #urgent #appointment
+Make project prolog #school #urgent
+Go to the Football practice on monday #sport
+Borrow Playstation game Tom #leisure #friends
+Return book to library #school #urgent
+Finish literature study machine learning #school #mlcourse #reading
+Book vacation Turkey #travel #finance
+Make doctor appointment #appointment #urgent
+Buy new football shoes #shop #sport
+Clean my room #home
+Pay back Tom #finance #friends
+Go to dentist #appointment
+Visit uncle in hospital #family #urgent
+Finish presentation PenO #school
+Sell Dexia stocks #finance #urgent
+Help father in garden #chore
+Visit Steve Jobs grave #travel #leisure
+Send complaint to professor of operating systems about the kernel project #urgent #school
+Oral exam databases #school #appointment
+Read book Harry Potter #Reading #leisure
+Go to movies with girlfriend #leisure #friends
+Buy new hard disk #urgent #shop
+Lunch with boss transport department #work
+Go to physiotherapist #sport #appointment
+Help brother with Task mathematics #chore #family
+Complete evaluation Machine learning course #school #mlcourse
+Send mail to Apple for Job Application #work #urgent
+Call pet control #home #urgent
+Go to party for Lara's birthday #leisure
+Collect information about javascript #school #reading
+Visit Jonathan in Swiss #friends #travel
+Celebrate Berlusconi's resignation in Italy #travel #leisure
+Go to barber #appointment #urgent
+Pick up new car #work #appointment
+Plan meeting for reorganization R\&D department #work
+Go to family dinner sunday #family
+Go to lan party #leisure #friends
+Check exchange rate Drachme - Dollar #finance #shop
+Make facebook account #leisure
+Do guided tour Leuven #leisure #appointment
+Buy new toothbrush #shop #travel
+Tennis with Willem #sport #friends #appointment #leisure
+Print boarding tickets #travel #urgent
+Mow the lawn #home #chore
+Chapter 4 of Machine Learning #reading #school #mlcourse
+Write paper for distributed systems #work #school
+Call Mom to ask for extra allowance #home #finance #urgent
+Wedding present for Willem and Katie #family #urgent #finance
+Board game evening #friends #appointment #leisure
+Do the dishes #chore #home
+Pay the rent #urgent #finance
+Finish task on linear algebra #school #urgent #work
+Pay 20 euros back to Jonas #finance #friends
+Read the Lord of the Rings #reading #leisure
+Queue for ticket for Stephen Hawking #friends #leisure #school #urgent
+Pay Bram to write my task for machine learning #mlcourse #finance #school #urgent
+Choose destination for journey next summer #friends #leisure
+Print photos for sister #family
+Watch latest episode of the Big Bang Theory #home #leisure 
+Throw my birthday party #friends #family
+Reading chapter about Genetic Algorithms #mlcourse #reading #school
+Working in the garden #home #chore
+Buying christmas presents #shop #urgent #family
+Playing the piano #leisure
+Going to the bank #finance
+Participating in the IEEEXtreme contest #appointment
+Preparing exercises for Artificial Intelligence course #school #work
+Going to the movies with Jonas and karel #friends #leisure
+Clean bedroom #urgent #work #chore
+Change car oil #work #chore
+Buy halloween costume #urgent #leisure
+Watch match of the Jupiler Pro League #leisure #sport
+Going home for the weekend #travel #home #urgent
+Repair the CRT TV #work
+View latest episode of the IT Crowd #leisure
+Throw a New Year's party #family #urgent
+Visiting my sister in Kortrijk #family #travel
+Paying the electricity bill #finance
+Reading the Hitchhiker's Guide to the Galaxy #reading #leisure
+Go to the gym #sport #urgent #leisure #travel
+Prepare machine learning project #work #school #mlcourse #urgent #chore #appointment #reading
+Buy gift for birthday party Frank #shop #chore #friends #urgent
+Read material on natural language processing #work #school #mlcourse #reading
+Read course text machine learning #work #school #mlcourse #reading
+Go home on friday for family dinner #home #family #leisure #travel
+Go to the dentist tomorrow #urgent #appointment #leisure #travel
+Buy new sweaters #shop #finance #leisure #chore
+Buy sugar #shop #finance #chore #urgent
+fix bike #chore #leisure #urgent
+Work on prolog project #school #chore #work
+finish piece report operating systems paper #school #chore #work
+Clean home #home #chore #leisure
+Ask parents about ski trip after exams with friends #family #travel #leisure #friends
+Party next week? #finance #friends #leisure #urgent
+Go to jeroen tomorrow for machine learning @14u #school #mlcourse #work #urgent #appointment
+Study complex systems #work #school #reading
+Work with Niels on distributed systems friday #work #school #appointment
+Arrange trip to Switzerland #travel #leisure #friends #work
+Apply for Athens-programme #travel #school #work #reading
+Prepare breakfast for grandmother #family #home #chore
+bring notes of Machine learning course to Bart #school #travel #work #friends
+swim training tonight at 9 PM with David #sport #appointment #leisure #friends
+fix the television #home #work #chore #urgent
+pay the electricity bill before tomorrow #home #finance #urgent
+tomorrow meeting with assistent of Machine learning course #school #mlcourse #appointment
+educative city trip to Paris with Ine #travel #leisure #school #friends
+help neighbour with internet courses #home #work #school
+buy new course material for the machine learning course #shop #mlcourse #school
+buy mother a nice birthday gift before the market closes #family #shop #urgent
+open a new bankaccount to save money for my new bike #finance #sport #leisure
+review last week’s course slides #reading #school
+practice my C++ coding skills for my next project #work #school #work
+Buy a bigger computerscreen for tomorrow’s schoolproject #school #shop #urgent
+give computerlessons at 7PM to my sister #family #appointment #chore
+clean up the garden #chore #home
+drive my sister to school at 5pm #travel #family #appointment #school
+read the manual for the new kitchen robot #reading #home #chore
+pay my neighbour my debts #home #finance #urgent

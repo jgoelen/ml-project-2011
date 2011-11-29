@@ -1,0 +1,558 @@
+@relation text
+@attribute docs string
+@attribute class {travel,no_travel}
+
+@data
+'Schedule meeting for project followup',no_travel
+'Buy tickets for Mogwai concert in the AB',no_travel
+'Buy new halogen spotlight',no_travel
+'Read chapter on SVM',no_travel
+'Finish assignment 1 for the advanced databases course due tomorrow',no_travel
+'Replace batteries of wireless mouse',no_travel
+'Buy present for my sisters birthday',no_travel
+'Bring car to the garage for winter tires',no_travel
+'Appointment with the doctor for a ?u vaccin',no_travel
+'Team building activity in Antwerp',no_travel
+'Play basketball match in Brussels',no_travel
+'Study the sproutcore documentation',no_travel
+'Buy new batteries for my camera',no_travel
+'Dinner with my wifes parents',no_travel
+'Fix kitchen shelf',no_travel
+'Create movie ontology with Protege tool',no_travel
+'Upgrade back-end servers to latest version',no_travel
+'Prepare presentation on test driven development due tomorrow',no_travel
+'Find holiday destination for next summer vacation',travel
+'Pick up Tom to play tennis',no_travel
+'Book family holiday',travel
+'Washing the dishes',no_travel
+'Finish paper on clustering',no_travel
+'Collect new credit card',no_travel
+'Organize company pick-nick',no_travel
+'Go to Erasmus info lecture',travel
+'Search quality papers for thesis',no_travel
+'Check Toledo for changed lecture room',no_travel
+'Ask for product refund',no_travel
+'Help dad clean his car',no_travel
+'Return travel guides to the library',travel
+'Check e-bay for bargains on comics',no_travel
+'Fill out ISP and examination dates by the end of this week',no_travel
+'Read articles about text classi?ers',no_travel
+'Fix bug in to-do application',no_travel
+'Buy new running shoes',no_travel
+'Write requirement specification for new project',no_travel
+'Buy Christmas presents for the kids',no_travel
+'Pay tuition fee',no_travel
+'Buy christmas gifts for family reunion',no_travel
+'Repair brother s bike',no_travel
+'Buy cinema tickets for next week',no_travel
+'Study chapter 7 of the Machine Learning course text',no_travel
+'Get birthday present for girlfriend s sister',no_travel
+'Give food to pet dinosaur',no_travel
+'Collect airplane tickets at travel agent',travel
+'Look for a summer job',no_travel
+'Go to bank to open savings account',no_travel
+'Go to the library to get new books',no_travel
+'Buy new running shoes',no_travel
+'E-mail Bart and Jos about the running race',no_travel
+'Create new appointment with thesis promotor',no_travel
+'Block credit card and request a new one at the bank',no_travel
+'Clean up mother s laptop',no_travel
+'Book a suprise city-trip for valentine',travel
+'Take the dog out for a walk',no_travel
+'Read new book on WordPress blogging',no_travel
+'Buy new webhosting for personal and school related blogs',no_travel
+'Sell shares of Dexia',no_travel
+'Visit grandma in the hospital',no_travel
+'Take out the garbage',no_travel
+'Invite Berlusconi and Merkel to dinner',no_travel
+'Buy winter tires for the trip to Germany',travel
+'Plan biking trip with Gert',no_travel
+'Buy pizza and beer at Delhaize',no_travel
+'Send a mail to Stefan and Philippe to organise a meeting',no_travel
+'Send feedback about the report for Machine Learning',no_travel
+'Go running with a friend',no_travel
+'Read the next chapter in the textbook of Machine Learning',no_travel
+'Mow the lawn',no_travel
+'Watch a movie with family',no_travel
+'Do some thesis research',no_travel
+'Implement an alogrithm for my thesis',no_travel
+'Clean my room',no_travel
+'Play a board game with friends',no_travel
+'wash the dishes',no_travel
+'throw a housewarming party',no_travel
+'send the MLII project planning',no_travel
+'buy vodka',no_travel
+'finish the financial report for this quartal',no_travel
+'visit your family abroad',travel
+'finish reading Goethe?s Faust',no_travel
+'build AI and destroy the world',no_travel
+'make a tenth todo for this todo list',no_travel
+'arrange delivery of the vodka to the Russian mafia',no_travel
+'go hunt some bear with the Russian mafia',no_travel
+'buy sigarettes',no_travel
+'buy a good computer',no_travel
+'make a dinner and eat it',no_travel
+'go to the hairdresser and cut your hair',no_travel
+'finish this report on time',no_travel
+'jump from the eiffel tower',travel
+'finish the website update for the company',no_travel
+'learn more about artificial neural networks',no_travel
+'pay the rent',no_travel
+'make an appointment at the dentist',no_travel
+'call my dad about this year?s christmas holiday plans',no_travel
+'read survey on word sense disambiguation for thesis',no_travel
+'plan meeting for machine learning project',no_travel
+'walk the dog',no_travel
+'do the ironing',no_travel
+'make a reservation at the restaurant for next saturday',no_travel
+'go jogging on sunday morning',no_travel
+'clean up my room',no_travel
+'go to the movies to see the new Tintin movie',no_travel
+'plan my birthday party',no_travel
+'visit Martine in Gent',travel
+'buy a new pair of jogging shoes and trousers in Maastricht',travel
+'arrange a meeting with my thesis supervisor',no_travel
+'check my bank account for the payment from my summer job',no_travel
+'start planning next year?s holiday',travel
+'call the hairdresser for an appointment for cutting and dying my hair',no_travel
+'buy the course text on machine learning',no_travel
+'wash and vacuum clean the car',no_travel
+'Read literature for ml-project',no_travel
+'Make appointment with the bank for a loan',no_travel
+'Book snowboardvacation for after the exams',travel
+'Plan a footballnight with Samson and Gert',no_travel
+'Go out for a drink',no_travel
+'Go jogging',no_travel
+'Buy new pair of shoes for work',no_travel
+'Read the eos',no_travel
+'Give invoice of university to mum',no_travel
+'Mow lawn at grandma s',no_travel
+'Work on the project for  Comparative Programming Languages ',no_travel
+'Meet up with the team for the  Comparative Programming Languages -project',no_travel
+'Write to do list',no_travel
+'Make presentation for lecture in Germany',travel
+'Buy books for classes',no_travel
+'Pay rent for  kot ',no_travel
+'Go to CW 2012 game night',no_travel
+'Give children their allowance',no_travel
+'Prepare schooltrip to the Netherlands',travel
+'Study for my test',no_travel
+'Play tennis',no_travel
+'Go to the lecture',no_travel
+'Apply for a new job',no_travel
+'Buy beer for the party this evening',no_travel
+'Read the new book of Stephen Hawking',no_travel
+'Arrange the ski trip',travel
+'Enjoy the weekend',no_travel
+'Pay my bills',no_travel
+'Discuss my paper at 16h',no_travel
+'Look for Christmas gifts',no_travel
+'Take the train home',travel
+'Visit my grandfather',no_travel
+'Watch a movie at the movie theater',no_travel
+'Go to the bakery',no_travel
+'Mow the grass',no_travel
+'Go to the bank tomorrow at 10h',no_travel
+'Wash my clothes',no_travel
+'Read some chapters of my textbook of machine learning',no_travel
+'Play guitar',no_travel
+'Buy and ship birthday present to Vidath.',no_travel
+'Look up information about connecting sproutcore to different kind of backends.',no_travel
+'Update centos running on vps to latest version.',no_travel
+'Inform about vps experation date.',no_travel
+'Pay final bill luminus for studio year 2010-2011.',no_travel
+'Cancel telenet subscription studio.',no_travel
+'inform about which version of aquabeat V2.0 decathlon is actually selling.',no_travel
+'Check review aquabeat V2.0.',no_travel
+'Pick up book at vtk.',no_travel
+'Read up on formal systems.',no_travel
+'Finish intermediate report for machine learning.',no_travel
+'Read up on computer graphics.',no_travel
+'Finish sequence diagrams distributed computing and add to report.',no_travel
+'Send in source code and report JEE2 assignment.',no_travel
+'Make appointment dentist',no_travel
+'Upgrade firmware NAS.',no_travel
+'Inform about repayment rent guarantee.',no_travel
+'Update forum software.',no_travel
+'Post letter from bank.',no_travel
+'Go shopping at Delhaize.',no_travel
+'Upload task Machine Learning to Toledo.',no_travel
+'Draw UML Class Diagram for Distributed Systems.',no_travel
+'Write roadbook for international youth camp.',travel
+'Have a drink at the pub Trawantel.',no_travel
+'Prepare inteview for World Diabetes Day with VTM News.',no_travel
+'Reply to the SMS I just received from my girlfriend.',no_travel
+'Draw my idea for a data visualisation for the advanced database systems course.',no_travel
+'Go cycling twice a week to keep fit.',no_travel
+'Rake the leaves from the grass.',no_travel
+'Go get my passport at the town hall before traveling to Dubai.',travel
+'Inform my teachers that I leave for ten days to Dubai.',travel
+'Get in touch with the international young leaders in diabetes.',no_travel
+'Go walking the 14th of November for World Diabetes Day.',no_travel
+'Read the last chapter of the Machine Learning course.',no_travel
+'Give my neighbor tutoring in math this evening at 7 pm.',no_travel
+'Clean up my room at Leuven.',no_travel
+'Pay the doctors cost.',no_travel
+'Read the local newspaper.',no_travel
+'Prepare the old years eve party.',no_travel
+'Do my daily excercises',no_travel
+'Thursday party',no_travel
+'Finish OSS project before deadline',no_travel
+'Read up on ML systems',no_travel
+'Go to barber on wednesday',no_travel
+'Go home at saturday',travel
+'Get a present for grandpa',no_travel
+'Sundays family meeting',travel
+'Mondays training',no_travel
+'Pay my registration at uni',no_travel
+'Pay my registration for mondays training',no_travel
+'Buy ingredients for tonights meal',no_travel
+'Cook meal',no_travel
+'Citytrip Amsterdam',travel
+'Read city info',travel
+'Pay citytryp',no_travel
+'Convert project report to PDF',no_travel
+'Run some miles',no_travel
+'Meet for project OSS',no_travel
+'Dinner at sammy s',no_travel
+'Pay monthly rent',no_travel
+'Have dinner with girlfriend',no_travel
+'Read literature for project',no_travel
+'Have winter tires put on car',travel
+'Buy christmas gifts for family',no_travel
+'Pay friend back for ski trip he booked',travel
+'Print directions to location of party on friday',travel
+'Work on school task',no_travel
+'Have a drink with friends on monday',no_travel
+'Do some groceries for mom',no_travel
+'Have a look at bank transactions',no_travel
+'Buy present for friend s birthday',no_travel
+'Maintain website',no_travel
+'Buy tickets to concert',no_travel
+'Feedback session of project',no_travel
+'Clean room',no_travel
+'Family weekend in the Ardennes',travel
+'Play tennis with girlfriend',no_travel
+'Keep up with courses',no_travel
+'Buy new snowboard',no_travel
+'Study my course of Lineaire Algebra',no_travel
+'Go home and pack my bags',travel
+'Finish PenO',no_travel
+'Buy new beer',no_travel
+'Get on time in class',no_travel
+'Go work in the alma',no_travel
+'Get dollars from the bank',travel
+'Call my friend to ask him about my diving bag',travel
+'Start to study the course of Machine Learning',no_travel
+'Go to the tutoring at 21h',no_travel
+'Watch the lecture of Stephen Hawking',no_travel
+'Send this nice girl from class a text message',no_travel
+'Call my mom',no_travel
+'Go to the dentist',no_travel
+'Fix my bike',travel
+'Calculate my finances',no_travel
+'Cook my dinner',no_travel
+'Watch the new episode of How I Met Your Mother',no_travel
+'Get some cash on my cellphone',no_travel
+'Buy birthday present for Sarah',no_travel
+'Register for lecture on google',no_travel
+'Write report for machine learning',no_travel
+'Request new student card',no_travel
+'Request new debit card',no_travel
+'Buy new wallet',no_travel
+'Schedule movie night',no_travel
+'Plan ski trip',travel
+'Pay electric bill',no_travel
+'Visit grandpa to fix his computer problems',no_travel
+'read articles on tag prediction',no_travel
+'Work on group project',no_travel
+'Yearly dentist',no_travel
+'Buy new laptop',no_travel
+'Return DVD-box to Yana',no_travel
+'Fix brakes on my bike',no_travel
+'Study for drivers licence',no_travel
+'Work on programming assignment with Wouter and Pieter, Monday',no_travel
+'Mow the lawn',no_travel
+'Poker night at old dormitory',no_travel
+'Fix ISP courses',no_travel
+'Challenge floors for Viking Kubb',no_travel
+'Discuss algorithms with Naci',no_travel
+'Send account info to everyone that owes me for Chinese',no_travel
+'Finish up first part of machine learning assignment',no_travel
+'Find transport for Water polo match',no_travel
+'Contact Mark about S&S payment',no_travel
+'Send update about thesis',no_travel
+'Help Benjamin with presentation',no_travel
+'Pick up dogs at kennel',no_travel
+'Pick up mother from airport',no_travel
+'Contact Jean-Philippe about Paris trip',travel
+'Wash the car',no_travel
+'Fix grandparents  DVD player',no_travel
+'Work on CPL assignment',no_travel
+'Read up to chapter 12 English workbook',no_travel
+'Remind Michael to transfer money he owes me',no_travel
+'Buy games from wish list',no_travel
+'Buy chicken for dinner',no_travel
+'Visit grandmother at the hospital',no_travel
+'Fix the Internet connection',no_travel
+'Buy a home-warming gift for Willem',no_travel
+'Book a trip to Barcelona at the travel agency',travel
+'Order tickets for Walibi',no_travel
+'Retrieve new student card',no_travel
+'Mail CV to VTK to include it in CV-book',no_travel
+'Buy a new tennis racket',no_travel
+'Discuss machine learning project with parnter',no_travel
+'Do the dishes',no_travel
+'Write 20 to-do s',no_travel
+'Wash the car',no_travel
+'Get vacinations for trip to Panama',travel
+'Talk to bank about investments',no_travel
+'Write thesis progress report',no_travel
+'Start literature study for thesis',no_travel
+'Buy a new business suit',no_travel
+'Enroll in tennis tournament',no_travel
+'Plan Christmas dinner',no_travel
+'Get the latest Wheel of Time book',no_travel
+'Pick up my brother at 4pm',no_travel
+'Do laundry',no_travel
+'Go jogging with Sven',no_travel
+'Buy Eurostar tickets to London today!',travel
+'Review the lecture about association rules',no_travel
+'Support the new collegue with his project',no_travel
+'Take a drink with Sarah',no_travel
+'Buy the newest novel of Pieter Aspe',no_travel
+'Help my dad paint the living room',no_travel
+'Bring all my 5 euro bills to the bank',no_travel
+'Bring my borrowed books to the library before 4pm',no_travel
+'Ask my boss for a raise',no_travel
+'Take part in the local running contest',no_travel
+'Go to the dentist on friday at 6pm',no_travel
+'Hand in the CPL project',no_travel
+'Clean my room',no_travel
+'Find a good hotel in Barcelona',travel
+'Ask Ben for the money he borrowed',no_travel
+'Take some rest when I get home',no_travel
+'Buy a4 paper, post-its and pencils',no_travel
+'Check the upcoming weather in Berlin',travel
+'Saturday 19: Movie night',no_travel
+'Read up on Support Vector Machines',no_travel
+'Visit uncle Arthur',no_travel
+'Finish reading  A Farewell to Arms  currently at page 105',no_travel
+'Consultation Doctor Houben 26 November 20:00',no_travel
+'Take out the garbage',no_travel
+'Take another loan',no_travel
+'Buy fishing equipment on way to boat',no_travel
+'Inform Mark that the deadline has moved',no_travel
+'Do the dishes',no_travel
+'Figure out who to contact, ISP got messed up',no_travel
+'MLaII schedule changed, lessons on mondays, starting 14 Nov.',no_travel
+'Sportus Saturday 09:00 Train long-distance running',no_travel
+'Tell Matthias I can t make it to the party',no_travel
+'Buy bread and 5 slices of Leerdammer Light',no_travel
+'New Dresden Codak comic out on Thursday',no_travel
+'Doctor Claeys blood-check 9 December, 10 am',no_travel
+'Tom is at Berlin from Wednesday to Tuesday',travel
+'Buy a new suitcase',travel
+'Read book for project Machine Learning',no_travel
+'Go to meeting for project',no_travel
+'Buy a new football',no_travel
+'Play football with friends',no_travel
+'Clean my bedroom',no_travel
+'Buy pencils for my little brother',no_travel
+'Go to the dentist',no_travel
+'Buy books for my little brother',no_travel
+'Buy a sponge',no_travel
+'Clean the garden',no_travel
+'Make dinner',no_travel
+'Go to the bank',no_travel
+'Evaluate the stock market',no_travel
+'Go to Scorpions on November 26',no_travel
+'Read the books of Stieg Larsson',no_travel
+'Wallpaper the kitchen',no_travel
+'Recharge batteries for my bike headlight',no_travel
+'Download all the course documents',no_travel
+'Buy some toys for the children',no_travel
+'Visit a friend in the hospital',no_travel
+'Go to football training on Friday',no_travel
+'Meet the project advisor for the project of the software-design course',no_travel
+'Search for a summer job',no_travel
+'Book a vacation',travel
+'Do the dishes after dinner',no_travel
+'Read the first chapter of the book "Machine Learning and Inductive Inference"',no_travel
+'Withdraw 100d from the bank account',no_travel
+'Buy a new bike to climb the Mont Ventoux this summer',no_travel
+'Watch the latest movie of Harry Potter in cinema',no_travel
+'Go to the doctor',no_travel
+'Remove weeds from the lawn',no_travel
+'Read the article about the cycling race yesterday',no_travel
+'Fire all the employees who don t work hard',no_travel
+'Deposit the money earned for helping grandmother',no_travel
+'Take the flight to New York',travel
+'Send a mail to confirm the team for the project about tag prediction',no_travel
+'Ask father to repair the bike',no_travel
+'Go to the theater with friends',no_travel
+'Do your math homework',no_travel
+'Go to the bank to open an account',no_travel
+'Buy bread and yoghurt',no_travel
+'Do the dishes',no_travel
+'Pay the rent in the Post office',no_travel
+'Go to the cinema with a couple of friends',no_travel
+'Finish the Machine Learning report and dataset',no_travel
+'Start reading the Godel, Escher, Bach book',no_travel
+'Go to the meeting with prof. Smith',no_travel
+'Go to the gymnastics practice',no_travel
+'Buy some socks',no_travel
+'Apply for the trip to Antwerp',travel
+'Go with friends to the Bowling alley',no_travel
+'Vacuum clean your room',no_travel
+'Go swimming in the University pool',no_travel
+'Find a present for the anniversary for the girlfriend',no_travel
+'Change a tire on the bike',no_travel
+'Pickup the package from the Post office',no_travel
+'Study the literature for the Machine Learning project',no_travel
+'Change the firmware on your smartphone',no_travel
+'Buy the ingredients for making lunch',no_travel
+'Study for the internship interview',no_travel
+'Be at home when the interview is set',no_travel
+'Meet the girlfriend in the City center',no_travel
+'Go home for Christmas',travel
+'Ask grandma for the cake recipe',no_travel
+'Pay for the concert tickets through PayPal',no_travel
+'Visit Paris and the Louvre museum',travel
+'Go to the Machine Learning lecture',no_travel
+'Read The Hobbit book before seeing the movies',no_travel
+'Do the laundry',no_travel
+'Go to the park for picnic',no_travel
+'Help your cousin to move a bookcase',no_travel
+'Apply for the government scholarship',no_travel
+'Organize a barbecue event',no_travel
+'Do the laboratory exercises for the Chemistry class',no_travel
+'Get a new mattress for your bed',no_travel
+'Ride your bike around the city',no_travel
+'Buy Christmas presents for your friends',no_travel
+'Clean your room',no_travel
+'Fix dad s computer',no_travel
+'Pick up the credit card in the bank',no_travel
+'Practice for the Geography exam',no_travel
+'Plan a trip around the country',travel
+'Contact the Internet Service Provider Company about their offer',no_travel
+'Go with your mother to the theater',no_travel
+'Mow the lawn in the backyard',no_travel
+'Go to the doctor for immediate checkup',no_travel
+'Make project prolog',no_travel
+'Go to the Football practice on monday',no_travel
+'Borrow Playstation game Tom',no_travel
+'Return book to library',no_travel
+'Finish literature study machine learning',no_travel
+'Book vacation Turkey',travel
+'Make doctor appointment',no_travel
+'Buy new football shoes',no_travel
+'Clean my room',no_travel
+'Pay back Tom',no_travel
+'Go to dentist',no_travel
+'Visit uncle in hospital',no_travel
+'Finish presentation PenO',no_travel
+'Sell Dexia stocks',no_travel
+'Help father in garden',no_travel
+'Visit Steve Jobs grave',travel
+'Send complaint to professor of operating systems about the kernel project',no_travel
+'Oral exam databases',no_travel
+'Read book Harry Potter',no_travel
+'Go to movies with girlfriend',no_travel
+'Buy new hard disk',no_travel
+'Lunch with boss transport department',no_travel
+'Go to physiotherapist',no_travel
+'Help brother with Task mathematics',no_travel
+'Complete evaluation Machine learning course',no_travel
+'Send mail to Apple for Job Application',no_travel
+'Call pet control',no_travel
+'Go to party for Lara s birthday',no_travel
+'Collect information about javascript',no_travel
+'Visit Jonathan in Swiss',travel
+'Celebrate Berlusconi s resignation in Italy',travel
+'Go to barber',no_travel
+'Pick up new car',no_travel
+'Plan meeting for reorganization R\&D department',no_travel
+'Go to family dinner sunday',no_travel
+'Go to lan party',no_travel
+'Check exchange rate Drachme - Dollar',no_travel
+'Make facebook account',no_travel
+'Do guided tour Leuven',no_travel
+'Buy new toothbrush',travel
+'Tennis with Willem',no_travel
+'Print boarding tickets',travel
+'Mow the lawn',no_travel
+'Chapter 4 of Machine Learning',no_travel
+'Write paper for distributed systems',no_travel
+'Call Mom to ask for extra allowance',no_travel
+'Wedding present for Willem and Katie',no_travel
+'Board game evening',no_travel
+'Do the dishes',no_travel
+'Pay the rent',no_travel
+'Finish task on linear algebra',no_travel
+'Pay 20 euros back to Jonas',no_travel
+'Read the Lord of the Rings',no_travel
+'Queue for ticket for Stephen Hawking',no_travel
+'Pay Bram to write my task for machine learning',no_travel
+'Choose destination for journey next summer',no_travel
+'Print photos for sister',no_travel
+'Watch latest episode of the Big Bang Theory',no_travel
+'Throw my birthday party',no_travel
+'Reading chapter about Genetic Algorithms',no_travel
+'Working in the garden',no_travel
+'Buying christmas presents',no_travel
+'Playing the piano',no_travel
+'Going to the bank',no_travel
+'Participating in the IEEEXtreme contest',no_travel
+'Preparing exercises for Artificial Intelligence course',no_travel
+'Going to the movies with Jonas and karel',no_travel
+'Clean bedroom',no_travel
+'Change car oil',no_travel
+'Buy halloween costume',no_travel
+'Watch match of the Jupiler Pro League',no_travel
+'Going home for the weekend',travel
+'Repair the CRT TV',no_travel
+'View latest episode of the IT Crowd',no_travel
+'Throw a New Year s party',no_travel
+'Visiting my sister in Kortrijk',travel
+'Paying the electricity bill',no_travel
+'Reading the Hitchhiker s Guide to the Galaxy',no_travel
+'Go to the gym',travel
+'Prepare machine learning project',no_travel
+'Buy gift for birthday party Frank',no_travel
+'Read material on natural language processing',no_travel
+'Read course text machine learning',no_travel
+'Go home on friday for family dinner',travel
+'Go to the dentist tomorrow',travel
+'Buy new sweaters',no_travel
+'Buy sugar',no_travel
+'fix bike',no_travel
+'Work on prolog project',no_travel
+'finish piece report operating systems paper',no_travel
+'Clean home',no_travel
+'Ask parents about ski trip after exams with friends',travel
+'Party next week?',no_travel
+'Go to jeroen tomorrow for machine learning @14u',no_travel
+'Study complex systems',no_travel
+'Work with Niels on distributed systems friday',no_travel
+'Arrange trip to Switzerland',travel
+'Apply for Athens-programme',travel
+'Prepare breakfast for grandmother',no_travel
+'bring notes of Machine learning course to Bart',travel
+'swim training tonight at 9 PM with David',no_travel
+'fix the television',no_travel
+'pay the electricity bill before tomorrow',no_travel
+'tomorrow meeting with assistent of Machine learning course',no_travel
+'educative city trip to Paris with Ine',travel
+'help neighbour with internet courses',no_travel
+'buy new course material for the machine learning course',no_travel
+'buy mother a nice birthday gift before the market closes',no_travel
+'open a new bankaccount to save money for my new bike',no_travel
+'review last week’s course slides',no_travel
+'practice my C++ coding skills for my next project',no_travel
+'Buy a bigger computerscreen for tomorrow’s schoolproject',no_travel
+'give computerlessons at 7PM to my sister',no_travel
+'clean up the garden',no_travel
+'drive my sister to school at 5pm',travel
+'read the manual for the new kitchen robot',no_travel
+'pay my neighbour my debts',no_travel

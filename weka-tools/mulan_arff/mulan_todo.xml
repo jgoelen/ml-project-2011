@@ -1,0 +1,17 @@
+<labels xmlns='http://mulan.sourceforge.net/labels'>
+<label name='appointment'></label>
+<label name='chore'></label>
+<label name='family'></label>
+<label name='finance'></label>
+<label name='friends'></label>
+<label name='home'></label>
+<label name='leisure'></label>
+<label name='mlcourse'></label>
+<label name='reading'></label>
+<label name='school'></label>
+<label name='shop'></label>
+<label name='sport'></label>
+<label name='travel'></label>
+<label name='urgent'></label>
+<label name='work'></label>
+</labels>

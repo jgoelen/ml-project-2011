@@ -1,0 +1,678 @@
+@relation 'text-weka.filters.unsupervised.attribute.StringToWordVector-R1-W1000-prune-rate-1.0-C-T-I-N1-L-S-stemmerweka.core.stemmers.NullStemmer-M3-stopwords/Users/jgoelen/rsync-shares/kul-courses/adb-2011/hw4/workspace/ml-experiments/documents/stopWords.txt-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"'
+
+@attribute class {family,no_family}
+@attribute birthday numeric
+@attribute brother numeric
+@attribute buy numeric
+@attribute christmas numeric
+@attribute dad numeric
+@attribute dinner numeric
+@attribute fix numeric
+@attribute gifts numeric
+@attribute grandma numeric
+@attribute grandmother numeric
+@attribute holiday numeric
+@attribute hospital numeric
+@attribute mother numeric
+@attribute party numeric
+@attribute present numeric
+@attribute sister numeric
+@attribute throw numeric
+@attribute 20 numeric
+@attribute account numeric
+@attribute apply numeric
+@attribute appointment numeric
+@attribute arrange numeric
+@attribute assignment numeric
+@attribute bank numeric
+@attribute batteries numeric
+@attribute beer numeric
+@attribute bike numeric
+@attribute books numeric
+@attribute bring numeric
+@attribute card numeric
+@attribute chapter numeric
+@attribute check numeric
+@attribute cinema numeric
+@attribute city numeric
+@attribute clean numeric
+@attribute collect numeric
+@attribute concert numeric
+@attribute contact numeric
+@attribute courses numeric
+@attribute credit numeric
+@attribute dentist numeric
+@attribute diabetes numeric
+@attribute dishes numeric
+@attribute distributed numeric
+@attribute doctor numeric
+@attribute drink numeric
+@attribute episode numeric
+@attribute evening numeric
+@attribute finish numeric
+@attribute football numeric
+@attribute friday numeric
+@attribute friends numeric
+@attribute garden numeric
+@attribute girlfriend numeric
+@attribute going numeric
+@attribute hawking numeric
+@attribute inform numeric
+@attribute internet numeric
+@attribute isp numeric
+@attribute jogging numeric
+@attribute kitchen numeric
+@attribute latest numeric
+@attribute lawn numeric
+@attribute learning numeric
+@attribute lecture numeric
+@attribute library numeric
+@attribute literature numeric
+@attribute machine numeric
+@attribute mail numeric
+@attribute match numeric
+@attribute meet numeric
+@attribute meeting numeric
+@attribute monday numeric
+@attribute mondays numeric
+@attribute money numeric
+@attribute movies numeric
+@attribute mow numeric
+@attribute night numeric
+@attribute november numeric
+@attribute open numeric
+@attribute paris numeric
+@attribute pay numeric
+@attribute pick numeric
+@attribute play numeric
+@attribute practice numeric
+@attribute prepare numeric
+@attribute presentation numeric
+@attribute programming numeric
+@attribute project numeric
+@attribute reading numeric
+@attribute rent numeric
+@attribute request numeric
+@attribute review numeric
+@attribute room numeric
+@attribute running numeric
+@attribute saturday numeric
+@attribute schedule numeric
+@attribute shoes numeric
+@attribute ski numeric
+@attribute start numeric
+@attribute stephen numeric
+@attribute summer numeric
+@attribute systems numeric
+@attribute task numeric
+@attribute team numeric
+@attribute tennis numeric
+@attribute text numeric
+@attribute thesis numeric
+@attribute tickets numeric
+@attribute time numeric
+@attribute tires numeric
+@attribute tom numeric
+@attribute tomorrow numeric
+@attribute training numeric
+@attribute trip numeric
+@attribute update numeric
+@attribute version numeric
+@attribute wash numeric
+@attribute watch numeric
+@attribute winter numeric
+
+@data
+{0 no_family,72 1.670492,89 1.272625,97 2.116136}
+{0 no_family,3 0.929294,37 2.199104,109 1.785638}
+{0 no_family,3 2.9813}
+{0 no_family,31 2.9813}
+{0 no_family,23 1.920568,49 1.421124,113 1.783248}
+{0 no_family,25 2.9813}
+{1 1.917993,3 1.053682,15 2.02465}
+{0 no_family,29 1.656209,111 1.752872,120 1.752872}
+{0 no_family,21 2.071245,45 2.144317}
+{0 no_family,105 2.9813}
+{0 no_family,70 2.285516,84 1.914305}
+{0 no_family}
+{0 no_family,3 1.160472,25 2.746171}
+{6 2.9813}
+{0 no_family,7 1.790214,61 2.383964}
+{0 no_family}
+{0 no_family,62 1.953141,117 2.252419}
+{0 no_family,86 1.687745,87 1.839024,113 1.630232}
+{11 2.196503,102 2.015818}
+{0 no_family,83 1.430352,84 1.430352,106 1.480814,112 1.613544}
+{11 2.9813}
+{0 no_family,43 2.9813}
+{0 no_family,49 2.9813}
+{0 no_family,30 1.558377,36 1.797166,40 1.797166}
+{0 no_family}
+{0 no_family,65 2.9813}
+{0 no_family,108 2.9813}
+{0 no_family,32 1.826663,65 1.710495,94 1.620388}
+{0 no_family}
+{5 2.42086,35 1.739996}
+{0 no_family,66 2.9813}
+{0 no_family,32 2.9813}
+{0 no_family,59 2.9813}
+{0 no_family,107 2.9813}
+{0 no_family,7 2.9813}
+{0 no_family,3 0.967997,95 1.91864,98 2.066386}
+{0 no_family,89 2.9813}
+{3 1.407011,4 2.628397}
+{0 no_family,82 2.9813}
+{3 0.938572,4 1.753319,8 2.221059}
+{2 2.268536,27 1.934397}
+{0 no_family,3 0.929294,33 2.199104,109 1.785638}
+{0 no_family,31 1.659825,64 1.168935,68 1.168935,107 1.843993}
+{0 no_family,1 1.378801,15 1.455474,16 1.616968,54 1.501355}
+{0 no_family}
+{0 no_family,36 2.314412,109 1.879267}
+{0 no_family,102 2.9813}
+{0 no_family,19 1.731135,24 1.38048,80 1.996395}
+{0 no_family,28 2.058722,66 2.156342}
+{0 no_family,3 0.967997,95 1.91864,98 2.066386}
+{0 no_family,95 2.9813}
+{0 no_family,21 2.169567,108 2.044781}
+{0 no_family,24 1.147053,30 1.438415,40 1.658822,92 1.658822}
+{13 2.381798,35 1.793095}
+{0 no_family}
+{0 no_family}
+{0 no_family}
+{0 no_family,3 2.9813}
+{0 no_family}
+{9 2.167001,12 2.0475}
+{0 no_family}
+{0 no_family,6 2.9813}
+{0 no_family,3 0.767362,111 1.815904,115 1.305485,120 1.815904}
+{0 no_family,115 2.9813}
+{0 no_family,3 1.160472,26 2.746171}
+{0 no_family,69 2.287881,72 1.911478}
+{0 no_family,64 2.108097,68 2.108097}
+{0 no_family,95 2.9813}
+{0 no_family,31 2.112357,64 1.487632,68 1.487632}
+{0 no_family,63 2.108097,77 2.108097}
+{119 2.9813}
+{0 no_family,108 2.9813}
+{0 no_family,108 2.9813}
+{0 no_family,35 1.973146,94 2.234915}
+{0 no_family,52 2.075136,84 2.140551}
+{0 no_family,43 2.028545,118 2.184755}
+{14 1.740261,17 2.420669}
+{0 no_family,89 2.9813}
+{0 no_family,3 2.9813}
+{0 no_family,49 2.9813}
+{}
+{0 no_family,49 1.773328,90 2.396551}
+{0 no_family}
+{0 no_family}
+{0 no_family,22 2.9813}
+{0 no_family}
+{0 no_family,3 2.9813}
+{0 no_family,3 2.9813}
+{0 no_family,6 2.9813}
+{0 no_family}
+{0 no_family,49 1.655147,110 2.479645}
+{0 no_family}
+{0 no_family,49 1.72019,116 2.434973}
+{0 no_family}
+{0 no_family,82 1.763834,91 2.403547}
+{0 no_family,21 2.140551,41 2.075136}
+{4 1.516417,5 1.815025,11 1.815025}
+{0 no_family,108 2.9813}
+{0 no_family,64 1.331721,68 1.331721,72 1.838392,89 1.400536}
+{0 no_family}
+{0 no_family}
+{0 no_family,96 2.9813}
+{0 no_family,60 2.9813}
+{0 no_family,35 1.973146,94 2.234915}
+{0 no_family,76 2.9813}
+{1 2.178099,14 2.03569}
+{0 no_family}
+{0 no_family,3 0.917591,60 2.051666,98 1.958785}
+{0 no_family,22 1.926005,72 1.609138,108 1.609138}
+{0 no_family,19 1.563504,24 1.246803,32 1.563504,102 1.563504}
+{0 no_family,11 2.108097,100 2.108097}
+{0 no_family,21 2.9813}
+{0 no_family,3 0.981872,64 1.32869,68 1.32869,107 2.096006}
+{0 no_family,35 1.793095,118 2.381798}
+{0 no_family,67 2.9813}
+{0 no_family,21 2.299046,24 1.898035}
+{0 no_family}
+{0 no_family}
+{0 no_family,46 2.9813}
+{0 no_family,60 2.9813}
+{0 no_family,3 1.264699,98 2.699757}
+{0 no_family}
+{}
+{9 1.884097,63 1.633758,77 1.633758}
+{0 no_family,88 2.554874,89 1.536479}
+{0 no_family,71 1.656209,88 1.752872,105 1.752872}
+{0 no_family}
+{0 no_family,65 1.943113,87 2.261075}
+{0 no_family,3 1.264699,28 2.699757}
+{0 no_family,82 1.763834,91 2.403547}
+{0 no_family,78 2.9813}
+{}
+{0 no_family,86 2.9813}
+{0 no_family}
+{0 no_family,84 2.071245,106 2.144317}
+{0 no_family,65 2.9813}
+{0 no_family,20 2.9813}
+{0 no_family,3 0.767362,14 1.305485,26 1.815904,48 1.815904}
+{0 no_family,56 2.108097,101 2.108097}
+{0 no_family,22 1.85646,99 1.85646,115 1.412537}
+{0 no_family}
+{0 no_family,82 2.9813}
+{0 no_family}
+{4 1.847249,8 2.340047}
+{0 no_family}
+{}
+{0 no_family,119 2.9813}
+{0 no_family}
+{0 no_family,77 2.9813}
+{0 no_family,24 1.898035,113 2.299046}
+{0 no_family,118 2.9813}
+{0 no_family,64 2.108097,68 2.108097}
+{0 no_family,84 2.9813}
+{0 no_family,1 1.917993,3 1.053682,15 2.02465}
+{0 no_family}
+{0 no_family,62 1.413233,95 1.365074,116 1.539905,117 1.629781}
+{0 no_family,57 2.9813}
+{0 no_family,82 2.9813}
+{0 no_family}
+{0 no_family,57 1.996927,117 2.213692}
+{0 no_family,32 1.953141,93 2.252419}
+{0 no_family,83 2.9813}
+{0 no_family,103 2.9813}
+{0 no_family,49 1.897774,64 1.625823,68 1.625823}
+{0 no_family}
+{0 no_family,44 2.434973,49 1.72019}
+{0 no_family,23 2.9813}
+{0 no_family,21 2.140551,41 2.075136}
+{0 no_family}
+{0 no_family,57 2.149322,91 2.066051}
+{0 no_family,116 2.9813}
+{0 no_family,24 2.9813}
+{0 no_family}
+{0 no_family,64 1.407197,68 1.407197,104 2.219851}
+{0 no_family,44 2.287881,103 1.911478}
+{0 no_family}
+{0 no_family,46 2.9813}
+{0 no_family,42 2.252419,86 1.953141}
+{0 no_family,54 2.9813}
+{0 no_family,103 2.9813}
+{0 no_family}
+{0 no_family}
+{0 no_family}
+{0 no_family,57 2.9813}
+{0 no_family,42 2.9813}
+{0 no_family,42 2.108097,79 2.108097}
+{0 no_family,31 2.112357,64 1.487632,68 1.487632}
+{0 no_family,48 2.9813}
+{0 no_family,35 1.973146,94 2.234915}
+{0 no_family,82 2.9813}
+{0 no_family}
+{0 no_family,14 1.90281,86 2.295096}
+{0 no_family}
+{0 no_family,14 2.9813}
+{0 no_family,49 2.214915,89 1.99557}
+{0 no_family,103 2.9813}
+{0 no_family}
+{0 no_family,96 2.9813}
+{15 2.9813}
+{72 2.9813}
+{0 no_family,74 2.167001,114 2.0475}
+{0 no_family,82 2.9813}
+{0 no_family,74 1.966804,82 1.251557,114 1.858343}
+{0 no_family,3 2.9813}
+{0 no_family}
+{0 no_family}
+{0 no_family,34 2.9813}
+{0 no_family,82 2.9813}
+{0 no_family,89 2.9813}
+{0 no_family}
+{0 no_family,71 2.515063,89 1.600815}
+{0 no_family,6 2.9813}
+{0 no_family,82 1.763834,91 2.403547}
+{0 no_family,6 1.965287,54 2.241829}
+{0 no_family,67 2.480586,89 1.653736}
+{0 no_family,111 2.108097,120 2.108097}
+{3 0.938572,4 1.753319,8 2.221059}
+{0 no_family,82 1.408362,99 2.091171,115 1.591123}
+{0 no_family,14 1.858072,51 2.331463}
+{0 no_family,104 2.9813}
+{0 no_family,46 1.763292,52 1.51533,73 1.866206}
+{}
+{0 no_family,24 2.9813}
+{0 no_family,1 1.917993,3 1.053682,15 2.02465}
+{0 no_family}
+{0 no_family,3 0.929294,37 2.199104,109 1.785638}
+{0 no_family,89 2.9813}
+{0 no_family,35 1.973146,94 2.234915}
+{}
+{0 no_family,54 1.701018,84 1.701018,106 1.761029}
+{0 no_family,39 2.9813}
+{0 no_family,3 2.9813}
+{0 no_family}
+{0 no_family}
+{0 no_family,49 2.9813}
+{0 no_family,3 1.160472,26 2.746171}
+{0 no_family,110 2.9813}
+{0 no_family}
+{0 no_family,24 2.9813}
+{0 no_family}
+{0 no_family,64 1.370789,68 1.370789,100 2.264955}
+{0 no_family}
+{0 no_family,56 1.626224,65 1.320469,101 1.626224,119 1.362095}
+{0 no_family,107 2.9813}
+{}
+{0 no_family,41 2.9813}
+{0 no_family,7 2.082611,27 2.13328}
+{0 no_family}
+{0 no_family,6 2.9813}
+{0 no_family,13 1.695729,47 1.8798,119 1.574485}
+{0 no_family}
+{1 1.917993,3 1.053682,15 2.02465}
+{0 no_family,65 2.9813}
+{0 no_family,64 2.108097,68 2.108097}
+{0 no_family,30 1.953141,92 2.252419}
+{0 no_family,30 1.953141,92 2.252419}
+{0 no_family,3 2.9813}
+{0 no_family,78 2.0475,97 2.167001}
+{0 no_family,99 2.372596,115 1.805253}
+{0 no_family,82 2.9813}
+{7 2.9813}
+{0 no_family}
+{0 no_family,89 2.9813}
+{0 no_family,41 2.9813}
+{0 no_family,3 2.9813}
+{0 no_family}
+{0 no_family,7 2.082611,27 2.13328}
+{0 no_family}
+{0 no_family,23 1.603275,73 1.77731,88 1.77731}
+{0 no_family,63 2.108097,77 2.108097}
+{0 no_family,78 2.9813}
+{0 no_family,7 1.398168,39 1.861891,59 1.861891}
+{0 no_family}
+{0 no_family}
+{0 no_family,19 2.9813}
+{0 no_family,23 1.94428,49 1.43867,64 1.232508,68 1.232508}
+{0 no_family,70 2.9813}
+{0 no_family,38 2.9813}
+{0 no_family,108 1.911478,116 2.287881}
+{87 2.9813}
+{0 no_family,83 2.9813}
+{13 2.184755,83 2.028545}
+{0 no_family,38 1.814674,81 1.920587,115 1.380743}
+{0 no_family,118 2.9813}
+{7 2.9813}
+{0 no_family,23 2.9813}
+{0 no_family,31 2.9813}
+{0 no_family,75 2.9813}
+{0 no_family,3 2.9813}
+{0 no_family,3 1.487093,6 2.583932}
+{10 2.167001,12 2.0475}
+{0 no_family,7 1.790214,58 2.383964}
+{0 no_family,3 2.9813}
+{0 no_family,115 2.9813}
+{0 no_family,109 2.9813}
+{0 no_family,30 2.9813}
+{0 no_family,69 2.9813}
+{0 no_family,3 1.306044,106 2.68}
+{0 no_family,64 1.691623,68 1.691623,89 1.779036}
+{0 no_family,43 2.9813}
+{0 no_family,18 2.9813}
+{0 no_family,118 2.9813}
+{0 no_family,115 2.9813}
+{0 no_family,24 2.9813}
+{0 no_family,108 2.9813}
+{0 no_family,67 1.761993,100 1.845543,108 1.541914}
+{0 no_family,3 2.9813}
+{0 no_family,106 2.9813}
+{4 2.182966,6 2.03047}
+{0 no_family,62 1.953141,110 2.252419}
+{2 2.184755,83 2.028545}
+{0 no_family}
+{0 no_family,60 2.9813}
+{0 no_family,3 1.376319,109 2.644597}
+{0 no_family,65 1.879267,93 2.314412}
+{0 no_family,89 2.9813}
+{0 no_family,46 2.9813}
+{0 no_family,3 2.9813}
+{5 2.312012,94 1.882219}
+{0 no_family,24 1.760702,29 2.405842}
+{0 no_family,28 1.668118,29 1.747216,66 1.747216}
+{0 no_family}
+{0 no_family,95 2.9813}
+{0 no_family,41 1.994538,51 2.215845}
+{0 no_family,89 2.9813}
+{0 no_family,35 1.973146,94 2.234915}
+{0 no_family}
+{0 no_family,75 2.9813}
+{0 no_family}
+{0 no_family,3 2.9813}
+{0 no_family,32 2.9813}
+{78 2.108097,96 2.108097}
+{0 no_family}
+{}
+{0 no_family,49 1.773328,90 2.396551}
+{0 no_family,18 1.797166,45 1.558377,79 1.797166}
+{0 no_family}
+{0 no_family}
+{0 no_family,3 2.9813}
+{0 no_family,57 2.9813}
+{0 no_family,43 2.9813}
+{0 no_family,38 2.0475,59 2.167001}
+{0 no_family,74 2.108097,97 2.108097}
+{0 no_family,95 1.977647,96 2.230933}
+{0 no_family,14 2.9813}
+{0 no_family,3 2.9813}
+{0 no_family}
+{0 no_family,45 2.9813}
+{112 2.9813}
+{0 no_family,3 2.9813}
+{0 no_family,64 1.691623,68 1.691623,89 1.779036}
+{0 no_family,72 2.37151,89 1.806679}
+{0 no_family,3 1.264699,50 2.699757}
+{0 no_family,50 1.823728,52 1.641583,84 1.693332}
+{0 no_family,35 2.9813}
+{2 2.699757,3 1.264699}
+{0 no_family,41 2.9813}
+{2 2.001168,3 0.937445,28 2.001168}
+{0 no_family,3 2.9813}
+{0 no_family,35 1.739996,53 2.42086}
+{0 no_family,6 2.9813}
+{0 no_family,24 2.9813}
+{0 no_family}
+{0 no_family,79 2.9813}
+{0 no_family,28 2.9813}
+{0 no_family,61 2.9813}
+{0 no_family,25 2.363074,27 1.8177}
+{0 no_family}
+{3 2.9813}
+{0 no_family,12 2.9813}
+{0 no_family,50 1.694062,51 1.694062,114 1.77439}
+{0 no_family,71 2.098827,89 2.117327}
+{0 no_family,102 2.9813}
+{0 no_family}
+{0 no_family,6 1.965287,43 2.241829}
+{0 no_family,31 2.112357,64 1.487632,68 1.487632}
+{0 no_family,19 2.33091,24 1.858765}
+{0 no_family,3 1.02113,27 1.858741,102 2.095358}
+{0 no_family,33 1.90334,62 1.650444,119 1.594202}
+{0 no_family,45 2.9813}
+{0 no_family,63 2.9813}
+{0 no_family}
+{0 no_family}
+{10 2.167001,75 2.0475}
+{0 no_family}
+{0 no_family,69 1.876087,89 1.194112,105 1.985584}
+{27 2.9813}
+{0 no_family,52 2.9813}
+{0 no_family}
+{0 no_family,19 1.731135,24 1.38048,80 1.996395}
+{0 no_family,3 2.9813}
+{0 no_family,43 2.9813}
+{0 no_family,82 1.763834,91 2.403547}
+{0 no_family,33 2.314412,52 1.879267}
+{0 no_family,49 1.897774,64 1.625823,68 1.625823}
+{0 no_family,90 2.058722,100 2.156342}
+{0 no_family,72 2.9813}
+{0 no_family,85 2.9813}
+{0 no_family,3 2.9813}
+{0 no_family,20 2.372596,115 1.805253}
+{0 no_family,52 2.9813}
+{0 no_family,35 1.973146,94 2.234915}
+{0 no_family}
+{0 no_family,15 2.075136,54 2.140551}
+{0 no_family,27 2.9813}
+{0 no_family}
+{0 no_family,64 1.260446,67 1.988352,68 1.260446,89 1.325578}
+{0 no_family}
+{0 no_family,3 2.9813}
+{0 no_family}
+{0 no_family}
+{0 no_family,34 1.786195,54 1.583402,71 1.786195}
+{0 no_family,4 2.9813}
+{9 2.9813}
+{0 no_family,37 2.075032,82 1.320426,109 1.684894}
+{0 no_family,81 2.9813}
+{0 no_family,64 1.487632,65 2.112357,68 1.487632}
+{0 no_family,76 2.9813}
+{0 no_family}
+{0 no_family}
+{}
+{0 no_family,20 2.9813}
+{0 no_family}
+{0 no_family}
+{0 no_family}
+{0 no_family,27 1.882219,34 2.312012}
+{0 no_family,3 1.042269,4 1.947033,52 2.00272}
+{0 no_family,35 1.973146,94 2.234915}
+{5 2.333949,7 1.854948}
+{0 no_family,24 1.204027,30 1.509861,40 1.741216,83 1.458409}
+{0 no_family,85 2.9813}
+{0 no_family,115 2.9813}
+{0 no_family,38 2.0475,58 2.167001}
+{13 2.9813}
+{0 no_family,63 2.108097,77 2.108097}
+{0 no_family,45 2.9813}
+{0 no_family,89 2.9813}
+{0 no_family,50 1.634733,73 1.812182,85 1.712248}
+{0 no_family,112 2.9813}
+{0 no_family,66 2.9813}
+{0 no_family,49 1.43867,64 1.232508,67 1.94428,68 1.232508}
+{0 no_family}
+{0 no_family,21 2.071245,45 2.144317}
+{0 no_family,3 0.937445,50 2.001168,98 2.001168}
+{0 no_family,35 1.973146,94 2.234915}
+{0 no_family,82 1.665373,112 2.472788}
+{0 no_family,41 2.9813}
+{12 2.9813}
+{0 no_family,49 1.72019,87 2.434973}
+{0 no_family}
+{0 no_family,53 2.9813}
+{0 no_family}
+{0 no_family,89 1.806679,103 2.37151}
+{0 no_family}
+{0 no_family}
+{0 no_family,54 1.977647,76 2.230933}
+{0 no_family,3 2.9813}
+{0 no_family}
+{0 no_family}
+{2 2.108097,104 2.108097}
+{0 no_family,64 2.108097,68 2.108097}
+{0 no_family,69 2.9813}
+{0 no_family}
+{0 no_family,1 2.178099,14 2.03569}
+{0 no_family,36 2.9813}
+{0 no_family}
+{0 no_family}
+{0 no_family}
+{0 no_family,83 2.9813}
+{0 no_family,72 2.9813}
+{6 2.9813}
+{0 no_family,14 2.9813}
+{0 no_family,32 2.9813}
+{0 no_family,19 2.9813}
+{0 no_family}
+{0 no_family,3 2.9813}
+{0 no_family,106 2.9813}
+{0 no_family,109 2.9813}
+{0 no_family,63 2.108097,77 2.108097}
+{0 no_family,31 2.112357,64 1.487632,68 1.487632}
+{0 no_family,44 2.287881,103 1.911478}
+{0 no_family}
+{15 2.9813}
+{0 no_family,48 2.9813}
+{0 no_family,43 2.9813}
+{0 no_family,82 1.763834,91 2.403547}
+{0 no_family,49 1.773328,104 2.396551}
+{0 no_family,18 2.515234,82 1.600545}
+{0 no_family}
+{0 no_family,56 2.108097,101 2.108097}
+{0 no_family,64 1.245803,68 1.245803,82 1.386318,104 1.965253}
+{0 no_family,102 2.9813}
+{16 2.9813}
+{0 no_family,47 1.90334,62 1.650444,119 1.594202}
+{1 1.579287,14 1.47603,17 2.053129}
+{0 no_family,31 1.994538,90 2.215845}
+{0 no_family,53 2.9813}
+{4 2.9813}
+{0 no_family}
+{0 no_family,24 1.695624,55 2.452144}
+{0 no_family}
+{0 no_family}
+{0 no_family,55 2.167001,76 2.0475}
+{0 no_family,35 2.9813}
+{0 no_family}
+{0 no_family,3 2.9813}
+{0 no_family,70 2.285516,119 1.914305}
+{0 no_family,55 2.9813}
+{0 no_family}
+{0 no_family,47 2.252419,62 1.953141}
+{14 1.740261,17 2.420669}
+{16 2.9813}
+{0 no_family}
+{0 no_family,90 2.9813}
+{0 no_family}
+{0 no_family,64 1.282303,68 1.282303,86 1.94446,89 1.348564}
+{0 no_family,1 2.021365,3 1.110471,14 1.889203}
+{0 no_family}
+{0 no_family,64 1.407197,68 1.407197,107 2.219851}
+{6 1.882024,51 2.312171}
+{0 no_family,41 2.075136,113 2.140551}
+{0 no_family,3 2.9813}
+{0 no_family,3 2.9813}
+{0 no_family,7 2.082611,27 2.13328}
+{0 no_family,89 2.9813}
+{0 no_family,49 1.924965,103 2.276546}
+{0 no_family,35 2.9813}
+{52 1.682994,99 1.958392,115 1.490094}
+{0 no_family,14 2.9813}
+{0 no_family,64 1.46428,68 1.46428,113 2.144742}
+{0 no_family,103 2.9813}
+{0 no_family,44 1.845543,51 1.761993,103 1.541914}
+{0 no_family,22 2.372596,115 1.805253}
+{0 no_family,20 2.9813}
+{10 2.252419,86 1.953141}
+{0 no_family,29 2.264955,64 1.370789,68 1.370789}
+{0 no_family,114 2.9813}
+{0 no_family,7 2.9813}
+{0 no_family,82 1.803537,113 2.3739}
+{0 no_family,64 1.211966,68 1.211966,72 1.673074,113 1.775176}
+{0 no_family,34 1.814674,81 1.920587,115 1.380743}
+{0 no_family,39 2.108097,58 2.108097}
+{0 no_family,3 1.380703,64 1.868396,68 1.868396}
+{1 1.822101,3 1.001002,13 2.136842}
+{0 no_family,27 1.454913,75 1.787132,80 1.891437}
+{0 no_family,93 2.9813}
+{0 no_family,85 2.515063,89 1.600815}
+{0 no_family,3 2.9813}
+{16 2.9813}
+{0 no_family,35 1.739996,53 2.42086}
+{16 2.9813}
+{0 no_family,61 2.9813}
+{0 no_family,82 2.9813}
