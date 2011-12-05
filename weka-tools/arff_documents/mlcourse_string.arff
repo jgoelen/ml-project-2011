@@ -1,6 +1,6 @@
 @relation text
 @attribute docs string
-@attribute class {mlcourse,no_mlcourse}
+@attribute label {mlcourse,no_mlcourse}
 
 @data
 'Schedule meeting for project followup',no_mlcourse

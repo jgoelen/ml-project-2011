@@ -1,0 +1,1535 @@
+@relation 'text-weka.filters.unsupervised.attribute.StringToWordVector-R1-W1000-prune-rate-1.0-T-I-N1-L-S-stemmerweka.core.stemmers.SnowballStemmer-M1-stopwords/Users/jgoelen/github/ml-project-2011/weka-tools/documents/todo.txt-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"'
+
+@attribute l_appointment {0,1}
+@attribute l_chore {0,1}
+@attribute l_family {0,1}
+@attribute l_finance {0,1}
+@attribute l_friends {0,1}
+@attribute l_home {0,1}
+@attribute l_leisure {0,1}
+@attribute l_mlcourse {0,1}
+@attribute l_reading {0,1}
+@attribute l_school {0,1}
+@attribute l_shop {0,1}
+@attribute l_sport {0,1}
+@attribute l_travel {0,1}
+@attribute l_urgent {0,1}
+@attribute l_work {0,1}
+@attribute - numeric
+@attribute -project numeric
+@attribute 0 numeric
+@attribute 00 numeric
+@attribute 09 numeric
+@attribute 1 numeric
+@attribute 10 numeric
+@attribute 100d numeric
+@attribute 105 numeric
+@attribute 10h numeric
+@attribute 12 numeric
+@attribute 14 numeric
+@attribute 14th numeric
+@attribute 16h numeric
+@attribute 19 numeric
+@attribute 20 numeric
+@attribute 2010-2011 numeric
+@attribute 2012 numeric
+@attribute 21h numeric
+@attribute 26 numeric
+@attribute 4 numeric
+@attribute 4pm numeric
+@attribute 5 numeric
+@attribute 5pm numeric
+@attribute 6pm numeric
+@attribute 7 numeric
+@attribute 7pm numeric
+@attribute 9 numeric
+@attribute a numeric
+@attribute a4 numeric
+@attribute ab numeric
+@attribute about numeric
+@attribute abroad numeric
+@attribute account numeric
+@attribute actually numeric
+@attribute add numeric
+@attribute advanced numeric
+@attribute advisor numeric
+@attribute after numeric
+@attribute agency numeric
+@attribute agent numeric
+@attribute ai numeric
+@attribute airplane numeric
+@attribute airport numeric
+@attribute algebra numeric
+@attribute algorithms numeric
+@attribute all numeric
+@attribute alley numeric
+@attribute allowance numeric
+@attribute am numeric
+@attribute amsterdam numeric
+@attribute an numeric
+@attribute and numeric
+@attribute anniversary numeric
+@attribute another numeric
+@attribute antwerp numeric
+@attribute application numeric
+@attribute apply numeric
+@attribute appointment numeric
+@attribute aquabeat numeric
+@attribute ardennes numeric
+@attribute arms numeric
+@attribute around numeric
+@attribute arrange numeric
+@attribute arthur numeric
+@attribute article numeric
+@attribute articles numeric
+@attribute artificial numeric
+@attribute ask numeric
+@attribute aspe numeric
+@attribute assignment numeric
+@attribute assistent numeric
+@attribute association numeric
+@attribute at numeric
+@attribute bach numeric
+@attribute back numeric
+@attribute backends numeric
+@attribute backyard numeric
+@attribute bag numeric
+@attribute bags numeric
+@attribute bakery numeric
+@attribute bang numeric
+@attribute bank numeric
+@attribute bankaccount numeric
+@attribute barber numeric
+@attribute barcelona numeric
+@attribute bargains numeric
+@attribute bart numeric
+@attribute basketball numeric
+@attribute batteries numeric
+@attribute be numeric
+@attribute bed numeric
+@attribute bedroom numeric
+@attribute beer numeric
+@attribute before numeric
+@attribute ben numeric
+@attribute benjamin numeric
+@attribute berlin numeric
+@attribute berlusconi numeric
+@attribute big numeric
+@attribute bigger numeric
+@attribute bike numeric
+@attribute biking numeric
+@attribute bill numeric
+@attribute bills numeric
+@attribute birthday numeric
+@attribute block numeric
+@attribute blogging numeric
+@attribute blogs numeric
+@attribute blood-check numeric
+@attribute board numeric
+@attribute boarding numeric
+@attribute boat numeric
+@attribute book numeric
+@attribute booked numeric
+@attribute books numeric
+@attribute borrow numeric
+@attribute borrowed numeric
+@attribute bowling numeric
+@attribute brakes numeric
+@attribute bram numeric
+@attribute bread numeric
+@attribute breakfast numeric
+@attribute bring numeric
+@attribute brother numeric
+@attribute brussels numeric
+@attribute bug numeric
+@attribute build numeric
+@attribute buy numeric
+@attribute buying numeric
+@attribute by numeric
+@attribute cake numeric
+@attribute calculate numeric
+@attribute call numeric
+@attribute camera numeric
+@attribute camp numeric
+@attribute can numeric
+@attribute cancel numeric
+@attribute car numeric
+@attribute card numeric
+@attribute cash numeric
+@attribute celebrate numeric
+@attribute cellphone numeric
+@attribute center numeric
+@attribute centos numeric
+@attribute challenge numeric
+@attribute change numeric
+@attribute changed numeric
+@attribute chapter numeric
+@attribute chapters numeric
+@attribute check numeric
+@attribute checkup numeric
+@attribute chicken numeric
+@attribute children numeric
+@attribute chinese numeric
+@attribute choose numeric
+@attribute christmas numeric
+@attribute cinema numeric
+@attribute city numeric
+@attribute city-trip numeric
+@attribute citytrip numeric
+@attribute citytryp numeric
+@attribute claeys numeric
+@attribute class_ numeric
+@attribute classes numeric
+@attribute classi numeric
+@attribute clean numeric
+@attribute climb numeric
+@attribute closes numeric
+@attribute clothes numeric
+@attribute clustering numeric
+@attribute codak numeric
+@attribute code numeric
+@attribute collect numeric
+@attribute comic numeric
+@attribute comics numeric
+@attribute company numeric
+@attribute comparative numeric
+@attribute complaint numeric
+@attribute complete numeric
+@attribute computer numeric
+@attribute computerlessons numeric
+@attribute computerscreen numeric
+@attribute computing numeric
+@attribute concert numeric
+@attribute confirm numeric
+@attribute connecting numeric
+@attribute connection numeric
+@attribute consultation numeric
+@attribute contact numeric
+@attribute contest numeric
+@attribute control numeric
+@attribute cook numeric
+@attribute cost numeric
+@attribute costume numeric
+@attribute country numeric
+@attribute couple numeric
+@attribute course numeric
+@attribute courses numeric
+@attribute cpl numeric
+@attribute create numeric
+@attribute credit numeric
+@attribute crowd numeric
+@attribute currently numeric
+@attribute cut numeric
+@attribute cutting numeric
+@attribute cw numeric
+@attribute cycling numeric
+@attribute dad numeric
+@attribute daily numeric
+@attribute databases numeric
+@attribute date numeric
+@attribute dates numeric
+@attribute david numeric
+@attribute day numeric
+@attribute debit numeric
+@attribute debts numeric
+@attribute decathlon numeric
+@attribute december numeric
+@attribute delhaize numeric
+@attribute dentist numeric
+@attribute deposit numeric
+@attribute destination numeric
+@attribute destroy numeric
+@attribute dexia numeric
+@attribute diabetes numeric
+@attribute diagrams numeric
+@attribute different numeric
+@attribute dinner numeric
+@attribute dinosaur numeric
+@attribute directions numeric
+@attribute disambiguation numeric
+@attribute discuss numeric
+@attribute dishes numeric
+@attribute disk numeric
+@attribute distributed numeric
+@attribute diving numeric
+@attribute do numeric
+@attribute doctor numeric
+@attribute doctors numeric
+@attribute documentation numeric
+@attribute documents numeric
+@attribute dog numeric
+@attribute dogs numeric
+@attribute dollar numeric
+@attribute dollars numeric
+@attribute dormitory numeric
+@attribute download numeric
+@attribute drachme numeric
+@attribute dresden numeric
+@attribute drink numeric
+@attribute drive numeric
+@attribute drivers numeric
+@attribute dubai numeric
+@attribute due numeric
+@attribute dvd numeric
+@attribute dvd-box numeric
+@attribute dying numeric
+@attribute e-bay numeric
+@attribute e-mail numeric
+@attribute earned numeric
+@attribute eat numeric
+@attribute educative numeric
+@attribute eiffel numeric
+@attribute electric numeric
+@attribute electricity numeric
+@attribute end numeric
+@attribute english numeric
+@attribute enjoy numeric
+@attribute enroll numeric
+@attribute eos numeric
+@attribute episode numeric
+@attribute equipment numeric
+@attribute erasmus numeric
+@attribute ers numeric
+@attribute escher numeric
+@attribute euro numeric
+@attribute euros numeric
+@attribute eurostar numeric
+@attribute evaluate numeric
+@attribute evaluation numeric
+@attribute eve numeric
+@attribute evening numeric
+@attribute everyone numeric
+@attribute exam numeric
+@attribute examination numeric
+@attribute exams numeric
+@attribute excercises numeric
+@attribute exchange numeric
+@attribute experation numeric
+@attribute extra numeric
+@attribute facebook numeric
+@attribute family numeric
+@attribute farewell numeric
+@attribute father numeric
+@attribute faust numeric
+@attribute fee numeric
+@attribute feedback numeric
+@attribute figure numeric
+@attribute fill numeric
+@attribute final numeric
+@attribute finances numeric
+@attribute find numeric
+@attribute finish numeric
+@attribute firmware numeric
+@attribute first numeric
+@attribute fishing numeric
+@attribute fit numeric
+@attribute fix numeric
+@attribute flight numeric
+@attribute floors numeric
+@attribute food numeric
+@attribute football numeric
+@attribute footballnight numeric
+@attribute for numeric
+@attribute formal numeric
+@attribute forum numeric
+@attribute frank numeric
+@attribute friday numeric
+@attribute friend numeric
+@attribute friends numeric
+@attribute from numeric
+@attribute galaxy numeric
+@attribute game numeric
+@attribute games numeric
+@attribute garage numeric
+@attribute garbage numeric
+@attribute garden numeric
+@attribute genetic numeric
+@attribute gent numeric
+@attribute germany numeric
+@attribute gert numeric
+@attribute get numeric
+@attribute gift numeric
+@attribute gifts numeric
+@attribute girl numeric
+@attribute girlfriend numeric
+@attribute give numeric
+@attribute go numeric
+@attribute godel numeric
+@attribute goethe numeric
+@attribute going numeric
+@attribute good numeric
+@attribute google numeric
+@attribute got numeric
+@attribute grandfather numeric
+@attribute grandma numeric
+@attribute grandmother numeric
+@attribute grandpa numeric
+@attribute grandparents numeric
+@attribute graphics numeric
+@attribute grass numeric
+@attribute grave numeric
+@attribute groceries numeric
+@attribute group numeric
+@attribute guarantee numeric
+@attribute guide numeric
+@attribute guided numeric
+@attribute guides numeric
+@attribute guitar numeric
+@attribute gym numeric
+@attribute gymnastics numeric
+@attribute hair numeric
+@attribute hairdresser numeric
+@attribute hall numeric
+@attribute halloween numeric
+@attribute halogen numeric
+@attribute hand numeric
+@attribute hard numeric
+@attribute harry numeric
+@attribute have numeric
+@attribute hawking numeric
+@attribute he numeric
+@attribute headlight numeric
+@attribute help numeric
+@attribute helping numeric
+@attribute him numeric
+@attribute his numeric
+@attribute hitchhiker numeric
+@attribute hobbit numeric
+@attribute holiday numeric
+@attribute home numeric
+@attribute home-warming numeric
+@attribute hospital numeric
+@attribute hotel numeric
+@attribute houben numeric
+@attribute housewarming numeric
+@attribute how numeric
+@attribute i numeric
+@attribute ieeextreme numeric
+@attribute immediate numeric
+@attribute in numeric
+@attribute inductive numeric
+@attribute ine numeric
+@attribute inference numeric
+@attribute info numeric
+@attribute inform numeric
+@attribute information numeric
+@attribute ingredients numeric
+@attribute intermediate numeric
+@attribute international numeric
+@attribute internet numeric
+@attribute interview numeric
+@attribute investments numeric
+@attribute invoice numeric
+@attribute ironing numeric
+@attribute is numeric
+@attribute isp numeric
+@attribute it numeric
+@attribute italy numeric
+@attribute javascript numeric
+@attribute jean-philippe numeric
+@attribute jee2 numeric
+@attribute job numeric
+@attribute jobs numeric
+@attribute jogging numeric
+@attribute jonas numeric
+@attribute jonathan numeric
+@attribute jos numeric
+@attribute journey numeric
+@attribute jump numeric
+@attribute jupiler numeric
+@attribute just numeric
+@attribute karel numeric
+@attribute katie numeric
+@attribute keep numeric
+@attribute kennel numeric
+@attribute kernel numeric
+@attribute kids numeric
+@attribute kind numeric
+@attribute kitchen numeric
+@attribute kortrijk numeric
+@attribute kot numeric
+@attribute kubb numeric
+@attribute lan numeric
+@attribute languages numeric
+@attribute laptop numeric
+@attribute lara numeric
+@attribute larsson numeric
+@attribute last numeric
+@attribute latest numeric
+@attribute laundry numeric
+@attribute lawn numeric
+@attribute league numeric
+@attribute learn numeric
+@attribute learning numeric
+@attribute leaves numeric
+@attribute lecture numeric
+@attribute leerdammer numeric
+@attribute lessons numeric
+@attribute letter numeric
+@attribute leuven numeric
+@attribute library numeric
+@attribute licence numeric
+@attribute light numeric
+@attribute lineaire numeric
+@attribute list numeric
+@attribute literature numeric
+@attribute little numeric
+@attribute living numeric
+@attribute loan numeric
+@attribute local numeric
+@attribute location numeric
+@attribute london numeric
+@attribute long-distance numeric
+@attribute look numeric
+@attribute lord numeric
+@attribute louvre numeric
+@attribute luminus numeric
+@attribute lunch numeric
+@attribute maastricht numeric
+@attribute machine numeric
+@attribute mail numeric
+@attribute maintain numeric
+@attribute make numeric
+@attribute making numeric
+@attribute manual numeric
+@attribute market numeric
+@attribute martine numeric
+@attribute match numeric
+@attribute material numeric
+@attribute math numeric
+@attribute mathematics numeric
+@attribute matthias numeric
+@attribute mattress numeric
+@attribute me numeric
+@attribute meal numeric
+@attribute meet numeric
+@attribute meeting numeric
+@attribute message numeric
+@attribute messed numeric
+@attribute met numeric
+@attribute michael numeric
+@attribute miles numeric
+@attribute ml-project numeric
+@attribute mlaii numeric
+@attribute mlii numeric
+@attribute mogwai numeric
+@attribute mom numeric
+@attribute monday numeric
+@attribute mondays numeric
+@attribute money numeric
+@attribute mont numeric
+@attribute monthly numeric
+@attribute more numeric
+@attribute morning numeric
+@attribute mother numeric
+@attribute mouse numeric
+@attribute movie numeric
+@attribute movies numeric
+@attribute mow numeric
+@attribute mum numeric
+@attribute museum numeric
+@attribute my numeric
+@attribute naci numeric
+@attribute nas numeric
+@attribute neighbor numeric
+@attribute neighbour numeric
+@attribute netherlands numeric
+@attribute networks numeric
+@attribute neural numeric
+@attribute new numeric
+@attribute newest numeric
+@attribute newspaper numeric
+@attribute next numeric
+@attribute nice numeric
+@attribute night numeric
+@attribute nov numeric
+@attribute novel numeric
+@attribute november numeric
+@attribute of numeric
+@attribute offer numeric
+@attribute office numeric
+@attribute old numeric
+@attribute on numeric
+@attribute one numeric
+@attribute ontology numeric
+@attribute open numeric
+@attribute operating numeric
+@attribute oral numeric
+@attribute order numeric
+@attribute organise numeric
+@attribute out numeric
+@attribute owes numeric
+@attribute pack numeric
+@attribute package numeric
+@attribute page numeric
+@attribute paint numeric
+@attribute pair numeric
+@attribute panama numeric
+@attribute paper numeric
+@attribute papers numeric
+@attribute parents numeric
+@attribute paris numeric
+@attribute park numeric
+@attribute parnter numeric
+@attribute part numeric
+@attribute participating numeric
+@attribute party numeric
+@attribute passport numeric
+@attribute pay numeric
+@attribute paying numeric
+@attribute payment numeric
+@attribute paypal numeric
+@attribute pencils numeric
+@attribute peno numeric
+@attribute personal numeric
+@attribute pet numeric
+@attribute philippe numeric
+@attribute photos numeric
+@attribute physiotherapist numeric
+@attribute piano numeric
+@attribute pick numeric
+@attribute pickup numeric
+@attribute picnic numeric
+@attribute pieter numeric
+@attribute pizza numeric
+@attribute plan numeric
+@attribute planning numeric
+@attribute plans numeric
+@attribute play numeric
+@attribute player numeric
+@attribute playing numeric
+@attribute playstation numeric
+@attribute pm numeric
+@attribute poker numeric
+@attribute polo numeric
+@attribute pool numeric
+@attribute post numeric
+@attribute post-its numeric
+@attribute potter numeric
+@attribute practice numeric
+@attribute prediction numeric
+@attribute prepare numeric
+@attribute present numeric
+@attribute presentation numeric
+@attribute presents numeric
+@attribute print numeric
+@attribute pro numeric
+@attribute problems numeric
+@attribute product numeric
+@attribute prof numeric
+@attribute professor numeric
+@attribute programming numeric
+@attribute progress numeric
+@attribute project numeric
+@attribute prolog numeric
+@attribute promotor numeric
+@attribute protege numeric
+@attribute provider numeric
+@attribute pub numeric
+@attribute put numeric
+@attribute quality numeric
+@attribute queue numeric
+@attribute race numeric
+@attribute racket numeric
+@attribute rake numeric
+@attribute rate numeric
+@attribute read numeric
+@attribute reading numeric
+@attribute received numeric
+@attribute recharge numeric
+@attribute recipe numeric
+@attribute refund numeric
+@attribute register numeric
+@attribute registration numeric
+@attribute related numeric
+@attribute remind numeric
+@attribute remove numeric
+@attribute rent numeric
+@attribute repair numeric
+@attribute repayment numeric
+@attribute replace numeric
+@attribute reply numeric
+@attribute report numeric
+@attribute request numeric
+@attribute reservation numeric
+@attribute resignation numeric
+@attribute rest numeric
+@attribute restaurant numeric
+@attribute retrieve numeric
+@attribute return numeric
+@attribute reunion numeric
+@attribute review numeric
+@attribute ride numeric
+@attribute rings numeric
+@attribute roadbook numeric
+@attribute robot numeric
+@attribute room numeric
+@attribute rules numeric
+@attribute run numeric
+@attribute running numeric
+@attribute s numeric
+@attribute sammy numeric
+@attribute samson numeric
+@attribute sarah numeric
+@attribute saturday numeric
+@attribute save numeric
+@attribute savings numeric
+@attribute schedule numeric
+@attribute school numeric
+@attribute schoolproject numeric
+@attribute schooltrip numeric
+@attribute scorpions numeric
+@attribute search numeric
+@attribute see numeric
+@attribute seeing numeric
+@attribute sell numeric
+@attribute selling numeric
+@attribute send numeric
+@attribute sense numeric
+@attribute sequence numeric
+@attribute service numeric
+@attribute session numeric
+@attribute set numeric
+@attribute shares numeric
+@attribute shelf numeric
+@attribute ship numeric
+@attribute shoes numeric
+@attribute shopping numeric
+@attribute sigarettes numeric
+@attribute sister numeric
+@attribute sisters numeric
+@attribute ski numeric
+@attribute slices numeric
+@attribute slides numeric
+@attribute smith numeric
+@attribute sms numeric
+@attribute snowboard numeric
+@attribute snowboardvacation numeric
+@attribute socks numeric
+@attribute software numeric
+@attribute software-design numeric
+@attribute some numeric
+@attribute source numeric
+@attribute sponge numeric
+@attribute sportus numeric
+@attribute spotlight numeric
+@attribute sproutcore numeric
+@attribute start numeric
+@attribute starting numeric
+@attribute stefan numeric
+@attribute stephen numeric
+@attribute steve numeric
+@attribute stieg numeric
+@attribute stock numeric
+@attribute stocks numeric
+@attribute student numeric
+@attribute studio numeric
+@attribute study numeric
+@attribute subscription numeric
+@attribute sugar numeric
+@attribute suitcase numeric
+@attribute summer numeric
+@attribute sunday numeric
+@attribute sundays numeric
+@attribute supervisor numeric
+@attribute suprise numeric
+@attribute survey numeric
+@attribute sven numeric
+@attribute svm numeric
+@attribute sweaters numeric
+@attribute swim numeric
+@attribute swimming numeric
+@attribute swiss numeric
+@attribute systems numeric
+@attribute t numeric
+@attribute tag numeric
+@attribute take numeric
+@attribute talk numeric
+@attribute task numeric
+@attribute team numeric
+@attribute telenet numeric
+@attribute tell numeric
+@attribute tennis numeric
+@attribute tenth numeric
+@attribute test numeric
+@attribute text numeric
+@attribute textbook numeric
+@attribute that numeric
+@attribute the numeric
+@attribute theater numeric
+@attribute their numeric
+@attribute theory numeric
+@attribute thesis numeric
+@attribute this numeric
+@attribute through numeric
+@attribute throw numeric
+@attribute thursday numeric
+@attribute ticket numeric
+@attribute tickets numeric
+@attribute time numeric
+@attribute tintin numeric
+@attribute tire numeric
+@attribute tires numeric
+@attribute to numeric
+@attribute to-do numeric
+@attribute today numeric
+@attribute todo numeric
+@attribute toledo numeric
+@attribute tom numeric
+@attribute tomorrow numeric
+@attribute tomorrow’s numeric
+@attribute tonight numeric
+@attribute tonights numeric
+@attribute tool numeric
+@attribute toothbrush numeric
+@attribute tour numeric
+@attribute tournament numeric
+@attribute tower numeric
+@attribute town numeric
+@attribute toys numeric
+@attribute train numeric
+@attribute training numeric
+@attribute transactions numeric
+@attribute transfer numeric
+@attribute transport numeric
+@attribute travel numeric
+@attribute traveling numeric
+@attribute trawantel numeric
+@attribute trip numeric
+@attribute trousers numeric
+@attribute tuesday numeric
+@attribute tuition numeric
+@attribute turkey numeric
+@attribute tutoring numeric
+@attribute twice numeric
+@attribute u numeric
+@attribute uncle numeric
+@attribute uni numeric
+@attribute university numeric
+@attribute up numeric
+@attribute upcoming numeric
+@attribute update numeric
+@attribute upgrade numeric
+@attribute v2 numeric
+@attribute vacation numeric
+@attribute vaccin numeric
+@attribute vacinations numeric
+@attribute vacuum numeric
+@attribute valentine numeric
+@attribute ventoux numeric
+@attribute version numeric
+@attribute vidath numeric
+@attribute view numeric
+@attribute viking numeric
+@attribute visit numeric
+@attribute visiting numeric
+@attribute vodka numeric
+@attribute vps numeric
+@attribute vtk numeric
+@attribute walibi numeric
+@attribute walk numeric
+@attribute walking numeric
+@attribute wallet numeric
+@attribute wallpaper numeric
+@attribute wash numeric
+@attribute washing numeric
+@attribute watch numeric
+@attribute water numeric
+@attribute way numeric
+@attribute weather numeric
+@attribute webhosting numeric
+@attribute website numeric
+@attribute wedding numeric
+@attribute wednesday numeric
+@attribute weeds numeric
+@attribute week numeric
+@attribute weekend numeric
+@attribute week’s numeric
+@attribute wheel numeric
+@attribute when numeric
+@attribute which numeric
+@attribute who numeric
+@attribute wifes numeric
+@attribute willem numeric
+@attribute winter numeric
+@attribute wireless numeric
+@attribute wish numeric
+@attribute with numeric
+@attribute withdraw numeric
+@attribute word numeric
+@attribute wordpress numeric
+@attribute work numeric
+@attribute workbook numeric
+@attribute working numeric
+@attribute world numeric
+@attribute wouter numeric
+@attribute write numeric
+@attribute yana numeric
+@attribute year numeric
+@attribute yearly numeric
+@attribute years numeric
+@attribute yesterday numeric
+@attribute yoghurt numeric
+@attribute york numeric
+@attribute your numeric
+@attribute youth numeric
+@attribute @14u numeric
+@attribute activity numeric
+@attribute alma numeric
+@attribute alogrithm numeric
+@attribute apple numeric
+@attribute athens-programme numeric
+@attribute back-end numeric
+@attribute barbecue numeric
+@attribute bear numeric
+@attribute bookcase numeric
+@attribute boss numeric
+@attribute building numeric
+@attribute business numeric
+@attribute c++ numeric
+@attribute chemistry numeric
+@attribute coding numeric
+@attribute collegue numeric
+@attribute complex numeric
+@attribute convert numeric
+@attribute cousin numeric
+@attribute crt numeric
+@attribute cv numeric
+@attribute cv-book numeric
+@attribute data numeric
+@attribute database numeric
+@attribute dataset numeric
+@attribute days numeric
+@attribute deadline numeric
+@attribute delivery numeric
+@attribute department numeric
+@attribute development numeric
+@attribute diagram numeric
+@attribute don numeric
+@attribute draw numeric
+@attribute driven numeric
+@attribute employees numeric
+@attribute event numeric
+@attribute exercises numeric
+@attribute financial numeric
+@attribute fire numeric
+@attribute followup numeric
+@attribute geography numeric
+@attribute government numeric
+@attribute has numeric
+@attribute homework numeric
+@attribute hunt numeric
+@attribute idea numeric
+@attribute implement numeric
+@attribute include numeric
+@attribute intelligence numeric
+@attribute internship numeric
+@attribute inteview numeric
+@attribute invite numeric
+@attribute jeroen numeric
+@attribute laboratory numeric
+@attribute language numeric
+@attribute leaders numeric
+@attribute leave numeric
+@attribute linear numeric
+@attribute machines numeric
+@attribute mafia numeric
+@attribute mark numeric
+@attribute merkel numeric
+@attribute ml numeric
+@attribute move numeric
+@attribute moved numeric
+@attribute natural numeric
+@attribute news numeric
+@attribute niels numeric
+@attribute notes numeric
+@attribute oil numeric
+@attribute organize numeric
+@attribute oss numeric
+@attribute pdf numeric
+@attribute pick-nick numeric
+@attribute piece numeric
+@attribute preparing numeric
+@attribute processing numeric
+@attribute quartal numeric
+@attribute r&d numeric
+@attribute raise numeric
+@attribute reorganization numeric
+@attribute requirement numeric
+@attribute research numeric
+@attribute russian numeric
+@attribute s&s numeric
+@attribute scholarship numeric
+@attribute servers numeric
+@attribute skills numeric
+@attribute smartphone numeric
+@attribute specification numeric
+@attribute suit numeric
+@attribute support numeric
+@attribute switzerland numeric
+@attribute teachers numeric
+@attribute television numeric
+@attribute ten numeric
+@attribute touch numeric
+@attribute tv numeric
+@attribute uml numeric
+@attribute upload numeric
+@attribute vector numeric
+@attribute visualisation numeric
+@attribute vtm numeric
+@attribute young numeric
+
+@data
+{14 1,329 1.069473,503 2.945825,620 2.244208,674 3.731695,913 4.517566}
+{6 1,10 1,45 3.732239,143 1.302802,199 3.082983,329 0.883558,406 1.631106,512 3.732239,755 0.650326,765 2.503334}
+{1 1,5 1,10 1,143 1.618402,381 4.636363,536 1.892387,712 4.636363}
+{7 1,8 1,9 1,163 3.473372,549 2.113656,633 2.417356,735 5.178475}
+{9 1,13 1,20 3.100658,51 2.760343,85 2.31047,212 1.739397,225 2.760343,269 2.760343,318 1.709632,329 0.734039,755 0.540275,776 2.145272}
+{1 1,104 2.948057,522 3.568899,545 1.513247,647 3.568899,852 3.568899}
+{2 1,10 1,120 3.027224,143 1.663056,329 1.127881,528 1.75501,609 3.195563,697 4.764288}
+{0 1,1 1,138 2.893102,153 2.486261,329 0.877531,340 3.706784,755 0.64589,769 3.061956,770 0.98077,851 3.061956}
+{0 1,43 1.395193,73 2.641316,253 2.734499,329 0.903768,755 0.665201,802 3.817611,812 3.817611,854 1.543979}
+{0 1,14 1,70 3.261128,406 1.600927,746 3.025941,874 3.663184,884 3.663184}
+{0 1,11 1,103 3.830835,140 3.830835,406 1.674195,494 3.164427,595 2.650464}
+{7 1,9 1,255 4.720411,713 4.202318,724 2.928105,755 0.82251}
+{10 1,104 3.939748,143 1.664853,149 4.769434,329 1.1291,528 1.756905,536 1.946701}
+{0 1,2 1,243 2.712443,528 1.647366,567 3.981235,849 4.47207,854 1.808666}
+{1 1,5 1,323 3.026015,445 4.029637,691 4.878251}
+{9 1,215 2.964967,523 2.304302,551 3.33051,623 3.33051,780 3.33051,854 1.346978}
+{14 1,455 2.493907,770 0.921222,809 3.099584,817 2.876047,879 3.481723,960 3.481723}
+{13 1,14 1,269 2.698826,549 1.237366,608 2.17146,610 2.366095,751 2.698826,776 2.097463,903 3.031557,907 3.031557}
+{2 1,12 1,237 3.240719,317 2.84118,329 0.861782,395 2.84118,539 2.44164,728 2.607464,811 3.007003}
+{0 1,4 1,6 1,11 1,587 3.120762,595 3.120762,749 3.230861,770 1.193444,775 3.520453,806 2.336108}
+{2 1,12 1,128 3.38747,307 3.937613,395 4.712996}
+{1 1,5 1,248 3.950242,755 0.994847,832 5.709461}
+{7 1,9 1,13 1,185 4.927673,318 2.717007,549 2.011288,565 3.67188}
+{3 1,154 3.513631,188 4.052022,216 4.052022,536 2.002177}
+{6 1,14 1,191 3.682751,944 3.968988,947 4.458314}
+{0 1,9 1,12 1,288 4.59117,353 1.6648,410 3.792495,462 3.079447,770 1.214768}
+{8 1,9 1,329 0.917672,566 3.876342,627 3.876342,679 3.450891,759 2.527694}
+{7 1,9 1,162 3.600251,165 2.896741,329 0.95739,462 2.712521,663 2.569628,774 3.600251}
+{3 1,10 1,83 2.971754,329 1.048887,615 4.430609,638 4.430609}
+{1 1,2 1,153 2.954794,181 2.471284,223 3.438303,389 3.047939,392 3.638978}
+{8 1,12 1,373 4.000186,467 3.122099,656 3.304319,755 0.697014,770 1.058401,792 3.304319}
+{6 1,8 1,10 1,101 3.628785,165 2.599246,190 3.628785,273 3.628785,329 0.859066,549 1.481132}
+{9 1,13 1,67 1.213688,145 2.538441,227 2.538441,281 2.538441,300 2.538441,314 2.538441,422 2.096856,545 1.076323,557 1.756287,755 0.442312,760 1.655272,842 1.981223}
+{7 1,8 1,9 1,46 1.830602,81 3.192005,180 3.585539,289 3.585539,633 1.67376,752 2.671782}
+{7 1,9 1,71 3.512004,141 3.944989,323 2.447106,406 1.724084,771 3.512004}
+{10 1,11 1,143 2.129003,536 2.489429,666 4.219839,693 4.544791}
+{14 1,329 0.971792,536 1.675483,620 2.039231,863 2.753323,955 4.104948,963 4.104948}
+{2 1,10 1,143 1.608812,171 3.005375,329 1.091093,443 4.608889,611 3.807132,755 0.803078}
+{3 1,9 1,311 4.648713,575 2.443565,798 4.648713}
+{2 1,10 1,13 1,143 1.487028,171 2.777874,307 2.777874,329 1.008499,349 3.51894,657 4.260005}
+{1 1,2 1,5 1,116 3.177065,139 3.725856,645 4.130296,667 2.856043}
+{4 1,6 1,143 1.590593,172 3.764019,329 1.078737,539 3.056325,765 3.056325,842 3.556449}
+{7 1,8 1,9 1,40 3.516064,163 2.649092,212 2.215606,460 1.865629,486 1.865629,545 1.674647,724 2.449935,752 2.943026,755 0.688191}
+{10 1,13 1,120 2.743957,329 1.022342,347 2.619285,351 2.987854,609 2.896544,667 2.466698,696 3.217935}
+{1 1,5 1,244 3.7938,326 3.7938,352 2.826969,582 3.377408,770 1.003793}
+{6 1,10 1,12 1,55 3.498915,57 3.498915,88 1.578784,188 2.890248,765 2.346836,792 2.890248}
+{3 1,14 1,43 1.875891,329 1.215151,428 3.824825,480 4.006189,728 3.67664}
+{3 1,48 3.044364,97 2.427704,353 1.541165,552 3.51085,673 4.250211,770 1.124554}
+{6 1,8 1,130 3.761245,347 3.061519,353 1.830306,467 3.939594,536 2.060238,755 0.879521,770 1.335534}
+{6 1,10 1,11 1,143 2.129003,536 2.489429,666 4.219839,693 4.544791}
+{4 1,6 1,11 1,46 1.672606,67 1.56637,102 2.916509,274 3.276078,433 3.276078,629 2.916509,666 2.266641,755 0.570842}
+{0 1,9 1,73 2.78932,215 3.589045,536 1.645516,622 4.031529,759 2.628889,854 1.630495}
+{3 1,13 1,43 1.15015,67 1.504707,88 1.420042,97 1.797617,121 3.147109,154 2.254228,216 2.599642,536 1.28453,550 3.147109,650 2.599642,755 0.548369}
+{1 1,2 1,181 2.618953,451 4.156157,521 3.4788,667 2.666663,806 2.417929}
+{6 1,12 1,43 1.369271,128 2.101802,174 3.746682,329 0.886977,732 3.746682,815 3.746682}
+{5 1,6 1,43 1.557364,257 3.793646,329 1.008819,557 2.948331,743 2.778754,755 0.742522,827 3.793646}
+{6 1,8 1,122 4.143095,128 2.32418,536 1.691053,549 1.691053,633 1.934031,857 4.143095}
+{6 1,9 1,10 1,67 1.462795,123 3.059449,143 1.067953,329 0.724284,536 1.248751,581 3.059449,641 3.059449,675 2.527231,837 3.059449}
+{3 1,13 1,239 3.755093,545 1.788492,682 3.755093,690 4.218048}
+{0 1,2 1,361 4.224591,398 3.991622,406 2.235093,755 0.891137,821 3.101951}
+{1 1,5 1,341 4.751553,557 3.692794,743 3.480398,755 0.930011}
+{0 1,4 1,14 1,67 1.803064,113 3.357222,243 2.287299,770 0.997794,925 3.771125,935 3.771125}
+{10 1,12 1,143 1.466219,329 0.994386,345 3.739374,755 0.731899,769 3.469696,770 1.111373,795 2.494424,851 3.469696}
+{4 1,6 1,11 1,117 4.222788,346 3.759313,592 2.832362,795 2.507725,854 1.707847}
+{10 1,67 1.926829,88 1.818412,108 3.32893,143 1.406734,234 3.587667,591 4.029981}
+{9 1,13 1,43 1.161484,67 1.519535,487 2.480488,503 2.072398,556 3.178123,583 3.178123,684 2.019377,716 3.178123,770 0.840893}
+{7 1,9 1,13 1,46 2.323874,312 4.052119,329 1.077553,460 2.15006,486 2.15006,649 2.823449,684 2.892142,755 0.793112}
+{4 1,11 1,43 2.119495,334 4.32152,353 2.102948,666 4.012532,854 2.345523}
+{7 1,8 1,163 2.832896,406 1.84584,460 1.995073,486 1.995073,539 2.832896,545 1.79084,633 1.971605,753 3.760022,755 0.73594}
+{1 1,5 1,457 4.887658,525 4.887658,755 1.188984}
+{2 1,6 1,43 1.977746,307 3.528828,523 3.744179,833 3.744179,854 2.188657}
+{9 1,14 1,252 2.715406,708 3.09993,759 3.09993,956 4.753894}
+{9 1,14 1,66 3.047714,329 0.924428,528 1.438432,759 2.546304,876 3.904881,920 3.904881}
+{1 1,5 1,181 4.257284,528 2.795563,663 4.822079}
+{4 1,6 1,43 1.581345,125 3.852063,335 2.902242,338 3.377152,595 2.993731,854 1.749984}
+{1 1,5 1,248 4.703726,755 1.184608,831 5.065939}
+{2 1,4 1,5 1,43 1.740617,401 4.762783,573 2.828404,762 3.934255}
+{7 1,9 1,13 1,511 4.459635,593 3.970164,620 2.21543,684 2.833648,755 0.777071}
+{6 1,10 1,143 2.56031,823 6.529693}
+{1 1,3 1,13 1,14 1,318 2.161689,329 0.928132,649 2.431931,755 0.683134,760 2.556506,911 3.920527,951 3.920527}
+{2 1,12 1,47 4.771154,307 3.111185,821 2.893846,871 2.893846}
+{6 1,8 1,310 3.929671,318 2.166731,355 3.929671,634 2.928214,667 2.244613}
+{6 1,7 1,56 3.532868,67 1.689147,142 3.532868,238 3.532868,755 0.615586,861 2.918294}
+{7 1,9 1,43 1.338908,329 0.867309,471 3.026285,489 2.222082,750 3.663601,760 2.38897,773 3.663601}
+{0 1,1 1,14 1,78 2.650067,545 1.43968,755 0.591632,770 0.898381,823 3.022731,901 3.395396,933 3.022731,957 3.022731}
+{6 1,11 1,14 1,353 1.221397,708 2.196446,755 0.586921,854 1.362285,881 3.368357,918 3.368357,933 2.998661,957 2.998661}
+{10 1,13 1,143 2.311477,695 6.621869}
+{10 1,43 1.991199,143 1.901872,195 4.252445,357 4.850443}
+{5 1,43 1.557899,67 2.038153,243 2.585525,276 4.262818,423 3.32708,489 2.585525}
+{0 1,67 1.815072,219 3.796241,353 1.376552,377 3.379582,378 3.379582,755 0.661478,770 1.004439,871 2.302532}
+{7 1,9 1,13 1,318 2.760208,549 2.043269,649 3.105274,760 3.26434,766 4.135183}
+{6 1,12 1,278 3.813247,336 2.264517,435 3.813247,755 0.664441,784 3.813247}
+{13 1,14 1,191 3.68306,318 2.458419,329 1.055535,755 0.776906,808 3.479954,838 3.969321}
+{7 1,8 1,9 1,46 1.592957,82 2.777625,459 3.120071,519 3.120071,534 3.120071,535 3.120071}
+{3 1,575 4.071965,644 5.548799,755 1.349815}
+{0 1,13 1,66 3.742398,73 3.317509,88 2.16358,235 3.216125,489 2.908276,755 0.835497}
+{2 1,46 1.615427,148 2.266386,171 2.063242,223 2.46953,395 2.46953,528 1.165546,594 3.164083,667 1.807312,760 2.063242,865 2.46953}
+{8 1,9 1,246 3.179598,329 0.752727,549 1.29779,633 1.484263,685 3.179598,733 3.179598,759 2.073359,856 3.179598}
+{7 1,9 1,13 1,329 1.302855,460 2.59961,486 2.59961,503 3.588666,592 3.691306,620 2.733942}
+{5 1,6 1,257 4.912613,755 0.961534,827 4.912613}
+{1 1,5 1,252 3.439558,420 6.021677,755 1.04925}
+{0 1,4 1,6 1,43 1.306267,88 1.612794,329 0.846165,489 2.167911,539 2.397391,651 3.574288,654 3.574288,671 2.78969,755 0.622803}
+{6 1,11 1,353 1.547826,430 3.331578,520 4.268581,549 1.742272,729 3.800079}
+{1 1,5 1,181 3.713866,528 2.438726,663 4.206569,806 3.4288}
+{6 1,353 1.362083,523 2.598923,524 2.93178,536 1.533195,680 3.75634,755 0.654525,767 3.75634,770 0.993882}
+{2 1,4 1,120 3.847001,528 2.230269,573 3.595475,592 4.060926}
+{4 1,12 1,344 4.38453,406 1.916178,493 4.38453,821 2.659347}
+{10 1,11 1,12 1,43 1.148809,67 1.502953,143 1.097272,406 1.373782,430 2.453419,485 3.14344,536 1.283032,545 1.332849,563 2.798429,693 2.34235,796 3.14344}
+{9 1,13 1,43 1.507163,78 3.218726,503 2.689181,528 1.519145,731 4.12399,759 2.689181,854 1.66789}
+{3 1,48 2.581237,97 2.058387,165 2.581237,329 0.853114,336 2.140042,428 2.685272,528 1.327466,577 3.208122,728 2.581237,755 0.627918}
+{6 1,12 1,395 2.970431,539 2.552715,593 3.388146,667 2.173893,714 2.970431,865 2.970431}
+{0 1,13 1,66 2.305695,67 1.412458,73 2.043921,148 2.116028,220 2.95417,272 2.95417,329 0.69936,377 2.629932,378 2.629932,528 1.088221,755 0.514751}
+{7 1,9 1,10 1,143 1.914679,212 3.07703,460 2.590983,486 2.590983,549 2.238821,752 4.087271,755 0.955759}
+{1 1,5 1,67 2.177667,153 3.054927,181 2.555032,755 0.79362,814 4.054718,831 3.393892}
+{1 1,7 1,8 1,9 1,329 1.227669,472 3.864224,509 5.1858,633 2.420775}
+{0 1,3 1,13 1,43 1.672465,73 3.166235,97 2.613965,329 1.083378,475 4.074026,489 2.775662,755 0.7974,854 1.850821}
+{3 1,11 1,12 1,53 3.416303,128 2.320062,301 3.681831,329 0.979084,704 4.135754,755 0.720636}
+{4 1,6 1,11 1,43 1.320462,67 1.727522,328 3.613129,346 3.216567,592 2.423443,669 3.613129,854 1.461279}
+{4 1,6 1,43 2.159448,265 4.611759,329 1.398832,353 2.142589,557 4.088168}
+{6 1,11 1,353 2.955157,430 6.360749}
+{3 1,10 1,14 1,143 1.622893,329 1.100643,536 1.897638,545 1.971318,563 4.13895,693 3.464396,858 2.954117}
+{6 1,8 1,285 6.277591,633 2.930432,755 1.093842}
+{2 1,3 1,9 1,13 1,352 2.755427,419 3.69779,526 3.69779,545 1.567898,770 0.97839,805 3.291936}
+{2 1,13 1,88 2.11531,361 3.872455,457 3.357923,525 3.357923,667 2.677749}
+{9 1,192 3.506415,329 0.932437,450 3.506415,549 1.607632,618 3.253538,620 1.956648,755 0.686302,858 2.502654}
+{0 1,9 1,16 3.112708,192 2.77107,329 0.736892,450 2.77107,502 2.429432,618 2.571225,746 2.571225,755 0.542375,806 1.612126,854 1.258891}
+{1 1,7 1,9 1,252 3.240413,471 4.686157,770 1.501015,863 3.805087}
+{12 1,14 1,329 1.057238,345 3.975725,406 1.951731,462 2.995412,489 2.708689,610 3.485569}
+{9 1,10 1,130 3.96987,143 1.859682,179 5.327577,329 1.261233}
+{3 1,13 1,329 1.222268,447 5.162988,575 2.71389,644 3.698173}
+{4 1,6 1,9 1,32 3.79268,221 3.79268,338 2.960143,353 1.37526,541 2.960143,770 1.003497}
+{2 1,3 1,13 1,63 3.645953,168 3.645953,352 3.051747,757 3.645953}
+{9 1,12 1,533 4.338523,608 3.10762,677 4.338523,755 0.755968,770 1.147921}
+{9 1,329 1.419066,528 2.2081,724 3.718297,751 5.336374}
+{11 1,595 4.872741,749 5.044648}
+{7 1,9 1,353 3.080195,462 5.69756,755 1.480134,770 2.24755}
+{14 1,43 2.078641,72 4.439188,329 1.346488,428 4.238222,536 2.321504}
+{4 1,10 1,108 3.778678,143 1.596788,297 3.778678,329 1.082938,573 2.716557,755 0.797076,760 2.982913}
+{8 1,128 2.609119,386 3.841941,536 1.898373,545 1.97208,633 2.171139,717 3.841941,755 0.81042}
+{11 1,12 1,78 4.325845,698 4.325845,755 0.965753,795 3.291433}
+{5 1,6 1,283 5.359277,755 0.93383,843 4.426984}
+{3 1,13 1,119 5.689156,528 2.354075,575 3.359153}
+{0 1,9 1,28 4.369173,88 1.971462,247 3.609117,528 1.609462,565 3.255711}
+{2 1,4 1,10 1,171 3.434985,329 1.247061,349 4.351351,480 4.111392}
+{5 1,12 1,396 3.53558,743 3.53558,755 0.944756,787 4.82689}
+{2 1,360 5.719859,528 2.107011,821 3.469264}
+{6 1,43 1.809209,88 2.233755,523 3.425113,755 0.862597,756 4.089291,833 3.425113}
+{10 1,95 6.319286,353 2.291431,755 1.101107,770 1.672006}
+{1 1,5 1,366 5.402066,525 4.346471,755 1.057334}
+{0 1,3 1,24 4.685799,88 2.114331,97 2.67651,353 1.699113,755 0.816479,770 1.239805,776 3.241994}
+{1 1,184 5.393642,528 1.986844,831 4.019099}
+{7 1,8 1,9 1,164 3.92238,460 1.852794,486 1.852794,528 1.444878,545 1.663126,633 1.831,708 2.557714,753 3.491876}
+{6 1,374 5.767778,595 3.99059}
+{4 1,10 1,67 1.853291,120 2.462919,143 1.353046,609 2.599878,692 3.876176,770 1.025589,818 3.876176}
+{7 1,8 1,9 1,46 1.356062,91 2.656074,201 2.656074,242 2.656074,412 2.364554,444 2.656074,480 2.073035,545 1.1262,713 2.364554,770 0.702765,806 1.375627}
+{6 1,159 3.377443,455 2.419213,549 1.378543,666 2.336773,770 0.89363,808 2.636055,817 2.789907,824 3.006749}
+{6 1,46 1.885066,226 3.692215,304 3.692215,411 2.751272,824 3.286973}
+{3 1,13 1,31 3.034217,118 2.368171,315 3.034217,329 0.71831,483 3.034217,575 1.594916,723 2.701194,865 2.368171}
+{3 1,13 1,152 3.601495,723 3.20621,725 3.601495,747 3.601495}
+{6 1,11 1,17 2.112277,46 1.211382,49 2.372694,74 2.112277,232 2.372694,411 1.768024,421 1.959943,545 1.006045,683 2.372694,810 2.112277,817 1.959943,847 2.372694}
+{6 1,11 1,17 3.303235,74 3.303235,165 2.657764,658 3.065011,810 3.303235}
+{8 1,9 1,88 2.206172,128 2.742805,587 3.382818,806 2.532274,825 4.352704}
+{8 1,9 1,330 4.865521,549 1.98592,633 2.271266,740 3.17272,806 2.519939}
+{8 1,9 1,318 2.612555,329 1.121714,414 4.738234,460 2.238176,486 2.238176,649 2.939161}
+{8 1,9 1,195 3.639793,365 4.663481,549 1.903455,633 2.176952,806 2.415299}
+{9 1,13 1,50 2.96474,67 1.417512,198 2.96474,241 2.96474,250 2.313945,318 1.63469,649 1.83905,686 2.96474,770 0.784434}
+{9 1,13 1,67 1.536493,85 2.394623,187 3.21359,406 1.40444,427 3.21359,649 1.993414,684 2.041913,709 3.21359}
+{0 1,73 4.261845,235 4.131602,489 3.736122}
+{6 1,319 3.883476,530 4.362259,809 3.883476}
+{3 1,46 1.962598,370 3.844074,411 2.864431,644 2.753454,646 3.844074}
+{4 1,6 1,331 4.342072,706 4.342072,808 3.388937}
+{3 1,97 2.607112,336 2.710535,465 4.564303,603 3.770302}
+{1 1,3 1,10 1,88 2.169651,234 4.280649,353 1.743569,694 4.808399}
+{7 1,9 1,13 1,14 1,460 1.957648,486 1.957648,745 3.088186,770 1.096546,774 3.689488,973 4.144355}
+{9 1,13 1,14 1,178 2.582787,250 2.582787,329 0.783407,740 2.157867,904 3.309193,906 2.94599,972 3.309193}
+{12 1,150 3.382915,329 0.80086,415 3.01162,661 3.382915,863 2.269031,872 3.382915}
+{4 1,6 1,43 1.363902,88 1.683953,265 2.912777,385 2.780913,625 3.731992,755 0.650283,794 3.731992}
+{14 1,229 2.572781,240 2.387236,329 0.684162,608 2.070045,854 1.168809,861 2.387236,924 2.889972,940 2.889972,976 2.889972}
+{4 1,13 1,336 1.756534,351 2.046466,403 2.204056,437 2.957849,528 1.089576,635 2.957849,648 2.957849,702 2.957849,755 0.515392,770 0.782611}
+{9 1,14 1,43 0.991702,51 2.415726,212 1.522241,329 0.642398,528 0.999586,740 1.769461,755 0.472824,896 2.713555,897 2.713555,906 2.415726,919 2.713555,975 2.713555}
+{6 1,11 1,43 1.204412,222 2.933877,322 3.295586,353 1.19501,440 2.933877,770 0.871972,801 3.295586,842 2.572167}
+{1 1,5 1,336 2.337319,366 3.503858,461 3.93584,631 3.93584,755 0.685802}
+{12 1,13 1,88 1.266437,109 2.010391,268 2.498639,347 1.70234,353 1.017731,379 2.806689,528 1.033894,574 2.806689,755 0.489053,770 0.742616,785 2.806689,793 2.806689}
+{9 1,12 1,14 1,268 2.386175,329 0.634539,403 1.997283,411 1.997283,528 0.987358,754 2.214088,770 0.709191,899 2.68036,930 2.68036,967 2.68036,969 2.68036}
+{13 1,14 1,240 2.53393,347 1.860565,406 1.34062,415 2.730877,755 0.534508,854 1.240631,929 3.067559,970 3.067559,977 3.067559}
+{6 1,11 1,27 3.064758,229 2.728383,240 2.531617,329 0.725541,353 1.111309,544 2.531617,545 1.299487,755 0.53402,828 3.064758,861 2.531617}
+{7 1,8 1,9 1,163 3.016939,212 2.52326,454 4.004297,460 2.124686,486 2.124686,545 1.907185,633 2.099693,755 0.783752}
+{0 1,4 1,9 1,40 2.475241,88 1.254578,297 2.296731,352 2.071834,406 1.215125,496 2.475241,528 1.024212,531 2.780407,599 2.475241,760 1.813054,800 2.475241}
+{1 1,88 2.174318,181 2.703203,466 4.289858,528 1.775069,663 3.061825,806 2.495712}
+{3 1,208 4.618017,254 4.618017,575 2.42743,755 0.804668}
+{6 1,8 1,13 1,476 4.370749,538 4.909606,633 2.291846,755 0.855476}
+{1 1,4 1,6 1,296 3.65187,548 3.251056,573 2.168682,608 2.615781,755 0.636322,867 3.65187}
+{1 1,11 1,224 4.469996,252 2.553244,302 4.469996,528 1.646602}
+{4 1,6 1,573 3.892134,763 5.83467}
+{13 1,14 1,109 3.086725,318 2.376078,620 2.140773,900 3.836375,945 3.836375}
+{7 1,8 1,14 1,549 1.98592,633 2.271266,740 3.17272,806 2.519939,936 4.865521}
+{0 1,99 4.467742,353 1.819775,549 2.048384,770 1.327849,840 4.467742}
+{5 1,12 1,88 2.704346,353 2.17326,396 3.908188,671 4.677776}
+{2 1,10 1,13 1,43 1.910582,329 1.237624,347 3.170846,363 4.654064,609 3.50649}
+{2 1,12 1,307 3.36213,503 3.36213,730 5.15599}
+{1 1,11 1,515 5.098014,788 4.81688}
+{3 1,9 1,88 2.039374,528 1.664904,575 2.375739,640 4.023618,804 4.519678}
+{3 1,11 1,329 1.039359,515 3.62662,528 1.617268,575 2.307765,640 3.908495,788 3.426627}
+{10 1,13 1,143 1.472886,329 0.998908,413 3.756378,501 3.756378,779 4.219492}
+{5 1,207 4.959439,501 4.959439}
+{4 1,6 1,12 1,65 4.959439,175 4.959439}
+{6 1,8 1,12 1,173 4.455634,410 4.715685,633 2.664905}
+{3 1,13 1,176 6.208276,575 3.263339}
+{7 1,14 1,620 2.119815,649 2.646953,770 1.12904,891 4.267164,946 4.267164}
+{1 1,11 1,508 4.503734,665 4.503734,708 2.936806}
+{0 1,9 1,14 1,329 1.271778,502 4.192879,620 2.668729,945 4.7825}
+{4 1,6 1,88 2.297302,243 3.088025,667 2.908132,668 5.091302}
+{3 1,5 1,518 5.243219,575 2.756063,644 3.755641}
+{4 1,6 1,243 3.400067,351 3.878503,385 4.17717,854 2.267176}
+{7 1,8 1,9 1,14 1,329 1.600693,472 5.03836,620 3.358932,633 3.156322}
+{0 1,12 1,153 2.501583,385 2.779151,549 1.522292,626 3.729628,769 3.080826,851 3.080826}
+{2 1,10 1,143 1.871866,171 3.49678,307 3.49678,329 1.269496,349 4.429631}
+{3 1,4 1,11 1,12 1,90 2.822254,129 3.416602,329 0.808835,334 2.545898,387 2.822254,575 1.795914,698 2.666618,795 2.028967}
+{12 1,13 1,245 3.503941,333 2.610979,477 3.503941,545 1.485704,549 1.430175,573 2.080834,612 2.8944,770 0.9271}
+{9 1,13 1,14 1,549 2.129068,675 4.308823,745 3.886902,858 3.31439}
+{4 1,6 1,43 1.542788,265 3.294809,335 2.831478,385 3.14565,514 3.487109,549 1.723044,854 1.707315}
+{2 1,5 1,10 1,252 2.538896,329 1.052265,368 4.444877,513 3.671651,708 2.898426}
+{3 1,43 1.524271,88 1.881954,97 2.382346,385 3.107895,480 3.255263,789 4.170803}
+{4 1,10 1,120 3.22206,143 1.770093,329 1.200473,334 3.778623,609 3.401233,667 2.896491}
+{6 1,488 5.238582,838 4.663618}
+{3 1,6 1,13 1,143 2.127646,199 5.034913,765 4.088272,770 1.612725}
+{0 1,9 1,312 4.191486,545 1.99634,620 2.338931,688 4.708243}
+{1 1,181 4.641957,663 5.257785}
+{2 1,12 1,75 4.595904,307 2.996908,406 2.008554,755 0.800815,843 3.796406}
+{4 1,6 1,11 1,351 3.796187,595 3.796187,749 3.930113,854 2.219058}
+{8 1,9 1,14 1,213 4.195751,440 4.52186,806 2.630684,854 2.054271}
+{3 1,10 1,11 1,143 2.156869,536 2.522013,703 6.178952}
+{8 1,9 1,59 3.72647,212 2.348191,470 4.185897,528 1.541949,545 1.77486,724 2.596542}
+{5 1,6 1,12 1,67 1.962106,94 4.103763,353 1.488062,396 2.675991,528 1.511694,559 4.103763}
+{0 1,9 1,13 1,318 3.693022,580 5.962689}
+{4 1,10 1,13 1,108 5.880132,143 2.484817,536 2.905479}
+{0 1,9 1,178 3.85446,347 2.99536,406 2.15829,549 2.015717,766 4.079424}
+{0 1,3 1,14 1,353 1.918902,406 2.31274,755 0.922095,858 3.362488,875 5.291931}
+{3 1,12 1,13 1,97 2.779694,260 4.866444,336 2.889963,347 2.951642,755 0.847956}
+{4 1,5 1,11 1,12 1,46 1.603886,83 2.107091,93 3.141477,148 2.250194,251 3.141477,334 2.340887,391 3.141477,528 1.157219,770 0.831197}
+{7 1,8 1,9 1,13 1,212 2.758069,460 2.322405,486 2.322405,545 2.084663,714 3.837309,724 3.049771,755 0.856686,770 1.300859}
+{0 1,9 1,33 4.698845,88 2.120217,353 1.703844,755 0.818752,770 1.243257,800 4.183119}
+{6 1,13 1,386 3.661705,462 2.973248,545 1.879565,717 3.661705,755 0.772401,833 3.066975}
+{4 1,9 1,13 1,43 1.116342,178 2.384082,336 1.813992,350 3.054603,504 3.054603,540 2.719343,684 1.940892,752 2.276153,760 1.991853}
+{2 1,13 1,148 4.354394,513 5.021614,528 2.239356}
+{0 1,235 5.69756,353 3.080195,755 1.480134,770 2.24755}
+{1 1,11 1,12 1,13 1,116 4.635636,323 4.525532,528 2.687474}
+{3 1,13 1,147 4.799301,316 4.799301,528 1.767907}
+{1 1,5 1,207 5.484489,243 3.736621,528 2.269387}
+{6 1,286 2.586802,402 3.131566,403 2.333501,506 3.131566,521 2.333501,536 1.278186,545 1.327814,755 0.545661,833 2.166657,871 1.899387}
+{3 1,13 1,155 3.986489,157 3.986489,347 2.417923,528 1.468494,549 1.627133,708 2.599519}
+{2 1,10 1,120 3.299718,143 1.812756,329 1.229407,609 3.48321,670 4.623165}
+{0 1,329 1.015669,358 4.290292,462 2.877639,549 1.751134,639 4.290292}
+{7 1,9 1,329 1.435995,460 2.865268,486 2.865268,649 3.762656,863 4.068525}
+{9 1,13 1,154 3.422602,536 1.950306,650 3.947045,722 4.253824}
+{3 1,13 1,154 3.268837,230 4.563596,536 1.862686,650 3.769718}
+{10 1,143 2.156869,536 2.522013,829 6.178952}
+{4 1,6 1,523 3.647246,541 4.114366,674 4.354499}
+{6 1,11 1,12 1,592 3.959355,698 4.607247,795 3.505546}
+{3 1,118 3.986622,279 5.107855,575 2.68491}
+{2 1,195 2.769546,323 2.201147,363 3.159012,392 2.931189,614 3.548478,770 0.938884,821 2.152257}
+{7 1,8 1,9 1,13 1,81 3.756957,549 1.722501,607 3.756957,633 1.969998,742 3.756957}
+{0 1,9 1,369 5.203034,549 2.12368,620 2.584731,858 3.306003}
+{0 1,235 3.906885,866 5.824803}
+{10 1,143 2.354767,451 6.005486,536 2.753413}
+{4 1,271 4.227617,656 3.492186,770 1.118576,864 4.227617}
+{13 1,116 3.082035,134 4.850549,323 3.008831,528 1.786786,549 1.979809}
+{13 1,267 4.489306,329 1.062783,468 4.489306,724 2.784749}
+{0 1,9 1,67 1.55095,85 2.417154,514 2.679535,549 1.324007,590 2.887799,618 2.679535,854 1.311921,858 2.061125,862 3.243828}
+{1 1,5 1,457 4.887658,525 4.887658,755 1.188984}
+{0 1,6 1,88 1.666734,261 3.693831,541 2.882992,548 3.288412,600 3.693831}
+{9 1,13 1,213 4.380222,323 3.289284,422 4.380222}
+{4 1,6 1,160 3.482541,325 3.482541,329 0.824445,448 3.482541,820 3.482541}
+{4 1,9 1,60 3.843992,247 3.56677,529 4.317908,854 1.746317}
+{3 1,4 1,48 2.052229,169 2.8651,298 2.8651,329 0.678274,410 2.36669,500 2.550638,558 2.550638,684 1.820482,754 2.36669,770 0.758071}
+{7 1,9 1,13 1,85 2.860293,318 2.116473,320 3.417221,460 1.813183,486 1.813183,545 1.627569,571 3.417221,806 1.988038}
+{0 1,6 1,11 1,317 2.690354,329 0.816034,494 2.847375,601 3.447013,791 3.068683,834 3.447013}
+{3 1,13 1,14 1,46 1.926503,204 2.945077,577 3.359227,934 3.359227,958 3.773377}
+{9 1,46 2.747388,684 3.41922,759 3.508996,808 4.199977}
+{1 1,2 1,111 4.674326,389 3.234056,610 3.648257,854 1.890465}
+{0 1,1 1,88 1.842412,258 4.083169,441 4.083169,587 2.825049,806 2.114746}
+{0 1,2 1,58 4.304547,336 2.556278,521 3.207554,587 2.978215,806 2.229401}
+{4 1,6 1,12 1,46 2.101002,204 3.211837,426 4.115162,568 3.399294,795 2.443811}
+{1 1,5 1,153 4.62298,755 1.200975,831 5.135931}
+{0 1,1 1,2 1,270 3.812258,323 2.364771,364 3.812258,596 3.812258}
+{9 1,13 1,85 3.773605,214 4.508364,549 2.067009,858 3.217781}
+{8 1,9 1,25 3.504209,163 2.350387,282 3.504209,633 1.635794,770 0.927171,806 1.814892,859 3.504209}
+{3 1,4 1,387 2.375831,500 2.56049,507 2.876165,516 2.244814,558 2.56049,642 2.876165,770 0.760998,790 2.876165}
+{6 1,10 1,143 1.377936,336 2.344233,339 3.947482,471 3.260783,853 3.947482}
+{1 1,5 1,10 1,143 1.969174,167 5.641247,243 3.421583,329 1.33549}
+{2 1,13 1,88 2.299968,362 4.210506,398 3.978314,755 0.888166,821 3.091609}
+{1 1,5 1,13 1,202 4.842816,323 3.004034,416 4.000365,755 0.843839}
+{4 1,10 1,43 1.566879,143 1.496587,329 1.014982,348 3.54156,397 4.287389,850 3.54156}
+{0 1,12 1,43 1.354761,54 3.706979,88 1.672667,100 3.300116,128 2.079529,755 0.645924,770 0.980822,792 3.062117,795 2.201409}
+{4 1,6 1,329 1.048887,555 4.430609,765 2.971754,826 4.430609}
+{9 1,13 1,154 3.195157,536 1.820701,655 4.460732,722 3.971141}
+{14 1,406 1.334991,423 2.384141,487 2.384141,770 0.808231,825 2.71941,894 3.054679,895 3.054679,921 3.054679}
+{6 1,10 1,11 1,43 1.842645,143 1.759981,536 2.057934,630 5.041956,749 3.61148}
+{7 1,9 1,247 3.635983,460 2.079207,486 2.079207,570 4.401697,620 2.186648,854 1.780205}
+{1 1,5 1,13 1,248 5.309454,252 4.383353,755 1.337158}
+{7 1,9 1,30 3.861526,667 2.670192,771 4.161659,863 3.135499}
+{1 1,5 1,153 4.62298,755 1.200975,831 5.135931}
+{12 1,329 0.984125,347 2.521372,564 4.157046,770 1.099904,795 2.468684,813 4.157046}
+{0 1,3 1,46 2.196831,97 2.457776,418 4.302859,744 4.302859,770 1.138484}
+{9 1,619 4.665577,649 2.894092,759 3.042341,863 3.129355}
+{8 1,9 1,329 1.165243,472 3.667731,714 3.841646,724 3.053218,759 3.209618}
+{10 1,14 1,43 1.647033,143 1.573146,536 1.839468,885 4.506713,964 4.506713}
+{6 1,11 1,284 4.265199,406 1.864026,749 3.0551,783 4.265199}
+{2 1,5 1,171 4.102224,243 3.815653,592 4.219552}
+{6 1,8 1,10 1,128 2.238952,347 2.420761,455 2.858815,545 1.692293,755 0.695443,766 3.296869,845 3.991168}
+{0 1,2 1,36 4.002164,88 2.0285,139 3.349903,528 1.656026,587 3.110386,806 2.32834}
+{1 1,252 3.787535,456 5.903106}
+{4 1,11 1,353 1.843012,430 3.966943,734 5.082641,854 2.055603}
+{10 1,12 1,13 1,143 1.282928,293 3.675304,478 3.675304,765 2.465146,770 0.972441,772 3.675304}
+{7 1,9 1,46 1.935387,87 3.790777,462 2.542598,658 3.131338,664 3.790777,755 0.660526}
+{14 1,392 3.300043,536 1.630611,620 1.984616,755 0.696112,854 1.615726,889 3.995011,965 3.556535}
+{4 1,6 1,43 1.758769,265 3.756062,670 4.284256,743 3.138114,854 1.946328}
+{8 1,10 1,84 3.453508,143 1.205506,537 3.453508,543 3.453508,545 1.46432,590 3.074465,755 0.601758}
+{1 1,2 1,5 1,223 2.862288,389 2.537321,474 3.667304,528 1.350916,562 3.667304,663 2.330202,755 0.639011}
+{3 1,37 2.963595,61 2.749865,97 1.901494,119 2.963595,138 2.598221,291 3.328969,528 1.226285,755 0.580058,770 0.880805}
+{8 1,13 1,36 3.080727,109 2.478736,130 2.57864,132 3.080727,138 2.700913,467 2.700913,528 1.274752,755 0.602984,770 0.915617}
+{3 1,14 1,43 1.599618,83 2.935778,329 1.03619,528 1.612335,883 3.896575,953 4.376973}
+{11 1,205 3.336145,406 1.637753,476 3.336145,571 3.336145,666 2.592772,743 2.443646,755 0.652976}
+{0 1,39 4.343716,88 1.959976,235 2.913472,333 3.236741,353 1.575071,549 1.772939,755 0.756873,770 1.149294}
+{9 1,214 4.152766,382 4.66475,406 2.038642,620 2.317325,755 0.812811}
+{1 1,5 1,181 4.257284,528 2.795563,663 4.822079}
+{12 1,43 1.366449,100 3.328588,317 2.918215,357 3.328588,399 3.73896,406 1.634043}
+{3 1,4 1,83 2.472424,110 3.686155,132 3.281578,329 0.872648,387 3.044916,516 2.877001,755 0.642296}
+{5 1,347 2.129326,396 2.289247,403 2.615994,653 3.510672,708 2.289247,743 2.289247,846 3.125355}
+{10 1,13 1,44 3.64712,67 1.743774,143 1.27309,565 2.717669,579 3.246827,604 3.64712}
+{12 1,112 3.324732,165 2.67506,406 1.63215,755 0.650742,807 3.734629,836 3.734629}
+{2 1,5 1,29 4.270765,523 2.954842,541 3.333283,671 3.333283}
+{7 1,8 1,14 1,549 1.542296,633 1.7639,806 1.957024,932 3.778638,965 3.363911,974 3.778638}
+{2 1,79 4.771767,803 4.248038,821 2.894218}
+{6 1,8 1,23 2.801799,43 1.023952,76 2.801799,88 1.264231,218 2.801799,308 2.801799,318 1.544848,561 2.801799,634 2.087775,770 0.741322}
+{0 1,18 2.671457,30 2.478796,34 2.671457,203 3.000814,253 2.149439,400 3.000814,544 2.478796}
+{1 1,341 4.751553,557 3.692794,743 3.480398,755 0.930011}
+{3 1,69 4.709683,475 4.192768,743 3.071101}
+{6 1,10 1,127 3.359553,143 1.17271,287 3.359553,321 3.359553,549 1.371241,770 0.888897,835 3.359553}
+{13 1,14 1,411 2.372398,754 2.629921,755 0.554757,900 2.834329,916 3.183765,934 2.834329,938 3.183765}
+{1 1,5 1,248 5.309454,252 4.383353,755 1.337158}
+{9 1,204 2.253471,313 2.887258,359 2.887258,422 2.384994,505 2.887258,557 1.997626,770 0.763933,806 1.495362,848 2.570364}
+{7 1,9 1,26 2.591664,162 2.307214,464 2.591664,510 2.591664,515 2.140822,542 2.591664,549 1.057819,674 2.140822,715 2.591664}
+{11 1,18 2.62152,19 2.94472,479 2.94472,666 2.037383,671 2.29832,711 2.94472,787 2.62152}
+{4 1,151 2.917857,403 2.174255,423 2.277353,489 1.769766,498 2.917857,573 1.732785,741 2.597605,748 2.917857,755 0.508423,770 0.772029}
+{1 1,10 1,37 2.760711,67 1.482695,136 2.760711,143 1.082482,463 3.101072,469 3.101072,545 1.314884,699 3.101072}
+{6 1,8 1,186 3.268587,189 3.268587,264 3.268587,536 1.334113,549 1.334113,557 2.261459,763 2.909841}
+{0 1,21 2.793086,42 2.486529,64 2.793086,124 2.793086,177 2.793086,233 2.793086,253 2.000647}
+{2 1,12 1,88 1.491397,112 2.942477,336 1.962839,421 2.730271,770 0.874528,775 2.579707,797 3.305248,840 2.942477}
+{10 1,12 1,43 2.149509,143 2.053079,536 2.400652,727 5.881617}
+{7 1,8 1,14 1,128 3.475369,329 1.466633,460 2.926399,486 2.926399,620 3.077617,633 2.891976}
+{0 1,7 1,14 1,329 1.722189,353 2.637875,503 4.743707,620 3.613883,770 1.924799}
+{10 1,11 1,43 2.592892,143 2.476572,327 5.286747,536 2.895839}
+{4 1,6 1,11 1,327 4.071877,335 3.665199,595 3.780739,854 2.210028}
+{1 1,5 1,107 5.600597,181 3.52915,528 2.317431}
+{2 1,9 1,10 1,139 3.336296,143 1.562885,329 1.059945,473 3.985907,528 1.6493,579 3.985907}
+{0 1,235 5.69756,353 3.080195,755 1.480134,770 2.24755}
+{2 1,8 1,9 1,10 1,130 3.510324,139 3.510324,143 1.644408,329 1.115234,473 4.19382,528 1.73533}
+{1 1,10 1,43 2.28769,143 2.185062,710 6.259717}
+{1 1,5 1,181 4.027806,342 5.603896,755 1.25108}
+{13 1,243 4.959439,489 4.959439}
+{3 1,97 5.362528,353 3.404263,755 1.635858,770 2.484015}
+{3 1,13 1,294 4.174458,492 3.716287,720 4.174458,755 0.72738}
+{4 1,6 1,34 3.703146,353 1.508344,544 3.436081,549 1.69783,678 4.159697,770 1.100605}
+{6 1,8 1,130 3.025832,453 4.060675,545 1.721765,633 1.895557,719 4.060675,755 0.707554}
+{1 1,5 1,445 4.426984,755 0.93383,830 5.359277}
+{13 1,104 3.200052,116 2.461512,329 0.917109,388 3.873962,528 1.427042,636 3.873962}
+{9 1,61 3.329771,212 2.261297,256 4.030999,262 4.030999,755 0.702383}
+{2 1,10 1,143 1.57185,168 4.008772,329 1.066026,708 2.936329,755 0.784628,786 4.503003}
+{4 1,13 1,43 1.865861,334 3.804375,398 3.984769,406 2.231256,755 0.889607,821 3.096625}
+{6 1,11 1,327 3.617043,333 3.617043,353 1.760134,549 1.981251,770 1.284331,788 3.788554}
+{0 1,9 1,52 3.78328,212 2.122332,329 0.895641,502 2.952806,545 1.604147,620 1.879434,707 3.78328,755 0.659219}
+{14 1,43 1.790046,329 1.159544,428 3.649793,679 4.360445,728 3.508389}
+{12 1,43 2.410656,128 3.700306,811 5.44872}
+{1 1,5 1,53 4.219211,243 3.098,248 3.533931,252 2.917526,755 0.890002}
+{7 1,8 1,9 1,13 1,67 1.553436,128 1.822629,163 2.179229,320 2.892428,407 3.249027,409 3.249027,460 1.534726,486 1.534726,545 1.377618,633 1.516673,755 0.566128}
+{3 1,22 3.907157,48 2.798639,97 2.231753,336 2.320286,755 0.680804,855 3.907157}
+{6 1,10 1,11 1,43 1.162187,116 2.0206,143 1.11005,182 3.180048,517 3.180048,536 1.297974,728 2.277822,755 0.554109,760 2.073653,770 0.841402,816 3.180048}
+{6 1,172 2.847746,384 3.069083,406 1.506649,455 2.469367,523 2.385218,545 1.461757,605 3.069083,755 0.600705,833 2.385218}
+{0 1,13 1,253 5.820755,353 2.946673,755 1.415972,770 2.150122}
+{1 1,5 1,336 2.447497,457 2.952076,643 4.121369,755 0.71813,841 4.121369}
+{8 1,11 1,46 1.769754,80 3.466358,222 3.085905,629 3.085905,633 1.618125,755 0.603997,868 3.466358}
+{14 1,61 2.273483,383 2.450187,741 2.450187,755 0.479569,848 2.450187,858 1.748786,905 2.752264,908 2.752264,912 2.752264}
+{1 1,2 1,3 1,236 3.352078,275 3.352078,329 0.793559,362 2.768954,390 3.352078,516 2.616258,755 0.584084}
+{12 1,324 4.274604,536 1.74473,743 2.787394,755 0.74483,770 1.131008,870 4.274604}
+{7 1,9 1,13 1,43 1.13751,46 1.589104,200 3.112525,329 0.736849,487 2.429289,607 2.770907,620 1.546221,684 1.977695,742 2.770907,746 2.571073,755 0.542343,770 0.823536}
+{2 1,11 1,13 1,83 3.018531,116 2.859518,309 4.00641,645 3.717474,755 0.784165,770 1.190738}
+{4 1,6 1,335 3.806145,353 2.057665,755 0.988775,756 4.68746,770 1.501433,854 2.295016}
+{9 1,14 1,252 2.540522,496 3.95956,871 2.697676,917 4.447724}
+{3 1,48 3.268363,66 3.561318,97 2.60633,353 1.654562,552 3.769172,755 0.795071,770 1.207297}
+{10 1,67 2.290752,136 4.265276,143 1.672426,869 4.791131}
+{1 1,5 1,248 5.309454,252 4.383353,755 1.337158}
+{3 1,13 1,406 1.944216,547 3.960417,575 2.338422,603 3.674798,644 3.186529,755 0.775163}
+{4 1,6 1,43 1.52074,172 3.437273,211 4.16114,335 2.791012,353 1.508867,545 1.764363,755 0.72506,770 1.100987,854 1.682915}
+{7 1,9 1,14 1,67 2.167324,318 2.499382,460 2.141221,486 2.141221,649 2.811841,755 0.789851,898 4.53298}
+{6 1,8 1,89 3.302818,128 1.852804,290 3.302818,354 3.302818,634 2.461111,714 2.577811,755 0.575501}
+{0 1,353 1.514304,503 2.723182,616 4.176132,701 4.176132,755 0.727672,770 1.104954,854 1.688978}
+{11 1,353 1.87438,376 5.169146,606 4.034459,755 0.9007,770 1.367693}
+{10 1,143 1.968354,705 5.638896,708 3.677025}
+{12 1,70 4.517021,72 3.96013,329 1.201181,755 0.884106,770 1.342496,795 3.01317}
+{4 1,6 1,62 4.157988,133 4.157988,335 2.788898,353 1.507724,755 0.72451,770 1.100153,854 1.68164}
+{1 1,5 1,181 2.870434,663 3.251242,814 4.555246,871 3.103521}
+{11 1,353 1.434002,406 1.728319,602 3.954678,738 3.954678,755 0.689085,805 3.520629}
+{10 1,13 1,43 1.543534,68 4.223511,317 3.296401,329 0.99986,351 2.922148,609 2.832846,755 0.735927}
+{5 1,13 1,43 1.648876,116 2.866765,161 3.726895,549 1.841526,755 0.786153,768 4.511755}
+{13 1,336 2.120569,547 3.17893,560 3.570852,588 3.570852,603 2.949671,755 0.622205}
+{7 1,8 1,329 1.266234,460 2.52654,472 3.985612,486 2.52654,620 2.657095,724 3.31784,755 0.931987}
+{14 1,161 3.323019,319 3.581297,549 1.641964,755 0.700959,871 2.439963,962 4.022825}
+{5 1,10 1,143 1.46486,329 0.993465,413 3.735908,484 3.735908,490 4.196498,755 0.731221}
+{8 1,14 1,329 1.103574,417 4.149973,724 2.891632,755 0.812264,923 4.661611}
+{0 1,5 1,88 1.425817,105 3.159909,396 2.060521,417 2.81309,421 2.610215,689 3.159909,755 0.5506,846 2.81309}
+{0 1,158 4.105603,173 3.204376,351 2.840571,406 1.794278,502 3.204376,755 0.715383}
+{5 1,12 1,171 4.489121,329 1.629762,353 2.496305,396 4.489121}
+{2 1,83 2.622173,146 3.909416,329 0.925502,361 3.229339,637 3.909416,755 0.681198}
+{3 1,10 1,199 3.099059,329 0.888165,575 1.972056,578 3.7517,755 0.653717,761 3.7517,765 2.516388}
+{12 1,67 1.843432,482 3.855556,527 3.855556,568 3.184848,755 0.671813,821 2.338509}
+{7 1,9 1,353 2.394601,460 3.119407,462 4.429389,486 3.119407,755 1.150683,770 1.747287}
+{6 1,8 1,109 2.616999,128 2.049568,394 3.65357,524 2.851569,633 1.705517,681 3.65357,755 0.636618}
+{1 1,252 3.737165,456 5.824602,755 1.140036}
+{6 1,329 1.097728,353 1.681388,569 4.636916,589 4.636916,755 0.807961,770 1.226872}
+{2 1,14 1,43 1.273664,389 2.411244,770 0.922109,871 2.113803,882 3.485078,892 3.485078,937 3.485078}
+{3 1,14 1,72 3.334179,329 1.011318,755 0.744361,915 4.271913,959 4.271913}
+{4 1,6 1,14 1,43 1.498462,880 4.100182,909 4.100182,944 3.650164}
+{9 1,14 1,178 2.802869,252 2.051264,329 0.850162,755 0.625745,887 3.591173,910 3.197021,927 3.591173}
+{5 1,10 1,43 1.457717,106 3.988694,329 0.94427,347 2.419261,499 3.988694,536 1.628033,871 2.419261}
+{6 1,11 1,77 3.488454,116 2.489834,173 3.058372,659 3.918536,755 0.682787,871 2.376708}
+{4 1,10 1,143 1.688167,171 3.153617,329 1.144911,335 3.243814,611 3.994921,871 2.933313}
+{1 1,5 1,181 3.774997,663 4.275809,871 4.081536}
+{2 1,14 1,195 3.940998,223 3.940998,323 3.13218,667 2.884197}
+{3 1,13 1,97 2.538846,154 3.183737,216 3.671578,406 1.942512,587 3.075245,755 0.774484,806 2.302034}
+{9 1,14 1,299 3.958427,329 1.052638,606 3.470403,755 0.774774,914 4.44645}
+{12 1,43 1.54317,77 3.75907,210 4.222516,592 2.832179,755 0.735754,795 2.507563}
+{5 1,46 1.454935,191 2.353996,204 2.224183,416 2.353996,546 2.849733,624 2.849733,687 2.849733,755 0.496553,757 2.536958}
+{0 1,2 1,353 1.797933,521 3.694719,755 0.863965,756 4.09578,770 1.311912,854 2.005324,871 3.00737}
+{1 1,5 1,92 4.678417,406 2.044615,457 3.351082,525 3.351082,755 0.815193}
+{0 1,13 1,166 4.190771,253 3.001788,329 0.992109,353 1.519612,405 4.190771,755 0.730223,770 1.108827}
+{9 1,13 1,489 3.586098,620 2.937168,621 5.263556}
+{11 1,327 3.487912,353 1.697296,514 3.866523,549 1.910519,606 3.6533,755 0.815606,770 1.23848}
+{4 1,6 1,131 3.909603,338 3.0514,598 3.909603,775 3.0514}
+{9 1,13 1,128 3.038985,467 4.228147,656 4.474921,770 1.433354}
+{7 1,8 1,9 1,318 2.974494,460 2.548249,472 4.019859,486 2.548249,724 3.346348}
+{3 1,12 1,128 2.784192,799 4.963115,811 4.099737}
+{0 1,13 1,73 4.161643,253 4.308463,489 3.648281}
+{10 1,11 1,143 2.069925,327 4.418676,536 2.420349,693 4.418676}
+{5 1,181 4.257284,528 2.795563,663 4.822079}
+{3 1,4 1,90 4.627037,575 2.94437,775 4.371875}
+{0 1,235 5.828834,353 3.151164,770 2.299335}
+{2 1,13 1,398 3.909513,406 2.189117,803 4.459287,821 3.038143}
+{9 1,318 2.961034,580 4.780834,610 4.191418}
+{3 1,13 1,239 3.883476,682 3.883476,721 4.362259}
+{1 1,309 4.338366,342 3.8035,389 3.371674,406 2.129755}
+{6 1,12 1,367 3.821813,429 3.821813,718 3.821813,821 2.318042}
+{9 1,13 1,46 1.539663,193 3.015685,442 3.015685,545 1.278679,553 2.684696,617 3.015685,620 1.498113,684 1.916164,740 1.966475,755 0.525469,770 0.797914}
+{0 1,9 1,225 3.883476,299 3.883476,554 4.362259}
+{6 1,128 2.703727,384 4.29069,605 4.29069,633 2.249866}
+{4 1,6 1,351 4.025835,353 2.10992,524 4.541442,770 1.539562,854 2.353299}
+{10 1,13 1,143 1.69716,249 4.861987,383 4.328355,536 1.984478}
+{14 1,484 3.419739,791 3.419739,854 1.55358,883 3.419739,902 3.419739}
+{0 1,11 1,353 2.320202,585 6.398632,770 1.693}
+{1 1,2 1,139 3.149988,389 2.924765,497 4.227293,745 3.149988,854 1.709669}
+{7 1,9 1,194 4.221027,212 2.367898,295 4.221027,460 1.993865,486 1.993865}
+{13 1,14 1,71 3.343853,329 0.889208,428 2.798882,487 2.931599,684 2.386628,770 0.993821,877 3.756108}
+{5 1,13 1,148 3.308581,206 4.619082,582 4.112111}
+{6 1,120 2.913184,329 1.085392,353 1.662494,452 4.58481,573 2.722713,667 2.618825,770 1.213085}
+{8 1,9 1,46 2.165038,188 3.502899,412 3.775157,425 4.240586}
+{4 1,12 1,406 1.916178,432 4.38453,739 4.38453,821 2.659347}
+{6 1,12 1,113 3.007657,156 3.378463,406 1.476495,424 3.378463,652 3.378463,667 1.929765}
+{0 1,13 1,99 6.262643,353 2.550864,770 1.861309}
+{0 1,14 1,153 4.028874,536 2.451697,587 4.155879,806 3.110964}
+{14 1,329 0.860453,503 2.370087,592 2.437874,902 3.23572,952 3.634644,954 3.634644}
+{2 1,243 3.182168,307 3.421162,353 1.902435,729 4.670682,770 1.388165}
+{4 1,6 1,353 2.040041,449 5.626007,573 3.341034,770 1.488573}
+{3 1,10 1,15 2.987109,165 2.139622,259 2.987109,263 2.987109,303 2.987109,632 2.987109}
+{6 1,48 3.663075,306 5.113989,489 3.101785}
+{0 1,6 1,252 2.268501,372 3.971493,466 3.535599,782 3.971493}
+{10 1,12 1,143 2.156869,536 2.522013,781 6.178952}
+{0 1,4 1,6 1,11 1,749 4.309507,850 4.969849,854 2.433275}
+{12 1,13 1,126 4.803203,612 3.967643,765 3.221665}
+{1 1,5 1,457 4.887658,525 4.887658,755 1.188984}
+{7 1,8 1,9 1,35 4.867903,163 3.265061,460 2.299426,486 2.299426,545 2.064037}
+{9 1,14 1,250 3.781503,329 1.147,565 3.61031,740 3.159369,863 3.249731}
+{3 1,5 1,13 1,63 3.307466,83 2.491929,148 2.661168,305 3.715235,329 0.879532,513 3.068937,770 0.983006}
+{2 1,3 1,13 1,67 1.81415,329 0.898253,439 3.794313,609 2.54497,839 3.794313,850 3.134259}
+{0 1,4 1,6 1,125 4.325174,297 4.013249,338 3.791935}
+{1 1,5 1,248 5.309454,252 4.383353,755 1.337158}
+{3 1,13 1,575 4.071965,644 5.548799,755 1.349815}
+{9 1,13 1,14 1,59 3.719248,318 2.303535,549 1.705212,745 3.113096,931 4.177784}
+{3 1,4 1,30 3.095254,90 3.095254,292 3.747094,431 3.335829,575 1.969635,770 0.991436}
+{6 1,8 1,481 4.501096,545 1.908507,633 2.101149,660 4.501096,755 0.784295}
+{4 1,6 1,9 1,13 1,329 0.897746,386 3.13249,628 3.792172,717 3.13249,764 3.792172}
+{3 1,7 1,9 1,13 1,135 4.05651,329 0.960324,460 1.916153,486 1.916153,528 1.494287,575 2.132277,745 3.022728,770 1.073303,863 2.720833}
+{4 1,6 1,170 3.592511,237 3.198212,329 0.850479,434 3.592511,539 2.409614,728 2.573263}
+{2 1,329 1.096352,584 4.631104,612 3.825483,696 3.45089}
+{5 1,6 1,96 3.173575,114 3.173575,286 2.621503,455 2.273185,545 1.345626,755 0.552981,758 3.173575,833 2.195722}
+{2 1,4 1,120 3.551664,528 2.059049,573 3.319448,762 4.617287}
+{7 1,8 1,9 1,46 2.047597,60 3.570378,163 2.690013,343 4.01056,634 2.988488}
+{1 1,5 1,342 4.046008,406 2.265547,755 0.903279,860 5.183944}
+{2 1,10 1,13 1,144 4.831234,171 3.150362,611 3.990798}
+{6 1,586 4.922219,597 4.922219,755 0.857674}
+{3 1,97 3.804271,356 5.501587,755 1.160507,770 1.762204}
+{0 1,205 3.596606,404 4.040022,406 1.765616,572 4.040022,755 0.703955}
+{9 1,14 1,82 3.139345,212 1.978221,329 0.834825,910 3.139345,922 3.526387,949 3.526387}
+{4 1,6 1,67 1.773184,356 3.063482,431 3.301587,438 3.708631,524 2.894543,755 0.646212,770 0.981259,854 1.499904}
+{1 1,13 1,14 1,107 5.933868,181 3.739156}
+{1 1,14 1,153 3.221665,161 3.967643,943 4.803203}
+{6 1,13 1,143 1.680736,209 4.814935,380 4.814935}
+{6 1,11 1,436 3.354657,458 3.354657,494 2.771085,545 1.422406,613 3.354657,755 0.584534,833 2.321008}
+{5 1,12 1,13 1,329 1.212164,356 4.229583,396 3.338861,755 0.89219,843 4.229583}
+{14 1,645 3.517612,755 0.742006,893 4.258398,971 4.258398}
+{6 1,217 3.50042,286 2.891491,423 2.732037,455 2.5073,545 1.484211,755 0.609932,819 3.50042}
+{2 1,13 1,43 1.701063,536 1.89981,573 2.76413,667 2.658662,762 3.844851,865 3.632823}
+{2 1,12 1,406 1.805582,446 4.13147,528 1.5219,696 3.078585,822 4.13147}
+{3 1,118 3.510161,280 4.003776,576 4.49739,755 0.78365}
+{6 1,8 1,337 3.514819,371 3.514819,393 3.514819,634 2.619085,667 2.007651,755 0.612441,770 0.929979}
+{6 1,11 1,12 1,13 1,353 2.291431,375 6.319286,755 1.101107,770 1.672006}
+{0 1,1 1,7 1,8 1,9 1,13 1,14 1,460 3.016702,486 3.016702,608 4.574471,620 3.172586}
+{1 1,4 1,10 1,13 1,120 2.755008,143 1.51351,329 1.026459,332 4.33587,348 3.581607,573 2.574879}
+{7 1,8 1,9 1,14 1,495 3.055078,549 1.400702,633 1.601961,928 3.431731,939 3.431731,950 3.431731}
+{7 1,8 1,9 1,14 1,212 3.176604,460 2.674828,486 2.674828,633 2.643363,752 4.219537}
+{2 1,5 1,6 1,12 1,243 2.916394,307 3.135426,329 1.138307,333 3.58295,353 1.743544,396 3.135426,549 1.962577}
+{0 1,6 1,12 1,13 1,235 4.367046,353 2.360897,755 1.134487,770 1.722694,776 4.504711}
+{1 1,3 1,6 1,10 1,143 2.156869,536 2.522013,736 6.178952}
+{1 1,3 1,10 1,13 1,143 2.311477,726 6.621869}
+{1 1,6 1,13 1,116 5.018682,323 4.89948}
+{1 1,9 1,14 1,549 2.256393,620 2.746255,621 4.921431,858 3.512601}
+{1 1,9 1,14 1,318 2.078478,553 3.355875,565 2.808945,649 2.338318,740 2.458097,948 3.769611}
+{1 1,5 1,6 1,181 4.574084,396 5.316939}
+{2 1,4 1,6 1,12 1,46 1.678136,53 2.715121,83 2.204636,301 2.926151,335 2.204636,567 2.926151,698 2.565393,795 1.951948,854 1.329344}
+{3 1,4 1,6 1,13 1,539 3.959355,573 3.505546,842 4.607247}
+{0 1,7 1,9 1,13 1,14 1,329 0.930743,353 1.425617,460 1.857128,486 1.857128,770 1.040242,776 2.72015,873 3.931554,926 3.931554}
+{8 1,9 1,14 1,724 3.233822,740 3.399473,890 5.213258}
+{0 1,9 1,14 1,250 3.002718,333 2.866782,549 1.570292,740 2.50871,854 1.555958,858 2.444526,941 3.847229}
+{4 1,6 1,12 1,14 1,78 3.840343,770 1.301888,795 2.922027,966 4.920436}
+{8 1,9 1,12 1,14 1,72 4.242091,329 1.286705,878 5.435175}
+{1 1,2 1,5 1,137 4.674295,329 1.106577,362 3.86116,608 3.348129}
+{4 1,9 1,12 1,14 1,102 3.380059,138 2.96334,212 2.129904,460 1.793464,486 1.793464,545 1.609869,770 1.004581,942 3.796777}
+{0 1,4 1,6 1,11 1,42 2.647675,88 1.341976,228 2.974099,599 2.647675,737 2.974099,778 2.974099,788 2.32125,854 1.202833}
+{1 1,5 1,13 1,14 1,323 3.657248,755 1.027327,968 5.895864}
+{3 1,5 1,13 1,109 3.05733,118 3.331369,280 3.799841,575 2.24361,755 0.743734,776 2.953146}
+{0 1,7 1,9 1,86 4.043836,212 2.268498,460 1.910166,486 1.910166,503 2.636914,545 1.714625,776 2.797835,854 1.635473}
+{4 1,6 1,9 1,12 1,173 2.779869,277 3.561705,408 3.561705,568 2.942115,770 0.942384,795 2.115137,854 1.440482}
+{5 1,9 1,14 1,213 3.462663,389 2.900261,416 3.462663,532 3.731794,854 1.695346}
+{7 1,9 1,10 1,143 1.763052,212 2.833355,329 1.195698,460 2.385799,486 2.385799,495 4.496404,536 2.061525,755 0.880071}
+{2 1,10 1,13 1,43 1.143436,109 2.24107,120 1.987998,143 1.09214,183 3.128738,348 2.584467,492 2.785341,521 2.331395,540 2.785341,755 0.545168}
+{3 1,6 1,11 1,43 1.242313,98 3.399292,116 2.159907,329 0.804737,516 2.653108,528 1.252189,536 1.387461,552 2.807955,672 3.399292,770 0.899411}
+{8 1,9 1,212 2.021144,454 3.207462,658 2.976145,700 3.602902,844 3.602902}
+{9 1,14 1,329 0.782932,528 1.218261,539 2.218238,606 2.581221,620 1.642924,886 3.307187,888 3.307187,961 3.307187}
+{9 1,10 1,13 1,43 1.234463,115 3.377813,143 1.179084,197 3.377813,329 0.799652,676 3.377813,777 3.377813}
+{0 1,1 1,2 1,41 3.738417,88 1.686852,196 3.738417,352 2.7857,528 1.377112,696 2.7857,770 0.98914}
+{1 1,5 1,181 3.558571,342 4.951048,755 1.10533,806 3.285424}
+{0 1,2 1,9 1,12 1,38 3.672701,88 1.6572,266 3.672701,528 1.352904,675 3.033802,696 2.736731,770 0.971752}
+{1 1,5 1,8 1,329 0.935047,445 3.262644,491 3.949735,536 1.612131,633 1.84377,662 3.949735,755 0.688223}
+{3 1,5 1,13 1,231 4.723779,528 1.740087,532 4.205316,575 2.483023}

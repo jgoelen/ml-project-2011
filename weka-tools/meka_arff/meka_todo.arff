@@ -1,0 +1,572 @@
+@relation 'DatasetName: -C -15'
+@attribute docs string
+@attribute l_appointment {0,1}
+@attribute l_chore {0,1}
+@attribute l_family {0,1}
+@attribute l_finance {0,1}
+@attribute l_friends {0,1}
+@attribute l_home {0,1}
+@attribute l_leisure {0,1}
+@attribute l_mlcourse {0,1}
+@attribute l_reading {0,1}
+@attribute l_school {0,1}
+@attribute l_shop {0,1}
+@attribute l_sport {0,1}
+@attribute l_travel {0,1}
+@attribute l_urgent {0,1}
+@attribute l_work {0,1}
+
+@data
+'Schedule meeting for project followup',0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+'Buy tickets for Mogwai concert in the AB',0,0,0,0,0,0,1,0,0,0,1,0,0,0,0
+'Buy new halogen spotlight',0,1,0,0,0,1,0,0,0,0,1,0,0,0,0
+'Read chapter on SVM',0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+'Finish assignment 1 for the advanced databases course due tomorrow',0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+'Replace batteries of wireless mouse',0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+'Buy present for my sisters birthday',0,0,1,0,0,0,0,0,0,0,1,0,0,0,0
+'Bring car to the garage for winter tires',1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+'Appointment with the doctor for a ?u vaccin',1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+'Team building activity in Antwerp',1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+'Play basketball match in Brussels',1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+'Study the sproutcore documentation',0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+'Buy new batteries for my camera',0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+'Dinner with my wifes parents',1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+'Fix kitchen shelf',0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+'Create movie ontology with Protege tool',0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+'Upgrade back-end servers to latest version',0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+'Prepare presentation on test driven development due tomorrow',0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+'Find holiday destination for next summer vacation',0,0,1,0,0,0,0,0,0,0,0,0,1,0,0
+'Pick up Tom to play tennis',1,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+'Book family holiday',0,0,1,0,0,0,0,0,0,0,0,0,1,0,0
+'Washing the dishes',0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+'Finish paper on clustering',0,0,0,0,0,0,0,1,0,1,0,0,0,1,0
+'Collect new credit card',0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+'Organize company pick-nick',0,0,0,0,0,0,1,0,0,0,0,0,0,0,1
+'Go to Erasmus info lecture',1,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+'Search quality papers for thesis',0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+'Check Toledo for changed lecture room',0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+'Ask for product refund',0,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+'Help dad clean his car',0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+'Return travel guides to the library',0,0,0,0,0,0,0,0,1,0,0,0,1,0,0
+'Check e-bay for bargains on comics',0,0,0,0,0,0,1,0,1,0,1,0,0,0,0
+'Fill out ISP and examination dates by the end of this week',0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+'Read articles about text classi?ers',0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+'Fix bug in to-do application',0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+'Buy new running shoes',0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+'Write requirement specification for new project',0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+'Buy Christmas presents for the kids',0,0,1,0,0,0,0,0,0,0,1,0,0,0,0
+'Pay tuition fee',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0
+'Buy christmas gifts for family reunion',0,0,1,0,0,0,0,0,0,0,1,0,0,1,0
+'Repair brother s bike',0,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+'Buy cinema tickets for next week',0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+'Study chapter 7 of the Machine Learning course text',0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+'Get birthday present for girlfriend s sister',0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+'Give food to pet dinosaur',0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+'Collect airplane tickets at travel agent',0,0,0,0,0,0,1,0,0,0,1,0,1,0,0
+'Look for a summer job',0,0,0,1,0,0,0,0,0,0,0,0,0,0,1
+'Go to bank to open savings account',0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+'Go to the library to get new books',0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+'Buy new running shoes',0,0,0,0,0,0,1,0,0,0,1,1,0,0,0
+'E-mail Bart and Jos about the running race',0,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+'Create new appointment with thesis promotor',1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+'Block credit card and request a new one at the bank',0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+'Clean up mother s laptop',0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+'Book a suprise city-trip for valentine',0,0,0,0,0,0,1,0,0,0,0,0,1,0,0
+'Take the dog out for a walk',0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+'Read new book on WordPress blogging',0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+'Buy new webhosting for personal and school related blogs',0,0,0,0,0,0,1,0,0,1,1,0,0,0,0
+'Sell shares of Dexia',0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+'Visit grandma in the hospital',1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+'Take out the garbage',0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+'Invite Berlusconi and Merkel to dinner',1,0,0,0,1,0,0,0,0,0,0,0,0,0,1
+'Buy winter tires for the trip to Germany',0,0,0,0,0,0,0,0,0,0,1,0,1,0,0
+'Plan biking trip with Gert',0,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+'Buy pizza and beer at Delhaize',0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+'Send a mail to Stefan and Philippe to organise a meeting',0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+'Send feedback about the report for Machine Learning',0,0,0,0,0,0,0,1,0,1,0,0,0,1,0
+'Go running with a friend',0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+'Read the next chapter in the textbook of Machine Learning',0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+'Mow the lawn',0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+'Watch a movie with family',0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+'Do some thesis research',0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
+'Implement an alogrithm for my thesis',0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
+'Clean my room',0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+'Play a board game with friends',0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+'wash the dishes',0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+'throw a housewarming party',0,0,1,0,1,1,0,0,0,0,0,0,0,0,0
+'send the MLII project planning',0,0,0,0,0,0,0,1,0,1,0,0,0,1,0
+'buy vodka',0,0,0,0,0,0,1,0,0,0,1,0,0,0,0
+'finish the financial report for this quartal',0,1,0,1,0,0,0,0,0,0,0,0,0,1,1
+'visit your family abroad',0,0,1,0,0,0,0,0,0,0,0,0,1,0,0
+'finish reading Goethe?s Faust',0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+'build AI and destroy the world',0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+'make a tenth todo for this todo list',0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+'arrange delivery of the vodka to the Russian mafia',1,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+'go hunt some bear with the Russian mafia',0,0,0,0,0,0,1,0,0,0,0,1,0,0,1
+'buy sigarettes',0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+'buy a good computer',0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+'make a dinner and eat it',0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+'go to the hairdresser and cut your hair',1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+'finish this report on time',0,0,0,0,0,0,0,1,0,1,0,0,0,1,0
+'jump from the eiffel tower',0,0,0,0,0,0,1,0,0,0,0,0,1,0,0
+'finish the website update for the company',0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+'learn more about artificial neural networks',0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+'pay the rent',0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+'make an appointment at the dentist',1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+'call my dad about this year?s christmas holiday plans',0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+'read survey on word sense disambiguation for thesis',0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+'plan meeting for machine learning project',0,0,0,0,0,0,0,1,0,1,0,0,0,1,0
+'walk the dog',0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+'do the ironing',0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+'make a reservation at the restaurant for next saturday',1,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+'go jogging on sunday morning',0,0,0,0,0,0,1,0,0,0,0,1,0,0,0
+'clean up my room',0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+'go to the movies to see the new Tintin movie',0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+'plan my birthday party',0,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+'visit Martine in Gent',0,0,0,0,1,0,0,0,0,0,0,0,1,0,0
+'buy a new pair of jogging shoes and trousers in Maastricht',0,0,0,0,0,0,0,0,0,0,1,1,1,0,0
+'arrange a meeting with my thesis supervisor',0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+'check my bank account for the payment from my summer job',0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+'start planning next year?s holiday',0,0,0,0,0,0,1,0,0,0,0,0,1,0,0
+'call the hairdresser for an appointment for cutting and dying my hair',1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+'buy the course text on machine learning',0,0,0,0,0,0,0,1,0,1,1,0,0,0,0
+'wash and vacuum clean the car',0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+'Read literature for ml-project',0,1,0,0,0,0,0,1,1,1,0,0,0,0,0
+'Make appointment with the bank for a loan',1,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+'Book snowboardvacation for after the exams',0,0,0,1,0,0,0,0,0,0,0,1,1,0,0
+'Plan a footballnight with Samson and Gert',0,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+'Go out for a drink',0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+'Go jogging',0,0,0,0,0,0,1,0,0,0,0,1,0,0,0
+'Buy new pair of shoes for work',0,0,0,1,0,0,0,0,0,0,1,0,0,0,1
+'Read the eos',0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+'Give invoice of university to mum',0,0,1,1,0,0,0,0,0,1,0,0,0,1,0
+'Mow lawn at grandma s',0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+'Work on the project for  Comparative Programming Languages ',0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+'Meet up with the team for the  Comparative Programming Languages -project',1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+'Write to do list',0,1,0,0,0,0,0,1,0,1,0,0,0,0,0
+'Make presentation for lecture in Germany',0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+'Buy books for classes',0,0,0,0,0,0,0,0,0,1,1,0,0,0,0
+'Pay rent for  kot ',0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+'Go to CW 2012 game night',0,0,0,0,1,0,1,0,0,1,0,0,0,0,0
+'Give children their allowance',0,0,1,1,0,0,0,0,0,0,0,0,0,1,0
+'Prepare schooltrip to the Netherlands',0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+'Study for my test',0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+'Play tennis',0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+'Go to the lecture',0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+'Apply for a new job',0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+'Buy beer for the party this evening',0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+'Read the new book of Stephen Hawking',0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+'Arrange the ski trip',0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+'Enjoy the weekend',0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+'Pay my bills',0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+'Discuss my paper at 16h',1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+'Look for Christmas gifts',0,0,1,0,1,0,0,0,0,0,1,0,0,0,0
+'Take the train home',0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+'Visit my grandfather',0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+'Watch a movie at the movie theater',0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+'Go to the bakery',0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+'Mow the grass',0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+'Go to the bank tomorrow at 10h',1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+'Wash my clothes',0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+'Read some chapters of my textbook of machine learning',0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+'Play guitar',0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+'Buy and ship birthday present to Vidath.',0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+'Look up information about connecting sproutcore to different kind of backends.',0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+'Update centos running on vps to latest version.',0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+'Inform about vps experation date.',0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+'Pay final bill luminus for studio year 2010-2011.',0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+'Cancel telenet subscription studio.',0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+'inform about which version of aquabeat V2.0 decathlon is actually selling.',0,0,0,0,0,0,1,0,0,0,0,1,0,0,0
+'Check review aquabeat V2.0.',0,0,0,0,0,0,1,0,0,0,0,1,0,0,0
+'Pick up book at vtk.',0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+'Read up on formal systems.',0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+'Finish intermediate report for machine learning.',0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+'Read up on computer graphics.',0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+'Finish sequence diagrams distributed computing and add to report.',0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+'Send in source code and report JEE2 assignment.',0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+'Make appointment dentist',1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+'Upgrade firmware NAS.',0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+'Inform about repayment rent guarantee.',0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+'Update forum software.',0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+'Post letter from bank.',0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+'Go shopping at Delhaize.',0,1,0,1,0,0,0,0,0,0,1,0,0,0,0
+'Upload task Machine Learning to Toledo.',0,0,0,0,0,0,0,1,0,1,0,0,0,1,1
+'Draw UML Class Diagram for Distributed Systems.',0,0,0,0,0,0,0,0,0,1,0,0,0,1,1
+'Write roadbook for international youth camp.',0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+'Have a drink at the pub Trawantel.',0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+'Prepare inteview for World Diabetes Day with VTM News.',0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+'Reply to the SMS I just received from my girlfriend.',0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+'Draw my idea for a data visualisation for the advanced database systems course.',0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
+'Go cycling twice a week to keep fit.',0,0,0,0,0,0,1,0,0,0,0,1,0,0,0
+'Rake the leaves from the grass.',0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+'Go get my passport at the town hall before traveling to Dubai.',0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+'Inform my teachers that I leave for ten days to Dubai.',0,0,0,0,0,0,0,0,0,1,0,0,1,0,1
+'Get in touch with the international young leaders in diabetes.',0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+'Go walking the 14th of November for World Diabetes Day.',0,0,0,0,0,0,1,0,0,0,0,1,0,0,0
+'Read the last chapter of the Machine Learning course.',0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+'Give my neighbor tutoring in math this evening at 7 pm.',1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+'Clean up my room at Leuven.',0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+'Pay the doctors cost.',0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+'Read the local newspaper.',0,0,0,0,0,0,1,0,1,0,0,0,0,1,0
+'Prepare the old years eve party.',0,1,0,0,1,0,1,0,0,0,0,0,0,0,0
+'Do my daily excercises',0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+'Thursday party',0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+'Finish OSS project before deadline',0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+'Read up on ML systems',0,0,0,0,0,0,0,1,1,0,0,0,0,0,1
+'Go to barber on wednesday',1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+'Go home at saturday',0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+'Get a present for grandpa',0,0,1,0,0,0,0,0,0,0,1,0,0,1,0
+'Sundays family meeting',0,0,1,0,0,0,0,0,0,0,0,0,1,0,0
+'Mondays training',0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+'Pay my registration at uni',0,0,0,1,0,0,0,0,0,1,0,0,0,0,0
+'Pay my registration for mondays training',0,0,0,1,0,0,0,0,0,0,0,1,0,0,0
+'Buy ingredients for tonights meal',0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+'Cook meal',0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+'Citytrip Amsterdam',0,0,0,0,1,0,1,0,0,0,0,0,1,0,0
+'Read city info',0,0,0,0,0,0,1,0,1,0,0,0,1,0,0
+'Pay citytryp',0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+'Convert project report to PDF',0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+'Run some miles',0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+'Meet for project OSS',1,0,0,0,0,0,0,0,0,1,0,0,0,0,1
+'Dinner at sammy s',0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+'Pay monthly rent',0,0,0,1,0,1,0,0,0,0,0,0,0,0,0
+'Have dinner with girlfriend',0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+'Read literature for project',0,0,0,0,0,0,0,1,1,1,0,0,0,0,1
+'Have winter tires put on car',1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+'Buy christmas gifts for family',0,0,1,0,0,0,0,0,0,0,1,0,0,0,0
+'Pay friend back for ski trip he booked',0,0,0,1,1,0,0,0,0,0,0,1,1,0,0
+'Print directions to location of party on friday',0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+'Work on school task',0,0,0,0,0,0,0,0,0,1,0,0,0,1,1
+'Have a drink with friends on monday',0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+'Do some groceries for mom',0,0,1,0,0,1,0,0,0,0,1,0,0,0,0
+'Have a look at bank transactions',0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+'Buy present for friend s birthday',0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+'Maintain website',0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+'Buy tickets to concert',0,0,0,1,0,0,1,0,0,0,0,0,0,1,0
+'Feedback session of project',1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+'Clean room',0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+'Family weekend in the Ardennes',0,0,1,0,0,0,0,0,0,0,0,0,1,0,0
+'Play tennis with girlfriend',0,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+'Keep up with courses',0,0,0,0,0,0,0,0,1,1,0,0,0,0,1
+'Buy new snowboard',0,0,0,1,0,0,0,0,0,0,1,1,0,0,0
+'Study my course of Lineaire Algebra',0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+'Go home and pack my bags',0,0,0,0,0,1,1,0,0,0,0,0,1,0,0
+'Finish PenO',1,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+'Buy new beer',0,0,0,0,1,0,0,0,0,0,1,0,0,1,0
+'Get on time in class',1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+'Go work in the alma',1,0,0,1,0,0,0,0,0,0,0,0,0,0,1
+'Get dollars from the bank',0,0,0,1,0,0,0,0,0,0,0,0,1,1,0
+'Call my friend to ask him about my diving bag',0,0,0,0,1,1,0,0,0,0,0,1,1,0,0
+'Start to study the course of Machine Learning',0,0,0,0,0,0,0,1,1,1,0,0,0,1,0
+'Go to the tutoring at 21h',1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+'Watch the lecture of Stephen Hawking',0,0,0,0,0,0,1,0,0,0,0,0,0,1,0
+'Send this nice girl from class a text message',0,0,0,0,1,0,0,0,0,1,0,0,0,1,0
+'Call my mom',0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+'Go to the dentist',1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+'Fix my bike',0,1,0,0,0,0,0,0,0,0,0,1,1,1,0
+'Calculate my finances',0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+'Cook my dinner',0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+'Watch the new episode of How I Met Your Mother',0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+'Get some cash on my cellphone',0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+'Buy birthday present for Sarah',0,0,1,0,0,0,0,0,0,0,1,0,0,0,0
+'Register for lecture on google',1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+'Write report for machine learning',0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+'Request new student card',0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+'Request new debit card',0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+'Buy new wallet',0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+'Schedule movie night',0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+'Plan ski trip',0,0,0,0,0,0,1,0,0,0,0,1,1,0,0
+'Pay electric bill',0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+'Visit grandpa to fix his computer problems',0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+'read articles on tag prediction',0,0,0,0,0,0,0,1,1,1,0,0,0,1,0
+'Work on group project',1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+'Yearly dentist',1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+'Buy new laptop',0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+'Return DVD-box to Yana',0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+'Fix brakes on my bike',0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+'Study for drivers licence',0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+'Work on programming assignment with Wouter and Pieter, Monday',1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+'Mow the lawn',0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+'Poker night at old dormitory',1,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+'Fix ISP courses',0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+'Challenge floors for Viking Kubb',0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+'Discuss algorithms with Naci',0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+'Send account info to everyone that owes me for Chinese',0,0,0,1,1,0,0,0,0,0,0,0,0,0,0
+'Finish up first part of machine learning assignment',0,0,0,0,0,0,0,1,0,1,0,0,0,1,0
+'Find transport for Water polo match',1,0,0,0,0,0,1,0,0,0,0,1,0,0,0
+'Contact Mark about S&S payment',0,0,0,1,0,0,0,0,0,0,0,0,0,1,1
+'Send update about thesis',0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+'Help Benjamin with presentation',0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+'Pick up dogs at kennel',1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+'Pick up mother from airport',1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+'Contact Jean-Philippe about Paris trip',0,0,0,0,1,0,1,0,0,0,0,0,1,0,0
+'Wash the car',0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+'Fix grandparents  DVD player',1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+'Work on CPL assignment',0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+'Read up to chapter 12 English workbook',0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+'Remind Michael to transfer money he owes me',0,0,0,1,1,0,0,0,0,0,0,0,0,0,0
+'Buy games from wish list',0,0,0,0,0,0,1,0,0,0,1,0,0,0,0
+'Buy chicken for dinner',0,1,0,0,0,1,0,0,0,0,1,0,0,0,0
+'Visit grandmother at the hospital',0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+'Fix the Internet connection',0,1,0,0,0,1,0,0,0,0,0,0,0,1,0
+'Buy a home-warming gift for Willem',0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+'Book a trip to Barcelona at the travel agency',1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+'Order tickets for Walibi',0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+'Retrieve new student card',0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+'Mail CV to VTK to include it in CV-book',0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+'Buy a new tennis racket',0,0,0,0,0,0,1,0,0,0,1,1,0,0,0
+'Discuss machine learning project with parnter',0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+'Do the dishes',0,1,0,0,0,1,0,0,0,0,0,0,0,1,0
+'Write 20 to-do s',0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+'Wash the car',0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+'Get vacinations for trip to Panama',0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+'Talk to bank about investments',1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+'Write thesis progress report',0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+'Start literature study for thesis',0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+'Buy a new business suit',0,0,0,0,0,0,0,0,0,0,1,0,0,0,1
+'Enroll in tennis tournament',0,0,0,0,0,0,1,0,0,0,0,1,0,0,0
+'Plan Christmas dinner',0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+'Get the latest Wheel of Time book',0,0,0,0,0,0,1,0,1,0,1,0,0,0,0
+'Pick up my brother at 4pm',1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+'Do laundry',0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+'Go jogging with Sven',0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+'Buy Eurostar tickets to London today!',0,0,0,0,0,0,0,0,0,0,1,0,1,1,0
+'Review the lecture about association rules',0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+'Support the new collegue with his project',0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+'Take a drink with Sarah',0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+'Buy the newest novel of Pieter Aspe',0,0,0,0,0,0,0,0,1,0,1,0,0,0,0
+'Help my dad paint the living room',0,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+'Bring all my 5 euro bills to the bank',0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+'Bring my borrowed books to the library before 4pm',0,0,0,0,0,0,0,0,1,0,0,0,0,1,0
+'Ask my boss for a raise',0,0,0,1,0,0,0,0,0,0,0,0,0,0,1
+'Take part in the local running contest',0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+'Go to the dentist on friday at 6pm',1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+'Hand in the CPL project',0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+'Clean my room',0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+'Find a good hotel in Barcelona',0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+'Ask Ben for the money he borrowed',0,0,0,1,1,0,0,0,0,0,0,0,0,0,0
+'Take some rest when I get home',0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+'Buy a4 paper, post-its and pencils',0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+'Check the upcoming weather in Berlin',0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+'Saturday 19: Movie night',0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+'Read up on Support Vector Machines',0,0,0,0,0,0,0,1,1,0,0,0,0,0,1
+'Visit uncle Arthur',0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+'Finish reading  A Farewell to Arms  currently at page 105',0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+'Consultation Doctor Houben 26 November 20:00',1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+'Take out the garbage',0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+'Take another loan',0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+'Buy fishing equipment on way to boat',0,0,0,0,0,0,1,0,0,0,1,0,0,0,0
+'Inform Mark that the deadline has moved',0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+'Do the dishes',0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+'Figure out who to contact, ISP got messed up',0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+'MLaII schedule changed, lessons on mondays, starting 14 Nov.',0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+'Sportus Saturday 09:00 Train long-distance running',0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+'Tell Matthias I can t make it to the party',0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+'Buy bread and 5 slices of Leerdammer Light',0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+'New Dresden Codak comic out on Thursday',0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+'Doctor Claeys blood-check 9 December, 10 am',1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+'Tom is at Berlin from Wednesday to Tuesday',0,0,1,0,0,0,0,0,0,0,0,0,1,0,0
+'Buy a new suitcase',0,0,0,0,0,0,0,0,0,0,1,0,1,0,0
+'Read book for project Machine Learning',0,0,0,0,0,0,0,1,1,0,0,0,0,0,1
+'Go to meeting for project',1,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+'Buy a new football',0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+'Play football with friends',0,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+'Clean my bedroom',0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+'Buy pencils for my little brother',0,0,1,0,0,0,0,0,0,1,1,0,0,0,0
+'Go to the dentist',1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+'Buy books for my little brother',0,0,1,0,0,0,0,0,1,1,1,0,0,0,0
+'Buy a sponge',0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+'Clean the garden',0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+'Make dinner',0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+'Go to the bank',0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+'Evaluate the stock market',0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+'Go to Scorpions on November 26',0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+'Read the books of Stieg Larsson',0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+'Wallpaper the kitchen',0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+'Recharge batteries for my bike headlight',0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+'Download all the course documents',0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+'Buy some toys for the children',0,0,1,0,0,0,0,0,0,0,1,0,0,0,0
+'Visit a friend in the hospital',0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+'Go to football training on Friday',0,0,0,0,0,0,1,0,0,0,0,1,0,0,0
+'Meet the project advisor for the project of the software-design course',1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+'Search for a summer job',0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+'Book a vacation',0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+'Do the dishes after dinner',0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+'Read the first chapter of the book "Machine Learning and Inductive Inference"',0,0,0,0,0,0,0,1,1,1,0,0,0,1,0
+'Withdraw 100d from the bank account',0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+'Buy a new bike to climb the Mont Ventoux this summer',0,0,0,0,0,0,1,0,0,0,1,1,0,0,0
+'Watch the latest movie of Harry Potter in cinema',0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+'Go to the doctor',1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+'Remove weeds from the lawn',0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+'Read the article about the cycling race yesterday',0,0,0,0,0,0,0,0,1,0,0,1,0,0,0
+'Fire all the employees who don t work hard',0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+'Deposit the money earned for helping grandmother',0,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+'Take the flight to New York',0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+'Send a mail to confirm the team for the project about tag prediction',0,0,0,0,0,0,0,1,0,1,0,0,0,1,0
+'Ask father to repair the bike',0,0,1,0,0,0,0,0,0,0,0,1,0,1,0
+'Go to the theater with friends',0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+'Do your math homework',0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
+'Go to the bank to open an account',0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+'Buy bread and yoghurt',0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+'Do the dishes',0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+'Pay the rent in the Post office',0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+'Go to the cinema with a couple of friends',0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+'Finish the Machine Learning report and dataset',0,0,0,0,0,0,0,1,0,1,0,0,0,0,1
+'Start reading the Godel, Escher, Bach book',0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+'Go to the meeting with prof. Smith',1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+'Go to the gymnastics practice',0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+'Buy some socks',0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+'Apply for the trip to Antwerp',0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+'Go with friends to the Bowling alley',0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+'Vacuum clean your room',0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+'Go swimming in the University pool',0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+'Find a present for the anniversary for the girlfriend',0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+'Change a tire on the bike',0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+'Pickup the package from the Post office',0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+'Study the literature for the Machine Learning project',0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+'Change the firmware on your smartphone',0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+'Buy the ingredients for making lunch',0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+'Study for the internship interview',0,0,0,0,0,0,0,0,1,0,0,0,0,0,1
+'Be at home when the interview is set',1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+'Meet the girlfriend in the City center',1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+'Go home for Christmas',0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+'Ask grandma for the cake recipe',0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+'Pay for the concert tickets through PayPal',0,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+'Visit Paris and the Louvre museum',0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+'Go to the Machine Learning lecture',0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+'Read The Hobbit book before seeing the movies',0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+'Do the laundry',0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+'Go to the park for picnic',0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+'Help your cousin to move a bookcase',0,0,1,0,0,0,0,0,0,0,0,0,0,0,1
+'Apply for the government scholarship',0,0,0,1,0,0,0,0,0,0,0,0,0,0,1
+'Organize a barbecue event',0,0,0,0,1,0,1,0,0,0,0,0,0,0,1
+'Do the laboratory exercises for the Chemistry class',0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
+'Get a new mattress for your bed',0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+'Ride your bike around the city',0,0,0,0,0,0,1,0,0,0,0,1,0,0,0
+'Buy Christmas presents for your friends',0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+'Clean your room',0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+'Fix dad s computer',0,0,1,0,0,0,0,0,0,0,0,0,0,0,1
+'Pick up the credit card in the bank',0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+'Practice for the Geography exam',0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
+'Plan a trip around the country',0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+'Contact the Internet Service Provider Company about their offer',0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+'Go with your mother to the theater',1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+'Mow the lawn in the backyard',0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+'Go to the doctor for immediate checkup',1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+'Make project prolog',0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+'Go to the Football practice on monday',0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+'Borrow Playstation game Tom',0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+'Return book to library',0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+'Finish literature study machine learning',0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+'Book vacation Turkey',0,0,0,1,0,0,0,0,0,0,0,0,1,0,0
+'Make doctor appointment',1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+'Buy new football shoes',0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+'Clean my room',0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+'Pay back Tom',0,0,0,1,1,0,0,0,0,0,0,0,0,0,0
+'Go to dentist',1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+'Visit uncle in hospital',0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+'Finish presentation PenO',0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+'Sell Dexia stocks',0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+'Help father in garden',0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+'Visit Steve Jobs grave',0,0,0,0,0,0,1,0,0,0,0,0,1,0,0
+'Send complaint to professor of operating systems about the kernel project',0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+'Oral exam databases',1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+'Read book Harry Potter',0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+'Go to movies with girlfriend',0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+'Buy new hard disk',0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+'Lunch with boss transport department',0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+'Go to physiotherapist',1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+'Help brother with Task mathematics',0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+'Complete evaluation Machine learning course',0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+'Send mail to Apple for Job Application',0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+'Call pet control',0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+'Go to party for Lara s birthday',0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+'Collect information about javascript',0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+'Visit Jonathan in Swiss',0,0,0,0,1,0,0,0,0,0,0,0,1,0,0
+'Celebrate Berlusconi s resignation in Italy',0,0,0,0,0,0,1,0,0,0,0,0,1,0,0
+'Go to barber',1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+'Pick up new car',1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+'Plan meeting for reorganization R\&D department',0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+'Go to family dinner sunday',0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+'Go to lan party',0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+'Check exchange rate Drachme - Dollar',0,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+'Make facebook account',0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+'Do guided tour Leuven',1,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+'Buy new toothbrush',0,0,0,0,0,0,0,0,0,0,1,0,1,0,0
+'Tennis with Willem',1,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+'Print boarding tickets',0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+'Mow the lawn',0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+'Chapter 4 of Machine Learning',0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+'Write paper for distributed systems',0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
+'Call Mom to ask for extra allowance',0,0,0,1,0,1,0,0,0,0,0,0,0,1,0
+'Wedding present for Willem and Katie',0,0,1,1,0,0,0,0,0,0,0,0,0,1,0
+'Board game evening',1,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+'Do the dishes',0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+'Pay the rent',0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+'Finish task on linear algebra',0,0,0,0,0,0,0,0,0,1,0,0,0,1,1
+'Pay 20 euros back to Jonas',0,0,0,1,1,0,0,0,0,0,0,0,0,0,0
+'Read the Lord of the Rings',0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+'Queue for ticket for Stephen Hawking',0,0,0,0,1,0,1,0,0,1,0,0,0,1,0
+'Pay Bram to write my task for machine learning',0,0,0,1,0,0,0,1,0,1,0,0,0,1,0
+'Choose destination for journey next summer',0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+'Print photos for sister',0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+'Watch latest episode of the Big Bang Theory',0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+'Throw my birthday party',0,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+'Reading chapter about Genetic Algorithms',0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+'Working in the garden',0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+'Buying christmas presents',0,0,1,0,0,0,0,0,0,0,1,0,0,1,0
+'Playing the piano',0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+'Going to the bank',0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+'Participating in the IEEEXtreme contest',1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+'Preparing exercises for Artificial Intelligence course',0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
+'Going to the movies with Jonas and karel',0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+'Clean bedroom',0,1,0,0,0,0,0,0,0,0,0,0,0,1,1
+'Change car oil',0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+'Buy halloween costume',0,0,0,0,0,0,1,0,0,0,0,0,0,1,0
+'Watch match of the Jupiler Pro League',0,0,0,0,0,0,1,0,0,0,0,1,0,0,0
+'Going home for the weekend',0,0,0,0,0,1,0,0,0,0,0,0,1,1,0
+'Repair the CRT TV',0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+'View latest episode of the IT Crowd',0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+'Throw a New Year s party',0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+'Visiting my sister in Kortrijk',0,0,1,0,0,0,0,0,0,0,0,0,1,0,0
+'Paying the electricity bill',0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+'Reading the Hitchhiker s Guide to the Galaxy',0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+'Go to the gym',0,0,0,0,0,0,1,0,0,0,0,1,1,1,0
+'Prepare machine learning project',1,1,0,0,0,0,0,1,1,1,0,0,0,1,1
+'Buy gift for birthday party Frank',0,1,0,0,1,0,0,0,0,0,1,0,0,1,0
+'Read material on natural language processing',0,0,0,0,0,0,0,1,1,1,0,0,0,0,1
+'Read course text machine learning',0,0,0,0,0,0,0,1,1,1,0,0,0,0,1
+'Go home on friday for family dinner',0,0,1,0,0,1,1,0,0,0,0,0,1,0,0
+'Go to the dentist tomorrow',1,0,0,0,0,0,1,0,0,0,0,0,1,1,0
+'Buy new sweaters',0,1,0,1,0,0,1,0,0,0,1,0,0,0,0
+'Buy sugar',0,1,0,1,0,0,0,0,0,0,1,0,0,1,0
+'fix bike',0,1,0,0,0,0,1,0,0,0,0,0,0,1,0
+'Work on prolog project',0,1,0,0,0,0,0,0,0,1,0,0,0,0,1
+'finish piece report operating systems paper',0,1,0,0,0,0,0,0,0,1,0,0,0,0,1
+'Clean home',0,1,0,0,0,1,1,0,0,0,0,0,0,0,0
+'Ask parents about ski trip after exams with friends',0,0,1,0,1,0,1,0,0,0,0,0,1,0,0
+'Party next week?',0,0,0,1,1,0,1,0,0,0,0,0,0,1,0
+'Go to jeroen tomorrow for machine learning @14u',1,0,0,0,0,0,0,1,0,1,0,0,0,1,1
+'Study complex systems',0,0,0,0,0,0,0,0,1,1,0,0,0,0,1
+'Work with Niels on distributed systems friday',1,0,0,0,0,0,0,0,0,1,0,0,0,0,1
+'Arrange trip to Switzerland',0,0,0,0,1,0,1,0,0,0,0,0,1,0,1
+'Apply for Athens-programme',0,0,0,0,0,0,0,0,1,1,0,0,1,0,1
+'Prepare breakfast for grandmother',0,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+'bring notes of Machine learning course to Bart',0,0,0,0,1,0,0,0,0,1,0,0,1,0,1
+'swim training tonight at 9 PM with David',1,0,0,0,1,0,1,0,0,0,0,1,0,0,0
+'fix the television',0,1,0,0,0,1,0,0,0,0,0,0,0,1,1
+'pay the electricity bill before tomorrow',0,0,0,1,0,1,0,0,0,0,0,0,0,1,0
+'tomorrow meeting with assistent of Machine learning course',1,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+'educative city trip to Paris with Ine',0,0,0,0,1,0,1,0,0,1,0,0,1,0,0
+'help neighbour with internet courses',0,0,0,0,0,1,0,0,0,1,0,0,0,0,1
+'buy new course material for the machine learning course',0,0,0,0,0,0,0,1,0,1,1,0,0,0,0
+'buy mother a nice birthday gift before the market closes',0,0,1,0,0,0,0,0,0,0,1,0,0,1,0
+'open a new bankaccount to save money for my new bike',0,0,0,1,0,0,1,0,0,0,0,1,0,0,0
+'review last week’s course slides',0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+'practice my C++ coding skills for my next project',0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
+'Buy a bigger computerscreen for tomorrow’s schoolproject',0,0,0,0,0,0,0,0,0,1,1,0,0,1,0
+'give computerlessons at 7PM to my sister',1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+'clean up the garden',0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+'drive my sister to school at 5pm',1,0,1,0,0,0,0,0,0,1,0,0,1,0,0
+'read the manual for the new kitchen robot',0,1,0,0,0,1,0,0,1,0,0,0,0,0,0
+'pay my neighbour my debts',0,0,0,1,0,1,0,0,0,0,0,0,0,1,0
