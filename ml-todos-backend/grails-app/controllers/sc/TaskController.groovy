@@ -6,6 +6,7 @@ class TaskController {
  
     def task2map = {t ->
         [guid: "/todos-backend/tasks/$t.id",
+         id: t.id,
          description: t.description,
          order: t.order ?: 0,
          isDone: t.isDone]
@@ -51,15 +52,20 @@ class TaskController {
         }
     }
  
-    def save = {id=null ->                                                                                                              
-        def payload = JSON.parse(request.reader.text)
+    def save = {id=null ->   
+    	
+    	def text = request.reader.text    
+        def payload = JSON.parse(text)
         def task = id ? Task.get(id) : new Task()
+ 
+ 		println "Save task: ${payload}"
  
         if (task) {
             task.properties = payload
             if (task.save()) {
-                response.setHeader('Location', "/todos-backend/tasks/$task.id")
-                render text: "", status: 201
+                render(contentType: "text/json") {
+            		content(task2map(task)) 
+        		}
             }
             else {
                 render text: "Task could not be saved.", status: 500

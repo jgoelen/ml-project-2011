@@ -1,10 +1,50 @@
-Todos = SC.Application.create();
+Todos = SC.Application.create({
+	ready: function(){
+    	this._super();
+    	Todos.todosController.fetchTodos();
+  	}
+});
 
 // SUGGESTION: Your tags can be stored in a similar way as how todos are stored
 Todos.Todo = SC.Object.extend({
+  id: null,
   title: null,
   isDone: false,
-  labels: []
+  labels: [],
+  
+  attributes: function(){
+    return {
+      title: this.get('title'),
+      done: this.get('isDone')
+    };
+  }.property('title', 'isDone').cacheable(),
+  
+  isNew: function(){
+    return !this.get('id');
+  }.property('id').cacheable(),
+  
+  save: function(){
+    
+    var self = this;
+    var url = this.get('isNew') ? 'tasks/' : 'tasks/' + this.get('id');
+    var method = this.get('isNew') ? 'POST' : 'PUT';
+    
+    $.ajax( url, {
+      type: method,
+      data: JSON.stringify({ description: self.get('title'), isDone: self.get('isDone')}),
+      mimeType: 'application/json', 
+      contentType: 'application/json',
+      dataType: 'json', 
+      success: function(data) {
+        self.set('id', data.content.id);
+      }
+    });
+  },
+  
+  autosave: function(){
+    this.save();
+  }.observes('attributes')
+  
 });
 
 Todos.Label = SC.Object.extend({
@@ -14,8 +54,17 @@ Todos.Label = SC.Object.extend({
 Todos.labelsController = SC.ArrayProxy.create({
 	content: [],
 	recommendLabelsFor: function(todo){
-		var label = Todos.Label.create({ title: "label 1" });
-		this.pushObject(label);
+		this.clearLabels();
+		$.ajax({ url:'label/recommend', data:{text:todo}, 
+      		success: function(data){
+        		Todos.labelsController.beginPropertyChanges();
+        		data.content.forEach(function(item){
+          			var label = Todos.Label.create({ title: item.title });
+          			Todos.labelsController.pushObject(label);
+        		});
+        		Todos.labelsController.endPropertyChanges();
+      		}
+    	});
 	},
 	clearLabels: function(){
 		this.set('content', []);
@@ -25,8 +74,26 @@ Todos.labelsController = SC.ArrayProxy.create({
 Todos.todosController = SC.ArrayProxy.create({
   content: [],
 
+  fetchTodos: function(){
+    $.ajax('tasks', {
+      success: function(data){
+        Todos.todosController.beginPropertyChanges();
+        data.content.forEach(function(item){
+          var todo = Todos.Todo.create({
+            id: item.id,
+            title: item.description,
+            isDone: item.isDone
+          });
+          Todos.todosController.pushObject(todo);
+        });
+        Todos.todosController.endPropertyChanges();
+      }
+    });
+  },
+  
   createTodo: function(title,labels) {
     var todo = Todos.Todo.create({ title: title, labels: labels });
+    todo.save();
     this.pushObject(todo);
   },
 
