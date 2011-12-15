@@ -9,7 +9,8 @@ class TaskController {
          id: t.id,
          description: t.description,
          order: t.order ?: 0,
-         isDone: t.isDone]
+         isDone: t.isDone,
+         labels: t.labels.collect{ [id:it.id, key:it.key, title:it.title] } ]
     }
  
     def list = {
@@ -41,6 +42,9 @@ class TaskController {
     }
  
     def delete = {
+        
+        println "DELETE ${params.id}"
+        
         def task = Task.get(params.id)
  
         if (task) {
@@ -59,6 +63,8 @@ class TaskController {
         def task = id ? Task.get(id) : new Task()
  
  		println "Save task: ${payload}"
+ 
+ 		payload.labels = payload.labels.collect{ Label.get(it.id) }
  
         if (task) {
             task.properties = payload

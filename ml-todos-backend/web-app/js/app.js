@@ -29,9 +29,15 @@ Todos.Todo = SC.Object.extend({
     var url = this.get('isNew') ? 'tasks/' : 'tasks/' + this.get('id');
     var method = this.get('isNew') ? 'POST' : 'PUT';
     
+    var labels = self.get('labels').map( function(l){  
+    	return {id:l.get('id')}; 
+    }, self );
+    
+    console.log(labels);
+    
     $.ajax( url, {
       type: method,
-      data: JSON.stringify({ description: self.get('title'), isDone: self.get('isDone')}),
+      data: JSON.stringify({ description: self.get('title'), isDone: self.get('isDone'), labels:labels}),
       mimeType: 'application/json', 
       contentType: 'application/json',
       dataType: 'json', 
@@ -48,6 +54,8 @@ Todos.Todo = SC.Object.extend({
 });
 
 Todos.Label = SC.Object.extend({
+  id: null,
+  key: null,
   title: null
 });
 
@@ -59,7 +67,8 @@ Todos.labelsController = SC.ArrayProxy.create({
       		success: function(data){
         		Todos.labelsController.beginPropertyChanges();
         		data.content.forEach(function(item){
-          			var label = Todos.Label.create({ title: item.title });
+          			var label = Todos.Label.create({ id: item.id, key: item.key, title: item.title });
+          			console.log(label);
           			Todos.labelsController.pushObject(label);
         		});
         		Todos.labelsController.endPropertyChanges();
@@ -73,16 +82,22 @@ Todos.labelsController = SC.ArrayProxy.create({
 
 Todos.todosController = SC.ArrayProxy.create({
   content: [],
-
   fetchTodos: function(){
     $.ajax('tasks', {
       success: function(data){
         Todos.todosController.beginPropertyChanges();
         data.content.forEach(function(item){
+          var labels = [];
+          item.labels.forEach(function(l){
+          	var label = Todos.Label.create({ id: l.id, key: l.key, title: l.title });
+          	console.log(label);
+          	labels.push(label);
+          });
           var todo = Todos.Todo.create({
             id: item.id,
             title: item.description,
-            isDone: item.isDone
+            isDone: item.isDone,
+            labels:labels
           });
           Todos.todosController.pushObject(todo);
         });
@@ -98,7 +113,15 @@ Todos.todosController = SC.ArrayProxy.create({
   },
 
   clearCompletedTodos: function() {
-    this.filterProperty('isDone', true).forEach(this.removeObject, this);
+    var self = this;
+    this.filterProperty('isDone', true).forEach(function(it) {
+    	$.ajax('tasks/'+it.get('id'), { type: 'DELETE',
+      			data: { _method: 'delete' },
+      			success: function(){
+       				self.removeObject(it);
+      			}
+    	});
+	},this);
   },
 
   remaining: function() {
@@ -108,7 +131,6 @@ Todos.todosController = SC.ArrayProxy.create({
   allAreDone: function(key, value) {
     if (value !== undefined) {
       this.setEach('isDone', value);
-
       return value;
     } else {
       return !!this.get('length') && this.everyProperty('isDone', true);

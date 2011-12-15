@@ -12,5 +12,7 @@ class Task {
     static mapping = {
         order column: "task_order"
     }
+    
+    static hasMany = [ labels : Label ]
       
 }

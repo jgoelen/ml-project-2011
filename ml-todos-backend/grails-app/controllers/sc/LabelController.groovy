@@ -11,7 +11,7 @@ class LabelController {
     	def labels = recommender.labelsFor(text)
     	render(contentType: "text/json") {
             content = array {
-                labels.each{ label( [title: it.title ] ) }
+                labels.each{ label( [id:it.id, key:it.key, title:it.title ] ) }
             }
         }
     
