@@ -1,4 +1,5 @@
 // Place your Spring DSL code here
 beans = {
-	recommender(sc.DefaultRecommenderImpl){}
+	dataProvider(sc.DataProvider){}
+	recommender(sc.DefaultRecommenderImpl){dataProvider=dataProvider}
 }

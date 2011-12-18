@@ -1,0 +1,17 @@
+<labels xmlns='http://mulan.sourceforge.net/labels'>
+<label name='l_appointment'></label>
+<label name='l_chore'></label>
+<label name='l_family'></label>
+<label name='l_finance'></label>
+<label name='l_friends'></label>
+<label name='l_home'></label>
+<label name='l_leisure'></label>
+<label name='l_mlcourse'></label>
+<label name='l_reading'></label>
+<label name='l_school'></label>
+<label name='l_shop'></label>
+<label name='l_sport'></label>
+<label name='l_travel'></label>
+<label name='l_urgent'></label>
+<label name='l_work'></label>
+</labels>
