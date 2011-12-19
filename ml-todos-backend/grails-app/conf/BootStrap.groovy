@@ -1,5 +1,8 @@
 import sc.Task
 import sc.Label
+import org.springframework.context.ApplicationContext;
+import org.codehaus.groovy.grails.web.servlet.GrailsApplicationAttributes;
+
 
 class BootStrap {
 
@@ -19,6 +22,9 @@ class BootStrap {
     
         new Task(description: 'Task 1').save()
         new Task(description: 'Task 2').save()
+        
+        def applContext  = servletContext.getAttribute(GrailsApplicationAttributes.APPLICATION_CONTEXT)
+        applContext.getBean("recommender").trainClassifier()
      }
      
     def destroy = {

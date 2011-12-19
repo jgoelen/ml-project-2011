@@ -11,6 +11,12 @@ import weka.filters.unsupervised.attribute.StringToWordVector
 import weka.core.converters.ArffLoader;
 import weka.core.converters.ConverterUtils.DataSource;
 import weka.core.Attribute;
+import org.apache.commons.logging.LogFactory
+import weka.classifiers.Classifier
+import weka.classifiers.meta.Vote;
+import weka.classifiers.bayes.NaiveBayes;
+
+
 
 public interface Recommender {
 
@@ -21,33 +27,39 @@ public interface Recommender {
 
 public class DefaultRecommenderImpl implements Recommender {
 
+	private static final log = LogFactory.getLog(this)
+	
 	BinaryRelevance classifier = new BinaryRelevance( new SMO() )
 	DataProvider dataProvider
 	boolean trained = false
 
 	public DefaultRecommenderImpl(){
+		Vote vote = new Vote();
+		vote.setClassifiers( [new NaiveBayes(), new SMO()] as Classifier[] )
+		classifier = new BinaryRelevance( vote )
 	}
-
+	
+	
+	/*This will be called from BootStrap.groovy*/
 	public void trainClassifier(){
-		println "Start training classifier"
+		log.info "Start training classifier"
 		def trainingData = dataProvider.loadMultiLabelTrainingInstances()
 		classifier.build( trainingData )
-		println "Finished training classifier"
+		log.info "Finished training classifier"
 	}
 
 
 	public List<Label> labelsFor(String text){
-		if(!trained){
-			trainClassifier()
-			trained = true
-		}
+		
+		log.info "start recommendation for text:$text"
+		
 		Instance v = dataProvider.makeInstance( text )
 		
-		println "instance $v"
+		log.debug "instance $v"
 
 		def prediction = classifier.makePrediction( v )
 
-		println "Predicted: $prediction"
+		log.debug "Predicted: $prediction"
 		
 		List<Label> labels = []
 		
@@ -55,6 +67,9 @@ public class DefaultRecommenderImpl implements Recommender {
 			if(flag) 
 				labels.addAll(Label.findByKey(v.attribute(index).name()))
 		}
+		
+		log.info "Recommend: $labels"
+		
 		return labels
 	}
 
