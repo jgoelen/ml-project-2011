@@ -269,15 +269,20 @@ body {
 		padding-top: 5px;
 	}
 	
+	body .recommended {
+		font-weight: bold;
+		color: #46A546;
+	}
+	/*
 	#recommendBox li {
 		display: inline;
 		list-style-type: none;
 		padding-right: 5px;
 		background-color: #FFF;
 	}
-	
+	*/
 	body .labelList li {
 		display: inline;
 		list-style-type: none;
 		padding-right: 5px;
-	}
+	} 

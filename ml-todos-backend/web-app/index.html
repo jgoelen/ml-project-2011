@@ -29,13 +29,18 @@
        your newly created controller: Todos.tagsController -->
   
   
-  <div id='recommendBox' class='labelList'>
+  <div id='recommendBox'>
  	<div>Recommended tags:</div>
   	{{#collection contentBinding="Todos.labelsController" tagName="ul"}}
-    	<span class='label-highlight'>{{content.title}}</span>
+  		{{#if content.isRecommended}}
+ 			{{view SC.Checkbox class="recommended" titleBinding="content.title" valueBinding="content.isSelected" }}
+ 		{{else}}
+ 			{{view SC.Checkbox titleBinding="content.title" valueBinding="content.isSelected"}}
+		{{/if}}	
   	{{/collection}}
+  	
   </div>
-  
+  <div>
   {{#view Todos.StatsView id="stats"}}
     {{#view SC.Button classBinding="isActive"
       target="Todos.todosController"

@@ -32,9 +32,7 @@ Todos.Todo = SC.Object.extend({
     var labels = self.get('labels').map( function(l){  
     	return {id:l.get('id')}; 
     }, self );
-    
-    console.log(labels);
-    
+      
     $.ajax( url, {
       type: method,
       data: JSON.stringify({ description: self.get('title'), isDone: self.get('isDone'), labels:labels}),
@@ -56,18 +54,22 @@ Todos.Todo = SC.Object.extend({
 Todos.Label = SC.Object.extend({
   id: null,
   key: null,
-  title: null
+  title: null,
+  isSelected: false,
+  isRecommended: false
 });
 
 Todos.labelsController = SC.ArrayProxy.create({
 	content: [],
 	recommendLabelsFor: function(todo){
 		this.clearLabels();
-		$.ajax({ url:'label/recommend', data:{text:todo}, 
+		$.ajax({ url:'label/recommendAll', data:{text:todo}, 
       		success: function(data){
         		Todos.labelsController.beginPropertyChanges();
         		data.content.forEach(function(item){
-          			var label = Todos.Label.create({ id: item.id, key: item.key, title: item.title });
+          			var label = Todos.Label.create({ id: item.id, key: item.key, title: item.title, 
+          											 isSelected: item.recommend, 
+          											 isRecommended:item.recommend });
           			console.log(label);
           			Todos.labelsController.pushObject(label);
         		});
@@ -153,7 +155,7 @@ Todos.CreateTodoView = SC.TextField.extend({
   insertNewline: function() {
     var title = this.get('value');
     if (title) {
-      var labels = Todos.labelsController.get('content');
+      var labels = Todos.labelsController.get('content').filterProperty('isSelected', true);
       Todos.todosController.createTodo(title,labels);
       Todos.labelsController.clearLabels();
       this.set('value', '');
