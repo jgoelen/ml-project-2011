@@ -1,16 +1,30 @@
 package be.kuleuven.dtai.ml
 
+import java.util.regex.*
+
 class ArffUtils {
 	
 	final int trainingSize = 66
 	final int testSize = 100 - trainingSize
 	
 	
+	List discoverLabels(List lines){
+		
+		return lines.collect{	(it =~ /(#\w+)/).collect{it} }
+					.flatten()
+					.unique()
+					.collect {it.replaceAll("#","")}
+					.sort()
+		
+	}
+	
 	public void createMulanDataSets(String datasetName, String textPath){
 		
 		def lines = new File( textPath ).readLines()
 		
-		def sortedLabels = Labels.todoLabels.sort()
+		def sortedLabels = discoverLabels(lines)
+		
+		println sortedLabels
 		
 		def labelAttributes = sortedLabels.collect{ lb -> "@attribute ${lb} {0,1}" }.join("\n")
 		
