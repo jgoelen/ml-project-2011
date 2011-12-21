@@ -7,14 +7,14 @@ class Run {
 	static main(args) {
 		
 		def tpp = new ArffUtils()
-		
+		/*
 		todoLabels.each { label ->
 
-			tpp.createDataSetsForLabel( label, "documents/todo.txt")
+			tpp.createDataSetsForLabel( label, "documents/thesis.txt")
 			
-		}
+		}*/
 		
-		tpp.createMulanDataSets("todo","documents/todo.txt")
+		tpp.createMulanDataSets("thesis","documents/thesis.txt")
 	}
 
 }

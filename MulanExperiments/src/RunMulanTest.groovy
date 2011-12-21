@@ -15,7 +15,7 @@ import mulan.evaluation.MultipleEvaluation;
 import mulan.experiments.PatternRecognition07MLkNN;
 
 
-PatternRecognition07MLkNN.main(["-path","mulan_arff/","-filestem","mulan_todo_terms"] as String[])
+//PatternRecognition07MLkNN.main(["-path","mulan_arff/","-filestem","mulan_todo_terms"] as String[])
 
 //changed name of c
 MultiLabelInstances dataset = new MultiLabelInstances("mulan_arff/mulan_todo_terms.arff", 
@@ -31,7 +31,7 @@ println stats.toString()
 											
 BRkNN learner1 = new BRkNN(9,ExtensionType.EXTA);
 MLkNN learner2 = new MLkNN();
-
+/*
 SMO smo = new SMO()
 RBFKernel kernel = new RBFKernel()
 kernel.setGamma(0.0125)
