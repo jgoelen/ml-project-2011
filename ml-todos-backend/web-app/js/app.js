@@ -2,6 +2,7 @@ Todos = SC.Application.create({
 	ready: function(){
     	this._super();
     	Todos.todosController.fetchTodos();
+    	Todos.labelsController.initLabels();
   	}
 });
 
@@ -56,24 +57,41 @@ Todos.Label = SC.Object.extend({
   key: null,
   title: null,
   isSelected: false,
-  isRecommended: false
+  isRecommended: false,
+  confidence: null
 });
 
 Todos.labelsController = SC.ArrayProxy.create({
 	content: [],
+	initLabels: function(){ this.recommendLabelsFor(""); },
+	resetLabels: function(){ 
+		Todos.labelsController.beginPropertyChanges();
+		this.setEach('isRecommended', false); 
+		this.setEach('isSelected', false);
+		Todos.labelsController.endPropertyChanges();
+	},
 	recommendLabelsFor: function(todo){
-		this.clearLabels();
+		//this.clearLabels();
+		var self = this;
 		$.ajax({ url:'label/recommendAll', data:{text:todo}, 
       		success: function(data){
-        		Todos.labelsController.beginPropertyChanges();
-        		data.content.forEach(function(item){
-          			var label = Todos.Label.create({ id: item.id, key: item.key, title: item.title, 
-          											 isSelected: item.recommend, 
-          											 isRecommended:item.recommend });
-          			console.log(label);
-          			Todos.labelsController.pushObject(label);
-        		});
-        		Todos.labelsController.endPropertyChanges();
+      			var content = self.get('content')
+      			Todos.labelsController.beginPropertyChanges();
+      			if( content.length === 0 ){      				      			
+      				var labels = data.content.map( function(it){  
+      			    	return Todos.Label.create({id:it.id,key:it.key,title:it.title,isSelected:it.recommend,isRecommended:it.recommend, confidence:it.confidence });
+      			    }, self );      				      				
+	      			self.set('content', labels);
+      			} else {
+      				var recommended = data.content.filterProperty('recommend', true);
+      				content.forEach( function( label ){
+      					var isRecommended = recommended.someProperty('key',label.key);
+      					label.set('isRecommended',isRecommended);
+      					label.set('isSelected',isRecommended);
+      					
+      				});      				      				
+      			}
+      			Todos.labelsController.endPropertyChanges();
       		}
     	});
 	},
@@ -92,7 +110,6 @@ Todos.todosController = SC.ArrayProxy.create({
           var labels = [];
           item.labels.forEach(function(l){
           	var label = Todos.Label.create({ id: l.id, key: l.key, title: l.title });
-          	console.log(label);
           	labels.push(label);
           });
           var todo = Todos.Todo.create({
@@ -157,16 +174,16 @@ Todos.CreateTodoView = SC.TextField.extend({
     if (title) {
       var labels = Todos.labelsController.get('content').filterProperty('isSelected', true);
       Todos.todosController.createTodo(title,labels);
-      Todos.labelsController.clearLabels();
+      Todos.labelsController.resetLabels();
       this.set('value', '');
     }
   },
  
-  keyDown: function(evt) {
+  keyUp: function() {
+	this.interpretKeyEvents(event);  
   	var value = this.get('value');
-    if (evt.keyCode === Todos.SPACE_KEY) {
-    	Todos.labelsController.recommendLabelsFor(value);
-    }
+    Todos.labelsController.recommendLabelsFor(value);
+    return false;
   }
   
 });

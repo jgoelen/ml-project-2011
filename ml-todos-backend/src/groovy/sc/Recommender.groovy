@@ -20,7 +20,7 @@ import weka.classifiers.bayes.NaiveBayes;
 
 public interface Recommender {
 
-	List<Label> labelsFor(String text)
+	List labelsFor(String text)
 
 }
 
@@ -49,7 +49,7 @@ public class DefaultRecommenderImpl implements Recommender {
 	}
 
 
-	public List<Label> labelsFor(String text){
+	public List labelsFor(String text){
 		
 		log.info "start recommendation for text:$text"
 		
@@ -59,13 +59,17 @@ public class DefaultRecommenderImpl implements Recommender {
 
 		def prediction = classifier.makePrediction( v )
 
-		log.debug "Predicted: $prediction"
+		log.info "Predicted: $prediction"
 		
-		List<Label> labels = []
+		def labels = []
+		
+		
+		def confidences = prediction.getConfidences()
 		
 		prediction.getBipartition().eachWithIndex { flag, index -> 
-			if(flag) 
-				labels.addAll(Label.findByKey(v.attribute(index).name()))
+			 	
+				def lb = Label.findByKey(v.attribute(index).name()) 	
+				labels.addAll([label:lb,recommended:flag,confidence:confidences[index]])
 		}
 		
 		log.info "Recommend: $labels"
