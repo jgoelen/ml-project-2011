@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 weka-tools/documents/.DS_Store
 
@@ -13,3 +14,14 @@ weka-tools/bin
 target/
 
 ml-todos-backend/target/classes/
+=======
+INSTALL
+Makefile
+Makefile.in
+aclocal.m4
+autom4te.cache
+build
+config.log
+config.status
+configure
+>>>>>>> 25819b1d4f4dc37479b26f98555082c552e33d5a
