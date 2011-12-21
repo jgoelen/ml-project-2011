@@ -1,5 +1,8 @@
 import weka.classifiers.functions.SMO;
+import weka.classifiers.bayes.*
+import weka.classifiers.*
 import weka.classifiers.functions.supportVector.RBFKernel;
+import weka.classifiers.meta.Vote;
 import weka.classifiers.trees.J48;
 import mulan.classifier.lazy.BRkNN;
 import mulan.classifier.lazy.BRkNN.ExtensionType;
@@ -13,25 +16,59 @@ import mulan.data.Statistics;
 import mulan.evaluation.Evaluator;
 import mulan.evaluation.MultipleEvaluation;
 import mulan.experiments.PatternRecognition07MLkNN;
+import weka.filters.unsupervised.attribute.StringToWordVector
+import weka.core.converters.ArffLoader;
+import weka.core.stemmers.*
+import weka.core.*
 
 
-//PatternRecognition07MLkNN.main(["-path","mulan_arff/","-filestem","mulan_todo_terms"] as String[])
+StringToWordVector filter
+filter = new StringToWordVector()
+filter.setOutputWordCounts(false);
+filter.setWordsToKeep(2000);
+filter.setTFTransform(true);
+filter.setIDFTransform(true);
+filter.setNormalizeDocLength(new SelectedTag(0,StringToWordVector.TAGS_FILTER));
+filter.setLowerCaseTokens(true);
+filter.setUseStoplist(true);
+filter.setStopwords(null); // use default stopword list
+filter.setStemmer(new LovinsStemmer());
+filter.setMinTermFreq(1);
+filter.setAttributeNamePrefix("_");
+filter.setAttributeIndices("first");
 
-//changed name of c
-MultiLabelInstances dataset = new MultiLabelInstances("mulan_arff/mulan_todo_terms.arff", 
-												"mulan_arff/mulan_todo_terms.xml");
+
+ArffLoader arffLoader = new ArffLoader()
+arffLoader.setFile( new File("mulan_arff/mulan_thesis.arff") )
+Instances trainData = arffLoader.getDataSet()
+
+filter.setInputFormat(trainData)
+
+Instances vectorizedData = StringToWordVector.useFilter( trainData, filter );
+
+MultiLabelInstances dataset = new MultiLabelInstances(vectorizedData, 
+													  "mulan_arff/mulan_thesis.xml");
 
 											
 println "DATA SET STATS"											
 						
-
 Statistics stats = new Statistics()
 stats.calculateStats(dataset)					
 println stats.toString()									
-											
-BRkNN learner1 = new BRkNN(9,ExtensionType.EXTA);
-MLkNN learner2 = new MLkNN();
+		
+
+Vote vote = new Vote();
+vote.setClassifiers( [ new NaiveBayes(), new SMO() ] as Classifier[] )
+def learner = new BinaryRelevance( vote )
+
+Evaluator eval = new Evaluator();
+eval.setStrict(false)
+
+print eval.crossValidate(learner, dataset, 10);
+
 /*
+MLkNN learner2 = new MLkNN();
+
 SMO smo = new SMO()
 RBFKernel kernel = new RBFKernel()
 kernel.setGamma(0.0125)
@@ -67,21 +104,4 @@ BPMLL neural = new BPMLL()
 println "BPMLL results"
 results = eval.crossValidate(neural, dataset, numFolds);
 System.out.println(results);
-*
-
-/*
- You can use the method setStrict of the Evaluator class, to force 
-non-strict evaluation for all measures.
-
-You could also call crossValidate with your own list of measures, which 
-can be initialized as you wish (strict/non-strict).
-
-If all labels are false in an example, then indeed the calculation of 
-recall could skip these examples, but this is against its definition, 
-which is inspired from information retrieval, where existence of at 
-least one relevant document is typically assumed. We believe it is 
-better to allow NaN to happen, just to highlight the limitations of 
-these measures in multi-label learning. There is always the solution of 
-setting strict to false, to bypass this problem.
-
 */

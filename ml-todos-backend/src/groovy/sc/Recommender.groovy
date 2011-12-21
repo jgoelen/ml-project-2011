@@ -29,7 +29,7 @@ public class DefaultRecommenderImpl implements Recommender {
 
 	private static final log = LogFactory.getLog(this)
 	
-	BinaryRelevance classifier = new BinaryRelevance( new SMO() )
+	BinaryRelevance classifier
 	DataProvider dataProvider
 	boolean trained = false
 
@@ -49,30 +49,39 @@ public class DefaultRecommenderImpl implements Recommender {
 	}
 
 
-	public List labelsFor(String text){
-		
+	public def predict(String text){
+	
 		log.info "start recommendation for text:$text"
 		
 		Instance v = dataProvider.makeInstance( text )
 		
 		log.debug "instance $v"
 
-		def prediction = classifier.makePrediction( v )
+		def p = classifier.makePrediction( v )
 
-		log.info "Predicted: $prediction"
+		log.debug "Predicted: $p"
 		
+		log.info "finished recommendation"
+		
+		return [prediction:p,vec:v]
+		
+	}
+
+	public List labelsFor(String text){
+
 		def labels = []
 		
+		def result = predict( text )
 		
-		def confidences = prediction.getConfidences()
+		def confidences = result.prediction.getConfidences()
 		
-		prediction.getBipartition().eachWithIndex { flag, index -> 
+		result.prediction.getBipartition().eachWithIndex { flag, index -> 
 			 	
-				def lb = Label.findByKey(v.attribute(index).name()) 	
+				def lb = result.vec.attribute(index).name() 	
 				labels.addAll([label:lb,recommended:flag,confidence:confidences[index]])
 		}
 		
-		log.info "Recommend: $labels"
+		log.debug "Recommend: $labels"
 		
 		return labels
 	}

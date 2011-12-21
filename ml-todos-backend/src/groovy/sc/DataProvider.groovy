@@ -24,7 +24,8 @@ public class DataProvider implements ServletContextAware {
 	StringToWordVector filter
 	def dataTemplate 
 	def servletContext
-	
+	def arffPath
+	def xmlPath
 	
 	public DataProvider(){
 		filter = new StringToWordVector()
@@ -49,7 +50,7 @@ public class DataProvider implements ServletContextAware {
 	
 	private Instances loadStringTrainingData(){
 		ArffLoader arffLoader = new ArffLoader()
-		arffLoader.setSource( loadFile("/WEB-INF/data/ml-todo.arff")  )
+		arffLoader.setSource( loadFile(arffPath)  )
 		return arffLoader.getDataSet()
 	}
 
@@ -62,14 +63,29 @@ public class DataProvider implements ServletContextAware {
 	}
 
 	
+	public List loadLabels(){
+		InputStream stream = servletContext.getResourceAsStream(xmlPath)
+    	def xmlLabels = new XmlParser().parse( stream )
+    	return xmlLabels.label.collect{ new LabelNodeImpl( it.@name ) }
+	}
+	
 	public MultiLabelInstances loadMultiLabelTrainingInstances(){
-		def labelNodes = Label.list().collect{new LabelNodeImpl(it.key)}
+    	def labelNodes = loadLabels()
 		def labelsMetaData = new LabelsMetaDataImpl()
 		labelNodes.each{ labelsMetaData.addRootNode( it ) }
 		Instances vectorizedData = vectorizeData( loadStringTrainingData() )
 		return new MultiLabelInstances( vectorizedData, labelsMetaData )
 	}
 	
+	
+	/*
+	public MultiLabelInstances loadMultiLabelTrainingInstances(){
+		def labelNodes = Label.list().collect{new LabelNodeImpl(it.key)}
+		def labelsMetaData = new LabelsMetaDataImpl()
+		labelNodes.each{ labelsMetaData.addRootNode( it ) }
+		Instances vectorizedData = vectorizeData( loadStringTrainingData() )
+		return new MultiLabelInstances( vectorizedData, labelsMetaData )
+	}*/
 
 	/* Convert string to word vector */
 	public Instance makeInstance(String s){

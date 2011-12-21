@@ -24,7 +24,7 @@ class BootStrap {
         new Task(description: 'Task 2').save()
         
         def applContext  = servletContext.getAttribute(GrailsApplicationAttributes.APPLICATION_CONTEXT)
-        applContext.getBean("recommender").trainClassifier()
+        applContext.getBean("todoRecommender").trainClassifier()
      }
      
     def destroy = {

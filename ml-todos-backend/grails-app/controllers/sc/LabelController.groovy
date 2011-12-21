@@ -2,13 +2,13 @@ package sc
 
 class LabelController {
 
-	Recommender recommender //DI by convention
+	Recommender todoRecommender
 
     def index = { }
     
     def recommend = { 
     	def text = params["text"]
-    	def labels = recommender.labelsFor(text)
+    	def labels = todoRecommender.labelsFor(text)
     	render(contentType: "text/json") {
             content = array {
                 labels.each{ label( [id:it.id, key:it.key, title:it.title ] ) }
@@ -21,7 +21,10 @@ class LabelController {
     	
     	def text = params["text"]
     	
-		def r = recommender.labelsFor(text)
+		def r = todoRecommender.labelsFor(text)
+		
+		//insert label instance iso labelKey
+		r.each{ it.label = Label.findByKey( it.label ) }
     	
     	render(contentType: "text/json") {
             content = array {
