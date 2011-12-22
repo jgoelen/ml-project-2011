@@ -18,7 +18,9 @@ import org.springframework.context.ApplicationContext
 import org.springframework.context.ApplicationContextAware
 import weka.core.stemmers.LovinsStemmer
 
-
+/* This class is responsible for loading the multi-label training data and creating
+ * word vectors for a single test instance
+ */
 public class DataProvider implements ServletContextAware {
 
 	StringToWordVector filter
@@ -78,15 +80,6 @@ public class DataProvider implements ServletContextAware {
 	}
 	
 	
-	/*
-	public MultiLabelInstances loadMultiLabelTrainingInstances(){
-		def labelNodes = Label.list().collect{new LabelNodeImpl(it.key)}
-		def labelsMetaData = new LabelsMetaDataImpl()
-		labelNodes.each{ labelsMetaData.addRootNode( it ) }
-		Instances vectorizedData = vectorizeData( loadStringTrainingData() )
-		return new MultiLabelInstances( vectorizedData, labelsMetaData )
-	}*/
-
 	/* Convert string to word vector */
 	public Instance makeInstance(String s){
 		DenseInstance newStringInstance = new DenseInstance( dataTemplate.numAttributes() )

@@ -24,13 +24,18 @@ public interface Recommender {
 
 }
 
+/*This class implements our multi-label classifier*/
 
 public class DefaultRecommenderImpl implements Recommender {
 
 	private static final log = LogFactory.getLog(this)
 	
+	/*Mulan classifier*/
 	BinaryRelevance classifier
+	
+	/*Provides the traing data and utils to convert strings to vectors*/
 	DataProvider dataProvider
+	
 	boolean trained = false
 
 	public DefaultRecommenderImpl(){
@@ -48,7 +53,8 @@ public class DefaultRecommenderImpl implements Recommender {
 		log.info "Finished training classifier"
 	}
 
-
+	
+	/*predict the labels for the specified text*/
 	public def predict(String text){
 	
 		log.info "start recommendation for text:$text"
@@ -66,7 +72,7 @@ public class DefaultRecommenderImpl implements Recommender {
 		return [prediction:p,vec:v]
 		
 	}
-
+	
 	public List labelsFor(String text){
 
 		def labels = []
